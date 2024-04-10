@@ -53,18 +53,17 @@
 
 ## Distribution
 
-- <b>How has the dataset already been distributed?</b> 
+- <b>How has the dataset already been distributed?</b> The dataset can be downloaded from this repositoryat the following link:
+		https://github.com/wrm65/Capstone-Project-2024/blob//main/dataset/ofsted_inspected_school.csv
 - <b>Is it subject to any copyright or other intellectual property (IP) license, and/or under applicable terms of use (ToU)?</b> There is no license, but if the dataset is used, there is a request to cite the citation below.
 
 ## Maintenance
 
-- <b>Who maintains the dataset?</b>
+- <b>Who maintains the dataset?</b> The dataset was up-to-date as of the 15th April 2024 and will not be updated. 
 
 ## Permitted Use
 
 - The dataset is provided for research, educational, and non-commercial purposes. Attribution to the original source is required.
-
-- <b>Who maintains the dataset?</b>
 
 ## Citation
 
