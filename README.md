@@ -3,5 +3,12 @@
 	<h1>Predicting Ofsted School Grades</b></h1>
 </div>
 
+
 # Capstone-Project-2024
 Imperial College Business School Capstone Project 2024
+
+## 3. Data Sources
+
+## 4. Methodology
+
+
