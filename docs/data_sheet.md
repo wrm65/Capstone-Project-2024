@@ -2,23 +2,23 @@
 
 ## Motivation
 
-- <b>For what purpose was the dataset created?</b> Ofsted Inspected School Dataset was created to provide data which could be used predict the likely grade that a school would receive in its next inspection.
-- <b>Who created the dataset (e.g., which team, research group) and on behalf of which entity (e.g., company, institution, organization)?</b> The dataset is created from the UK Government website [Get Information about Schools](https://www.get-information-schools.service.gov.uk/). As the data is updated daily and can be filtered from the Department of Education's School Register, an "on-demand" service is provided and the dataset is created as and when required.
+- <b>For what purpose was the dataset created?</b> The Ofsted Inspected School {OIS} Dataset was created to enable the analyse and prediction of the likely grade that a school would receive on its next inspection by Ofsted.
+- <b>Who created the dataset (e.g., which team, research group) and on behalf of which entity (e.g., company, institution, organization)?</b> The dataset was created by the author of this datasheet.
 - <b>Who funded the creation of the dataset?</b> Creation of the dataset is freely available. 
 
  
 ## Composition
 
-- <b>What do the instances that comprise the dataset represent (e.g., documents, photos, people, countries)?<b> 
-- How many instances of each type are there? 
-- Is there any missing data?
-- Does the dataset contain data that might be considered confidential (e.g., data that is protected by legal privilege or by    doctor–patient confidentiality, data that includes the content of individuals’ non-public communications)?
+- <b>What do the instances that comprise the dataset represent (e.g., documents, photos, people, countries)?</b> Each instance within the dataset will represent the information created for the state-funded primary school.
+- <b>How many instances of each type are there?</b> The dataset will contain nn,nnn unique schools in total
+- <b>Is there any missing data?</b>There is no missing data.
+- <b>Does the dataset contain data that might be considered confidential (e.g., data that is protected by legal privilege or by doctor–patient confidentiality, data that includes the content of individuals’ non-public communications)?</b> There is no confidential data.
 
 ## Collection process
 
-- How was the data acquired? The dataset is created from the online register provided by the Department of Education
-- If the data is a sample of a larger subset, what was the sampling strategy? 
-- Over what time frame was the data collected?
+- <b>How was the data acquired?</b> The dataset is created from the UK Government website [Get Information about Schools](https://www.get-information-schools.service.gov.uk/). The OIS dataset is created from the online register provided by the Department of Education.
+- <b>If the data is a sample of a larger subset, what was the sampling strategy?</b> The school register contains a list of all the state-funded schools. The OIS dataset is a subset of schools which are classed as Primary School. These are schools with pupils between the ages of 4 - 11.
+- <b>Over what time frame was the data collected?</b> As the school data is updated daily and can be filtered from the Department of Education's School Register, an "on-demand" service is provided and the dataset is created as and when required. i.e. the data is the most-up-to-date and is collected on the day it is requested.
 
 ## Preprocessing/cleaning/labelling
 
