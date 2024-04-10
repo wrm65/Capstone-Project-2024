@@ -2,8 +2,8 @@
 
 ## Motivation
 
-- <b>For what purpose was the dataset created?</b> Ofsted Inspected School Dataset was created to provide data on schools which could be used predict the likely grade that a school would receive in its next inspection.
-- Who created the dataset (e.g., which team, research group) and on behalf of which entity (e.g., company, institution, organization)? Who funded the creation of the dataset?
+- <b>For what purpose was the dataset created?</b> Ofsted Inspected School Dataset was created to provide data which could be used predict the likely grade that a school would receive in its next inspection.
+- <b>Who created the dataset (e.g., which team, research group) and on behalf of which entity (e.g., company, institution, organization)? Who funded the creation of the dataset?</b> The dataset is created from the UK Government website titled [Get Information about Schools](https://www.get-information-schools.service.gov.uk/). As the data is updated daily and can be filtered, an "on-demand" service is provided and the dataset is created as and when required. 
 
  
 ## Composition
