@@ -32,7 +32,7 @@
     <li><b>Exporting from the database:</b></li>
     </ol>
 		<div>The Ofsted Inspected School is provided in a CSV format at the following link:</div> 
-		[Ofsted Inspected School](https://github.com/wrm65/Capstone-Project-2024/blob//main/dataset/ofsted_inspected_school.csv)
+		https://github.com/wrm65/Capstone-Project-2024/blob//main/dataset/ofsted_inspected_school.csv
 		</div>
 	<div>
 - <b>Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)?</b> The raw unprocessed data is saved in its CSV format.
