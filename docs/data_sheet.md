@@ -3,19 +3,20 @@
 ## Motivation
 
 - <b>For what purpose was the dataset created?</b> Ofsted Inspected School Dataset was created to provide data which could be used predict the likely grade that a school would receive in its next inspection.
-- <b>Who created the dataset (e.g., which team, research group) and on behalf of which entity (e.g., company, institution, organization)? Who funded the creation of the dataset?</b> The dataset is created from the UK Government website titled [Get Information about Schools](https://www.get-information-schools.service.gov.uk/). As the data is updated daily and can be filtered, an "on-demand" service is provided and the dataset is created as and when required. 
+- <b>Who created the dataset (e.g., which team, research group) and on behalf of which entity (e.g., company, institution, organization)?</b> The dataset is created from the UK Government website [Get Information about Schools](https://www.get-information-schools.service.gov.uk/). As the data is updated daily and can be filtered from the Department of Education's School Register, an "on-demand" service is provided and the dataset is created as and when required.
+- <b>Who funded the creation of the dataset?</b> Creation of the dataset is freely available. 
 
  
 ## Composition
 
-- What do the instances that comprise the dataset represent (e.g., documents, photos, people, countries)? 
+- <b>What do the instances that comprise the dataset represent (e.g., documents, photos, people, countries)?<b> 
 - How many instances of each type are there? 
 - Is there any missing data?
 - Does the dataset contain data that might be considered confidential (e.g., data that is protected by legal privilege or by    doctor–patient confidentiality, data that includes the content of individuals’ non-public communications)?
 
 ## Collection process
 
-- How was the data acquired? 
+- How was the data acquired? The dataset is created from the online register provided by the Department of Education
 - If the data is a sample of a larger subset, what was the sampling strategy? 
 - Over what time frame was the data collected?
 
