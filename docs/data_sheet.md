@@ -11,7 +11,7 @@
 
 - <b>What do the instances that comprise the dataset represent (e.g., documents, photos, people, countries)?</b> Each instance within the dataset will represent the information created for the state-funded primary school.
 - <b>How many instances of each type are there?</b> The dataset will contain nn,nnn unique schools in total
-- <b>Is there any missing data?</b>There is no missing data.
+- <b>Is there any missing data?</b> There is no missing data.
 - <b>Does the dataset contain data that might be considered confidential (e.g., data that is protected by legal privilege or by doctor–patient confidentiality, data that includes the content of individuals’ non-public communications)?</b> There is no confidential data.
 
 ## Collection process
@@ -53,9 +53,8 @@
 
 ## Distribution
 
-- <b>How has the dataset already been distributed?</b> The dataset can be downloaded from this repositoryat the following link:
-		https://github.com/wrm65/Capstone-Project-2024/blob//main/dataset/ofsted_inspected_school.csv
-- <b>Is it subject to any copyright or other intellectual property (IP) license, and/or under applicable terms of use (ToU)?</b> There is no license, but if the dataset is used, there is a request to cite the citation below.
+- <b>How has the dataset already been distributed?</b> The dataset was created at the start of this project.
+- <b>Is it subject to any copyright or other intellectual property (IP) license, and/or under applicable terms of use (ToU)?</b> There is no license, but if the dataset is used, there is a request to cite the use.
 
 ## Maintenance
 
@@ -63,7 +62,7 @@
 
 ## Permitted Use
 
-- The dataset is provided for research, educational, and non-commercial purposes. Attribution to the original source is required.
+- The dataset is provided for research, educational, and non-commercial purposes only. Attribution to the original source is required.
 
 ## Citation
 

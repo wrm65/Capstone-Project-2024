@@ -13,4 +13,5 @@ A comprehensive detail of the dataset, including its origin, collection process,
 
 ## 4. Methodology
 
+The description and performance of the models are provided in the [Model Card](https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card.md) documentation.
 
