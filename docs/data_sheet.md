@@ -1,10 +1,8 @@
-# Datasheet Template
-
-As far as you can, complete the model datasheet. If you have got the data from the internet, you may not have all the information you need, but make sure you include all the information you do have. 
+# Dataset Name: Ofsted Inspected School Dataset
 
 ## Motivation
 
-- For what purpose was the dataset created? 
+- <b>For what purpose was the dataset created?</b> Ofsted Inspected School Dataset was created to provide data on schools which could be used predict the likely grade that a school would receive in its next inspection.
 - Who created the dataset (e.g., which team, research group) and on behalf of which entity (e.g., company, institution, organization)? Who funded the creation of the dataset?
 
  
