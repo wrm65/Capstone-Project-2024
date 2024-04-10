@@ -31,24 +31,42 @@
     <li><b>Saving to a database:</b></li>
     <li><b>Exporting from the database:</b></li>
     </ol>
-		<div>The Ofsted Inspected School is provided in a CSV format at the following link:</div> 
+		<div>The final Ofsted Inspected School dataset is provided in a CSV format at the following link:</div> 
 		https://github.com/wrm65/Capstone-Project-2024/blob//main/dataset/ofsted_inspected_school.csv
 		</div>
 	<div>
 - <b>Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)?</b> The raw unprocessed data is saved in its CSV format.
+- <b>Is the preprocessing software available?</b> While the PHP script which perform a number of cleaning tasks and save the data to the database is not available, all the software used is open source and has been specified above.
  
 ## Uses
 
-- What other tasks could the dataset be used for? 
-- Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses? For example, is there anything that a dataset consumer might need to know to avoid uses that could result in unfair treatment of individuals or groups (e.g., stereotyping, quality of service issues) or other risks or harms (e.g., legal risks, financial harms)? If so, please provide a description. Is there anything a dataset consumer could do to mitigate these risks or harms? 
-- Are there tasks for which the dataset should not be used? If so, please provide a description.
+- <b>Does this dataset achieve the motivation for creating the dataset stated in the first section of this datasheet?</b>
+	<div>
+    There some limitations in the dataset:
+    <ul>
+    <li><b>Lack of features:</b></li>
+    </ul>
+	<div>
+- <b>What other tasks could the dataset be used for?</b> 
+- <b>Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses? For example, is there anything that a dataset consumer might need to know to avoid uses that could result in unfair treatment of individuals or groups (e.g., stereotyping, quality of service issues) or other risks or harms (e.g., legal risks, financial harms)? If so, please provide a description. Is there anything a dataset consumer could do to mitigate these risks or harms?</b>
+- <b>Are there tasks for which the dataset should not be used? If so, please provide a description.</b>
 
 ## Distribution
 
-- How has the dataset already been distributed? 
-- Is it subject to any copyright or other intellectual property (IP) license, and/or under applicable terms of use (ToU)?  
+- <b>How has the dataset already been distributed?</b> 
+- <b>Is it subject to any copyright or other intellectual property (IP) license, and/or under applicable terms of use (ToU)?</b> There is no license, but if the dataset is used, there is a request to cite the citation below.
 
 ## Maintenance
 
-- Who maintains the dataset?
+- <b>Who maintains the dataset?</b>
+
+## Permitted Use
+
+- The dataset is provided for research, educational, and non-commercial purposes. Attribution to the original source is required.
+
+- <b>Who maintains the dataset?</b>
+
+## Citation
+
+- Ofsted Inspected School dataset created by W. Menzies, Imperial College Business School, 2024.
 
