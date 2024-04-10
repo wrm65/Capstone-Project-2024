@@ -23,15 +23,17 @@
 ## Preprocessing/cleaning/labelling
 
 - <b>Was any preprocessing/cleaning/labeling of the data done (e.g., discretization or bucketing, tokenization, part-of-speech tagging, SIFT feature extraction, removal of instances, processing of missing values)? If so, please provide a description. If not, you may skip the remaining questions in this section.</b> 
-    <div>
+	<div>
     The following steps were taken to process the data:
     <ol>
     <li><b>Collecting the raw data:</b></li>
     <li><b>Creating a PHP script:</b></li>
     <li><b>Saving to a database:</b></li>
     <li><b>Exporting from the database:</b></li>
-    </ol><a src="https://github.com/wrm65/Capstone-Project-2024/blob//main/dataset/ofsted_inspected_school.csv">Ofsted Inspected School</a> is provided in a CSV format.
-    <div>
+    </ol>
+		<div><a src="https://github.com/wrm65/Capstone-Project-2024/blob//main/dataset/ofsted_inspected_school.csv">Ofsted Inspected School</a> is provided in a CSV format.
+		</div>
+	<div>
 - <b>Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)?</b> The raw unprocessed data is saved in its CSV format.
  
 ## Uses
