@@ -28,14 +28,13 @@
     <ol>
     <li><b>Collecting the raw data:</b> Data was obtained from the GIAS website and stored locally.</li>
     <li><b>Creating a PHP script:</b> A script was developed to process and clean the dataset.</li>
-    <li><b>Correct missing data:</b> Each school instance was validated for missing information. The list of missing data and action taken is shown below.
+    <li><b>Correct missing data:</b> Each school instance was validated for missing information. The list of missing data and action taken is shown below.</li>
 		
 | Missing Value |  Action taken |
 | --- | --- |
 | FIELD_NumberOfPupils | set to FIELD_NumberOfBoys + FIELD_NumberOfGirls |
 | FIELD_SchoolCapacity | set to FIELD_NumberOfPupils |
 			
-		</li>
     <li><b>Map raw data columns to database table columns:</b></li>
     <li><b>Saving to a database:</b></li>
     <li><b>Exporting from the database:</b></li>
