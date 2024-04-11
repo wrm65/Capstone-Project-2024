@@ -1,4 +1,4 @@
-# Dataset Name: Ofsted Inspected School (OIS) Dataset
+# Dataset Name: Ofsted Inspected School [OIS] Dataset
 
 ## Motivation
 
