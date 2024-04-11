@@ -102,15 +102,15 @@ CREATE TABLE education_establishment
 
 - <b>Does this dataset achieve the motivation for creating the dataset stated in the first section of this datasheet?</b>
 	<div>
-    There some limitations in the dataset which will prevent other characteristics (features) of a school to be analyse. 
+    There some limitations in the dataset which will prevent other characteristics (features) of a school to be analyse. The following information would need to considered to predict of gradings for schools.
     <ul>
-    <li>Contextual informatio </li>
-    <li>Attendance and attainment</li>
-    <li>Staff and leadership</li>
-    <li>Parent views</li>
+    <li><b>Teacher Quality Metrics</b> Teacher qualifications, experience, methods and pedagogical approaches, student-teacher ratio, class size</li>
+    <li><b>Funding and resources</b></li>
+    <li><b>Leadership and management</b></li>
+    <li><b>Parent views</b></li>
     </ul>
 	<div>
-- <b>What other tasks could the dataset be used for?</b> 
+- <b>What other tasks could the dataset be used for?</b> The dataset could be used to provide 
 - <b>Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses? For example, is there anything that a dataset consumer might need to know to avoid uses that could result in unfair treatment of individuals or groups (e.g., stereotyping, quality of service issues) or other risks or harms (e.g., legal risks, financial harms)? If so, please provide a description. Is there anything a dataset consumer could do to mitigate these risks or harms?</b>
 - <b>Are there tasks for which the dataset should not be used? If so, please provide a description.</b>
 
