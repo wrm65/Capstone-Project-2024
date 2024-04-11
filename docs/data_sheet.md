@@ -26,9 +26,10 @@
 	<div>
     The following steps were taken to process the data:
     <ol>
-    <li><b>Collecting the raw data:</b> Data was obtained from the GIAS website and stored locally.</li>
-    <li><b>Creating a PHP script:</b> A script was developed to process and clean the dataset.</li>
-    <li><b>Correct missing data:</b> Each school instance was validated for missing information. The list of missing data and action taken is shown below.</li>
+			<li><b>Collecting the raw data:</b> Data was obtained from the GIAS website and stored locally.</li>
+			<li><b>Creating a PHP script:</b> A script was developed to process and clean the dataset.</li>
+			<li><b>Correct missing data:</b> Each school instance was validated for missing information. The list of missing data and action taken is shown below.</li>
+    </ol>
 	<div>
 		
 | Missing Value |  Action taken |
@@ -37,9 +38,10 @@
 | FIELD_SchoolCapacity | set to FIELD_NumberOfPupils |
 			
 	<div>
-    <li><b>Map raw data columns to database table columns:</b></li>
-    <li><b>Saving to a database:</b></li>
-    <li><b>Exporting from the database:</b></li>
+    <ol>
+			<li><b>Map raw data columns to database table columns:</b></li>
+			<li><b>Saving to a database:</b></li>
+			<li><b>Exporting from the database:</b></li>
     </ol>
 		<div>The final Ofsted Inspected School dataset is provided in a CSV format at the following link:</div> 
 		https://github.com/wrm65/Capstone-Project-2024/blob//main/dataset/ofsted_inspected_school.csv
