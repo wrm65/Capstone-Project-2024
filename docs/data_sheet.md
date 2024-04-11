@@ -26,7 +26,7 @@
 	<div>
     The following steps were taken to process the data:
     <ol start="1">
-			<li><b>Collecting the raw data:</b> Data was obtained from the GIAS website and stored locally.</li>
+			<li><b>Collecting the raw data:</b> Data was obtained from the GIAS website and stored locally. A screenshot of a sample school instance data is shown below.</li>
 			<li><b>Creating a PHP script:</b> A script was developed to process and clean the dataset.</li>
 			<li><b>Correct missing data:</b> Each school instance was validated for missing information. The list of missing data and action taken is shown below.</li>
     </ol>
@@ -52,6 +52,10 @@
 - <b>Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)?</b> The raw unprocessed data is saved in its `CSV` format.
 - <b>Is the preprocessing software available?</b> While the `PHP` script which perform a number of cleaning tasks and save the data to the database is not available, all the software used is open source and has been specified above.
  
+<div>
+	<img style="width:150px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/gias_data_01.png">
+</div>
+
 ## Uses
 
 - <b>Does this dataset achieve the motivation for creating the dataset stated in the first section of this datasheet?</b>
