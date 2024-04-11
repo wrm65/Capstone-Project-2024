@@ -40,9 +40,9 @@
    <p>
 		<p>
 			<ol start="4">
-			<li><b>Map raw data columns to database table columns:</b> As the raw dataset contains over 300 columns, this was significantly reduced 20 columns. In addition, the columns in the raw dataset were abbreviated and somewhat cryptic, therefore the columns were given more meaningful names.</li>
-			<li><b>Saving to a database:</b></li>
-			<li><b>Exporting from the database:</b></li>
+			<li><b>Map raw data columns to database table columns:</b> As a school instance in the raw dataset contained over 300 columns, this was significantly reduced to 20 columns. In addition, the column names were abbreviated and somewhat cryptic, therefore the columns were given more meaningful names.</li>
+			<li><b>Saving to a database:</b> The newly formatted school instance was stored into a PostgreSQL database. By using SQL, this approach allowed further validation and updating of the dataset to be completed easier and quicker.</li>
+			<li><b>Exporting from the database:</b> The dataset to be used for the modelling was exported directly into a CSV format.</li>
 		 <div>The final Ofsted Inspected School dataset is provided in a CSV format at the following link:</div> 
 	https://github.com/wrm65/Capstone-Project-2024/blob//main/dataset/ofsted_inspected_school.csv
 			</ol>
