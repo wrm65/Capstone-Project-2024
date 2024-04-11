@@ -25,7 +25,7 @@
 - <b>Was any preprocessing/cleaning/labeling of the data done (e.g., discretization or bucketing, tokenization, part-of-speech tagging, SIFT feature extraction, removal of instances, processing of missing values)? If so, please provide a description. If not, you may skip the remaining questions in this section.</b> 
 	<div>
     The following steps were taken to process the data:
-    <ol>
+    <ol start="1">
 			<li><b>Collecting the raw data:</b> Data was obtained from the GIAS website and stored locally.</li>
 			<li><b>Creating a PHP script:</b> A script was developed to process and clean the dataset.</li>
 			<li><b>Correct missing data:</b> Each school instance was validated for missing information. The list of missing data and action taken is shown below.</li>
@@ -38,14 +38,16 @@
 | FIELD_SchoolCapacity | set to FIELD_NumberOfPupils |
 
 <div>
-	<ol>
-	<li><b>Map raw data columns to database table columns:</b></li>
-	<li><b>Saving to a database:</b></li>
-	<li><b>Exporting from the database:</b></li>
-	</ol>
-	<div>The final Ofsted Inspected School dataset is provided in a CSV format at the following link:</div> 
-	https://github.com/wrm65/Capstone-Project-2024/blob//main/dataset/ofsted_inspected_school.csv
-	</ol>
+	<div>
+		<ol start="4">
+		<li><b>Map raw data columns to database table columns:</b></li>
+		<li><b>Saving to a database:</b></li>
+		<li><b>Exporting from the database:</b></li>
+		</ol>
+		<div>The final Ofsted Inspected School dataset is provided in a CSV format at the following link:</div> 
+		https://github.com/wrm65/Capstone-Project-2024/blob//main/dataset/ofsted_inspected_school.csv
+		</ol>
+	</div>
 </div>
 	
 - <b>Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)?</b> The raw unprocessed data is saved in its CSV format.
