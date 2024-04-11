@@ -17,7 +17,7 @@
 ## Collection process
 
 - <b>How was the data acquired?</b> The dataset is created from the UK Government website [Get Information about Schools](https://www.get-information-schools.service.gov.uk/). The OIS dataset is created from the online register provided by the Department of Education.
-- <b>If the data is a sample of a larger subset, what was the sampling strategy?</b> The school register contains a list of all the state-funded schools. The OIS dataset is a subset of schools which are classed as Primary School. These are schools with pupils between the ages of 4 - 11.
+- <b>If the data is a sample of a larger subset, what was the sampling strategy?</b> The school register contains a list of all the state-funded schools. The `OIS` dataset is a subset of schools which are classed as Primary School. These are schools with pupils between the ages of 4 - 11.
 - <b>Over what time frame was the data collected?</b> As the school data is updated daily and can be filtered from the Department of Education's School Register, an "on-demand" service is provided and the dataset is created as and when required. i.e. the data is the most-up-to-date and is collected on the day it is requested.
 
 ## Preprocessing/cleaning/labelling
@@ -27,7 +27,7 @@
     The following steps were taken to process the data:
     <ol start="1">
 			<li><b>Collecting the raw data:</b> Data was obtained from the GIAS website and stored locally.</li>
-			<li><b>Creating a `PHP` script:</b> A script was developed to process and clean the dataset.</li>
+			<li><b>Creating a PHP script:</b> A script was developed to process and clean the dataset.</li>
 			<li><b>Correct missing data:</b> Each school instance was validated for missing information. The list of missing data and action taken is shown below.</li>
     </ol>
 	<div>
@@ -41,9 +41,9 @@
 		<p>
 			<ol start="4">
 			<li><b>Map raw data columns to database table columns:</b> As a school instance in the raw dataset contained over 300 columns, this was significantly reduced to 20 columns. In addition, the column names were abbreviated and somewhat cryptic, therefore the columns were given more meaningful names.</li>
-			<li><b>Saving to a `PostgreSQL` database:</b> The newly formatted school instances were stored into a database. By using `SQL`, this approach allowed further validation and updating of the dataset to be completed easier and quicker.</li>
-			<li><b>Exporting from the database:</b> The dataset to be used for the modelling was exported directly into a `CSV` format.</li>
-		 <div>The final `Ofsted Inspected School` dataset is provided in a `CSV` format at the following link:</div> 
+			<li><b>Saving to a PostgreSQL database:</b> The newly formatted school instances were stored into a database. By using SQL, this approach allowed further validation and updating of the dataset to be completed easier and quicker.</li>
+			<li><b>Exporting from the database:</b> The dataset to be used for the modelling was exported directly into a CSV format.</li>
+		 <div>The final `Ofsted Inspected School` dataset is provided in a CSV format at the following link:</div> 
 	https://github.com/wrm65/Capstone-Project-2024/blob//main/dataset/ofsted_inspected_school.csv
 			</ol>
 		</p>
