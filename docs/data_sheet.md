@@ -39,13 +39,13 @@
 
 <div>
     <div>
-    <ol start="4">
+      <ol start="4">
       <li><b>Map raw data columns to database table columns:</b></li>
       <li><b>Saving to a database:</b></li>
       <li><b>Exporting from the database:</b></li>
      <div>The final Ofsted Inspected School dataset is provided in a CSV format at the following link:</div> 
 https://github.com/wrm65/Capstone-Project-2024/blob//main/dataset/ofsted_inspected_school.csv
-    </ol>
+      </ol>
     </div>
 </div>
 	
