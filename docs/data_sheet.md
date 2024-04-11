@@ -1,8 +1,8 @@
-# Dataset Name: Ofsted Inspected School Dataset
+# Dataset Name: Ofsted Inspected School (OIS) Dataset
 
 ## Motivation
 
-- <b>For what purpose was the dataset created?</b> The `Ofsted Inspected School (OIS) Dataset` was created to enable the analyse and prediction of the likely grade that a school would receive on its next inspection by `Ofsted`.
+- <b>For what purpose was the dataset created?</b> The `Ofsted Inspected School Dataset` was created to enable the analyse and prediction of the likely grade that a school would receive on its next inspection by `Ofsted`.
 - <b>Who created the dataset (e.g., which team, research group) and on behalf of which entity (e.g., company, institution, organization)?</b> The dataset was created by the author of this datasheet.
 - <b>Who funded the creation of the dataset?</b> Creation of the dataset is freely available. 
 
@@ -41,7 +41,7 @@
 		<p>
 			<ol start="4">
 			<li><b>Map raw data columns to database table columns:</b> As a school instance in the raw dataset contained over 300 columns, this was significantly reduced to 20 columns. In addition, the column names were abbreviated and somewhat cryptic, therefore the columns were given more meaningful names.</li>
-			<li><b>Saving to a PostgreSQL database:</b> The newly formatted school instances were stored into a database table, <b><i>education_establishment</i></b>. By using SQL, this approach allowed further validation and updating of the dataset to be completed easier and quicker.
+			<li><b>Saving to a PostgreSQL database:</b> The newly formatted school instances were stored into a database table, <b><i>education_establishment</i></b>. By using SQL, this approach allowed further validation and updating of the dataset to be completed in an easier and quicker manner.
 				<details>
 					<summary>Database table: <b><i>education_establishment</i></b> (click to view definition)</summary>
 					<pre>
@@ -82,7 +82,7 @@ CREATE TABLE education_establishment
 				</details>
 			</li>
 			<li><b>Exporting from the database:</b> The dataset to be used for the modelling was exported directly into a CSV format.</li>
-		 <div>The final `Ofsted Inspected School` dataset is provided in a CSV format at the following link:</div> 
+		 <div>The final OIS dataset is provided in a CSV format at the following link:</div> 
 	https://github.com/wrm65/Capstone-Project-2024/blob//main/dataset/ofsted_inspected_school.csv
 			</ol>
 		</p>
