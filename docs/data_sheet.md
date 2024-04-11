@@ -37,8 +37,7 @@
 | FIELD_NumberOfPupils | set to FIELD_NumberOfBoys + FIELD_NumberOfGirls |
 | FIELD_SchoolCapacity | set to FIELD_NumberOfPupils |
 
-  continue
-  
+<div>
 <ol>
 <li><b>Map raw data columns to database table columns:</b></li>
 <li><b>Saving to a database:</b></li>
