@@ -2,7 +2,7 @@
 
 ## Motivation
 
-- <b>For what purpose was the dataset created?</b> The Ofsted Inspected School {OIS} Dataset was created to enable the analyse and prediction of the likely grade that a school would receive on its next inspection by Ofsted.
+- <b>For what purpose was the dataset created?</b> The `Ofsted Inspected School {OIS} Dataset` was created to enable the analyse and prediction of the likely grade that a school would receive on its next inspection by `Ofsted`.
 - <b>Who created the dataset (e.g., which team, research group) and on behalf of which entity (e.g., company, institution, organization)?</b> The dataset was created by the author of this datasheet.
 - <b>Who funded the creation of the dataset?</b> Creation of the dataset is freely available. 
 
@@ -27,7 +27,7 @@
     The following steps were taken to process the data:
     <ol start="1">
 			<li><b>Collecting the raw data:</b> Data was obtained from the GIAS website and stored locally.</li>
-			<li><b>Creating a PHP script:</b> A script was developed to process and clean the dataset.</li>
+			<li><b>Creating a `PHP` script:</b> A script was developed to process and clean the dataset.</li>
 			<li><b>Correct missing data:</b> Each school instance was validated for missing information. The list of missing data and action taken is shown below.</li>
     </ol>
 	<div>
@@ -41,16 +41,16 @@
 		<p>
 			<ol start="4">
 			<li><b>Map raw data columns to database table columns:</b> As a school instance in the raw dataset contained over 300 columns, this was significantly reduced to 20 columns. In addition, the column names were abbreviated and somewhat cryptic, therefore the columns were given more meaningful names.</li>
-			<li><b>Saving to a database:</b> The newly formatted school instance was stored into a PostgreSQL database. By using SQL, this approach allowed further validation and updating of the dataset to be completed easier and quicker.</li>
-			<li><b>Exporting from the database:</b> The dataset to be used for the modelling was exported directly into a CSV format.</li>
-		 <div>The final Ofsted Inspected School dataset is provided in a CSV format at the following link:</div> 
+			<li><b>Saving to a `PostgreSQL` database:</b> The newly formatted school instances were stored into a database. By using `SQL`, this approach allowed further validation and updating of the dataset to be completed easier and quicker.</li>
+			<li><b>Exporting from the database:</b> The dataset to be used for the modelling was exported directly into a `CSV` format.</li>
+		 <div>The final `Ofsted Inspected School` dataset is provided in a `CSV` format at the following link:</div> 
 	https://github.com/wrm65/Capstone-Project-2024/blob//main/dataset/ofsted_inspected_school.csv
 			</ol>
 		</p>
   </p>
 	
-- <b>Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)?</b> The raw unprocessed data is saved in its CSV format.
-- <b>Is the preprocessing software available?</b> While the PHP script which perform a number of cleaning tasks and save the data to the database is not available, all the software used is open source and has been specified above.
+- <b>Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)?</b> The raw unprocessed data is saved in its `CSV` format.
+- <b>Is the preprocessing software available?</b> While the `PHP` script which perform a number of cleaning tasks and save the data to the database is not available, all the software used is open source and has been specified above.
  
 ## Uses
 
