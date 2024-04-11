@@ -91,8 +91,8 @@ CREATE TABLE education_establishment
 - <b>Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)?</b> The raw unprocessed data is saved in its `CSV` format.
 - <b>Is the preprocessing software available?</b> While the `PHP` script which perform a number of cleaning tasks and save the data to the database is not available, all the software used is open source and has been specified above.
 
-- Sample school instance data 
-- <div>
+- <i>Sample school instance data</i>
+ <div>
 	<img style="width:500px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/gias_data_01.png">
  </div>
  
