@@ -38,6 +38,7 @@
 | FIELD_SchoolCapacity | set to FIELD_NumberOfPupils |
 
 ##
+continue
 			
 	<div>
     <ol>
