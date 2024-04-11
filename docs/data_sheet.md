@@ -43,7 +43,7 @@
 			<li><b>Map raw data columns to database table columns:</b> As a school instance in the raw dataset contained over 300 columns, this was significantly reduced to 20 columns. In addition, the column names were abbreviated and somewhat cryptic, therefore the columns were given more meaningful names.</li>
 			<li><b>Saving to a PostgreSQL database:</b> The newly formatted school instances were stored into a database table, <b><i>education_establishment</i></b>. By using SQL, this approach allowed further validation and updating of the dataset to be completed in an easier and quicker manner.
 				<details>
-					<summary>Database table: <b><i>education_establishment</i></b> (click to view definition)</summary>
+					<summary>Database table: <b><i>education_establishment</i></b> (click to view table definition)</summary>
 					<pre>
 CREATE TABLE education_establishment
 (
@@ -93,6 +93,7 @@ CREATE TABLE education_establishment
  
  <div>
 	<img style="width:500px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/gias_data_01.png">
+	[View GIAS  details...](https://www.get-information-schools.service.gov.uk/Establishments/Establishment/Details/148025#school-dashboard)
  </div>
 
 ## Uses
