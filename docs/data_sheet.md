@@ -37,19 +37,16 @@
 | FIELD_NumberOfPupils | set to FIELD_NumberOfBoys + FIELD_NumberOfGirls |
 | FIELD_SchoolCapacity | set to FIELD_NumberOfPupils |
 
-
   continue
-			
-	<div>
-    <ol>
-			<li><b>Map raw data columns to database table columns:</b></li>
-			<li><b>Saving to a database:</b></li>
-			<li><b>Exporting from the database:</b></li>
-    </ol>
-		<div>The final Ofsted Inspected School dataset is provided in a CSV format at the following link:</div> 
-		https://github.com/wrm65/Capstone-Project-2024/blob//main/dataset/ofsted_inspected_school.csv
-		</div>
-	<div>
+  
+<ol>
+<li><b>Map raw data columns to database table columns:</b></li>
+<li><b>Saving to a database:</b></li>
+<li><b>Exporting from the database:</b></li>
+</ol>
+<div>The final Ofsted Inspected School dataset is provided in a CSV format at the following link:</div> 
+https://github.com/wrm65/Capstone-Project-2024/blob//main/dataset/ofsted_inspected_school.csv
+</div>
 	
 - <b>Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)?</b> The raw unprocessed data is saved in its CSV format.
 - <b>Is the preprocessing software available?</b> While the PHP script which perform a number of cleaning tasks and save the data to the database is not available, all the software used is open source and has been specified above.
