@@ -38,15 +38,15 @@
 | FIELD_SchoolCapacity | set to FIELD_NumberOfPupils |
 
  <p>
-    <p>
-      <ol start="4">
-      <li><b>Map raw data columns to database table columns:</b></li>
-      <li><b>Saving to a database:</b></li>
-      <li><b>Exporting from the database:</b></li>
-     <div>The final Ofsted Inspected School dataset is provided in a CSV format at the following link:</div> 
+	<p>
+		<ol start="4">
+		<li><b>Map raw data columns to database table columns:</b></li>
+		<li><b>Saving to a database:</b></li>
+		<li><b>Exporting from the database:</b></li>
+	 <div>The final Ofsted Inspected School dataset is provided in a CSV format at the following link:</div> 
 https://github.com/wrm65/Capstone-Project-2024/blob//main/dataset/ofsted_inspected_school.csv
-      </ol>
-    </p>
+		</ol>
+	</p>
  </p>
 	
 - <b>Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)?</b> The raw unprocessed data is saved in its CSV format.
