@@ -119,8 +119,6 @@ CREATE TABLE education_establishment
     <li><b>Descriptive Statistics:</b> Mean, median, and mode, standard deviation and variance, range, percentiles</li>
     <li><b>Socioeconomic Context:</b> Percentage of students eligible for free school meals, serving as a proxy for socioeconomic disadvantage</li>
     <li><b>Quality Assurance:</b> Summary statistics on inspection outcomes</li>
-- <b>Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses? For example, is there anything that a dataset consumer might need to know to avoid uses that could result in unfair treatment of individuals or groups (e.g., stereotyping, quality of service issues) or other risks or harms (e.g., legal risks, financial harms)? If so, please provide a description. Is there anything a dataset consumer could do to mitigate these risks or harms?</b>
-- <b>Are there tasks for which the dataset should not be used? If so, please provide a description.</b>
 
 ## Distribution
 
