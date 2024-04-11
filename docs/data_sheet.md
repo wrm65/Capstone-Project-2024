@@ -94,7 +94,8 @@ CREATE TABLE education_establishment
  <div>
 	<img style="width:500px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/gias_data_01.png">
  </div>
-	[View GIAS  details...](https://www.get-information-schools.service.gov.uk/Establishments/Establishment/Details/148025#school-dashboard)
+ 
+- [View GIAS  details...](https://www.get-information-schools.service.gov.uk/Establishments/Establishment/Details/148025#school-dashboard)
 
 ## Uses
 
