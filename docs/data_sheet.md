@@ -40,10 +40,10 @@
  <p>
 		<p>
 			<ol start="4">
-			<li><b>Map raw data columns to database table columns:</b> As a school instance in the raw dataset contained over 300 columns, this was significantly reduced to 20 columns. In addition, the column names were abbreviated and somewhat cryptic, therefore the columns were given more meaningful names.</li>
+			<li><b>Map raw data columns to database table columns:</b> As a school instance in the raw dataset contained over 300 columns, this was significantly reduced to 20 columns. In addition, some of the column names were abbreviated and somewhat cryptic, therefore the columns were given more meaningful names.</li>
 			<li><b>Saving to a PostgreSQL database:</b> The newly formatted school instances were stored into a database table, <b><i>education_establishment</i></b>. By using SQL, this approach allowed further validation and updating of the dataset to be completed in an easier and quicker manner.
 				<details>
-					<summary>Database table: <b><i>education_establishment</i></b> (click to view table definition)</summary>
+					<summary>Database table: <b><i>education_establishment</i></b> (click to view definition)</summary>
 					<pre>
 CREATE TABLE education_establishment
 (
@@ -89,22 +89,25 @@ CREATE TABLE education_establishment
   </p>
 	
 - <b>Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)?</b> The raw unprocessed data is saved in its `CSV` format.
-- <b>Is the preprocessing software available?</b> While the `PHP` script which perform a number of cleaning tasks and save the data to the database is not available, all the software used is open source and has been specified above.
+- <b>Is the preprocessing software available?</b> While the `PHP` script which perform a number of cleaning tasks and saved the data to the database, it is not available. However, all the software used is open source and has been specified above.
 
 - <i>Sample school instance data</i>
  <div>
 	<img style="width:500px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/gias_data_01.png">
  </div>
  
-- [View school's GIAS details](https://www.get-information-schools.service.gov.uk/Establishments/Establishment/Details/148025)
+- [View the entire school's GIAS details](https://www.get-information-schools.service.gov.uk/Establishments/Establishment/Details/148025)
 
 ## Uses
 
 - <b>Does this dataset achieve the motivation for creating the dataset stated in the first section of this datasheet?</b>
 	<div>
-    There some limitations in the dataset:
+    There some limitations in the dataset which will prevent other characteristics (features) of a school to be analyse. 
     <ul>
-    <li><b>Lack of features:</b></li>
+    <li>Contextual informatio </li>
+    <li>Attendance and attainment</li>
+    <li>Staff and leadership</li>
+    <li>Parent views</li>
     </ul>
 	<div>
 - <b>What other tasks could the dataset be used for?</b> 
