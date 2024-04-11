@@ -102,19 +102,23 @@ CREATE TABLE education_establishment
 
 - <b>Does this dataset achieve the motivation for creating the dataset stated in the first section of this datasheet?</b>
 	<div>
-    There some limitations in the dataset which will prevent other characteristics (features) of a school to be analyse. The following information would need to considered to predict of gradings for schools.
+    There some limitations in the dataset which will prevent other characteristics (features) of a school to be analyse. The following information would need to be considered to provide a more comprehensive prediction of gradings for schools.
     <ul>
-    <li><b>Teacher Quality Metrics</b> Teacher qualifications, experience, methods and pedagogical approaches, student-teacher ratio, class size</li>
-    <li><b>Pupils Outcomes</b> Exam results, progress and attainment measures, attendance rates</li>
-    <li><b>Leadership and management</b> Leadership effectiveness, staff turnover rates, school governance structure</li>
-    <li><b>Safeguarding and Well-being</b> Safeguarding policies and procedures, student well-being and pastoral care support, incidents of bullying or behavior issues</li>
-    <li><b>Demographic and Socioeconomic Factors</b> Ethnicity and language diversity, socioeconomic deprivation indices, special educational needs (SEN) prevalenc</li>
-    <li><b>School Characteristics</b> Funding levels and resources available, facilities and infrastructure</li>
-    <li><b>Community Engagement</b> Parental involvement and engagement, extra-curricular activities and enrichment programs</li>
-    <li><b>Past Performance</b> Trends in performance over time</li>
+    <li><b>Teacher Quality Metrics:</b> Teacher qualifications, experience, methods and pedagogical approaches, student-teacher ratio, class size</li>
+    <li><b>Pupils Outcomes:</b> Exam results, progress and attainment measures, attendance rates</li>
+    <li><b>Leadership and management:</b> Leadership effectiveness, staff turnover rates, school governance structure</li>
+    <li><b>Safeguarding and Well-being:</b> Safeguarding policies and procedures, student well-being and pastoral care support, incidents of bullying or behavior issues</li>
+    <li><b>Demographic and Socioeconomic Factors:</b> Ethnicity and language diversity, socioeconomic deprivation indices, special educational needs (SEN) prevalenc</li>
+    <li><b>School Characteristics:</b> Funding levels and resources available, facilities and infrastructure</li>
+    <li><b>Community Engagement:</b> Parental involvement and engagement, extra-curricular activities and enrichment programs</li>
+    <li><b>Past Performance:</b> Trends in performance over time</li>
     </ul>
 	<div>
-- <b>What other tasks could the dataset be used for?</b> The dataset could be used to provide 
+- <b>What other tasks could the dataset be used for?</b> The dataset could be used to provide a variety of summary statistics such as:
+    <ul>
+    <li><b>Descriptive Statistics:</b> Mean, median, and mode, standard deviation and variance, range, percentiles</li>
+    <li><b>Socioeconomic Context:</b> Percentage of students eligible for free school meals, serving as a proxy for socioeconomic disadvantage</li>
+    <li><b>Quality Assurance:</b> Summary statistics on inspection outcomes</li>
 - <b>Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses? For example, is there anything that a dataset consumer might need to know to avoid uses that could result in unfair treatment of individuals or groups (e.g., stereotyping, quality of service issues) or other risks or harms (e.g., legal risks, financial harms)? If so, please provide a description. Is there anything a dataset consumer could do to mitigate these risks or harms?</b>
 - <b>Are there tasks for which the dataset should not be used? If so, please provide a description.</b>
 
