@@ -31,12 +31,16 @@
 			<li><b>Correct missing data:</b> Each school instance was validated for missing information. The list of missing data and action taken is shown below.</li>
     </ol>
 	<div>
+	
+<details>
 		
 | Missing Value |  Action taken |
 | --- | --- |
 | FIELD_NumberOfPupils | set to FIELD_NumberOfBoys + FIELD_NumberOfGirls |
 | FIELD_SchoolCapacity | set to FIELD_NumberOfPupils |
 
+</details>
+		
 			
 	<div>
     <ol>
