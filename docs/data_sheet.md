@@ -131,7 +131,7 @@ CREATE TABLE education_establishment
 
 ## Permitted Use
 
-- The dataset is provided for research, educational, and non-commercial purposes <b><u>only</u><b>. Attribution to the original source is required.
+- The dataset is provided for research, educational, and non-commercial purposes <b><u>only</u></b>. Attribution to the original source is required.
 
 ## Citation
 
