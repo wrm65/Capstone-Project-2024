@@ -39,6 +39,7 @@
 
 <p>
     <p>
+		The continuing steps...:
       <ol start="4">
       <li><b>Map raw data columns to database table columns:</b></li>
       <li><b>Saving to a database:</b></li>
