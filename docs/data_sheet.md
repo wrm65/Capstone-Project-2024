@@ -29,7 +29,10 @@
     <li><b>Collecting the raw data:</b></li>
     <li><b>Creating a PHP script:</b></li>
     <li><b>Handle missing data:</b>
-			<li>number of pupils</li>
+			<ul>
+				<li>number of pupils</li>
+				<li>school capacity</li>
+			</ul>
 		</li>
     <li><b>Saving to a database:</b></li>
     <li><b>Exporting from the database:</b></li>
