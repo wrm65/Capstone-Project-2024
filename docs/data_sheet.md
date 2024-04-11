@@ -41,7 +41,46 @@
 		<p>
 			<ol start="4">
 			<li><b>Map raw data columns to database table columns:</b> As a school instance in the raw dataset contained over 300 columns, this was significantly reduced to 20 columns. In addition, the column names were abbreviated and somewhat cryptic, therefore the columns were given more meaningful names.</li>
-			<li><b>Saving to a PostgreSQL database:</b> The newly formatted school instances were stored into a database. By using SQL, this approach allowed further validation and updating of the dataset to be completed easier and quicker.</li>
+			<li><b>Saving to a PostgreSQL database:</b> The newly formatted school instances were stored into a database. By using SQL, this approach allowed further validation and updating of the dataset to be completed easier and quicker.
+				<details>
+					<summary>Database table: education_establishment</summary>
+					<pre>
+CREATE TABLE education_establishment
+(
+    unique_reference_number bigint NOT NULL,
+    establishment_number integer NOT NULL,
+    authority_code integer NOT NULL,
+    administrative_code character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    uk_prn character varying(20) COLLATE pg_catalog."default" NOT NULL,
+    establishment_name text COLLATE pg_catalog."default" NOT NULL,
+    establishment_type character varying(80) COLLATE pg_catalog."default" NOT NULL,
+    statutory_highest_age integer NOT NULL,
+    statutory_lowest_age integer NOT NULL,
+    sixth_form_exist boolean NOT NULL,
+    school_capacity integer NOT NULL,
+    pupil_number integer NOT NULL,
+    pupil_boys integer NOT NULL,
+    pupil_girls integer NOT NULL,
+    free_school_meals integer NOT NULL,
+    free_school_meals_percentage numeric(5,2) NOT NULL,
+    education_phase character varying(80) COLLATE pg_catalog."default" NOT NULL,
+    gender_type integer NOT NULL,
+    religious_character character varying(80) COLLATE pg_catalog."default" NOT NULL,
+    religious_ethos character varying(80) COLLATE pg_catalog."default" NOT NULL,
+    admissions_policy character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    establishment_status character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    opened_reason character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    opening_date date NOT NULL,
+    app_image_group integer NOT NULL,
+    active_detail boolean NOT NULL,
+    created_local_date timestamp with time zone NOT NULL,
+    created_date timestamp with time zone NOT NULL,
+    created_by integer NOT NULL,
+    CONSTRAINT education_establishment_pkey PRIMARY KEY (unique_reference_number)
+)
+					</pre>
+				</details>
+			</li>
 			<li><b>Exporting from the database:</b> The dataset to be used for the modelling was exported directly into a CSV format.</li>
 		 <div>The final `Ofsted Inspected School` dataset is provided in a CSV format at the following link:</div> 
 	https://github.com/wrm65/Capstone-Project-2024/blob//main/dataset/ofsted_inspected_school.csv
