@@ -127,7 +127,7 @@ CREATE TABLE education_establishment
 
 ## Maintenance
 
-- <b>Who maintains the dataset?</b> The dataset was up-to-date as of the 15th April 2024 and no further update will be provided. 
+- <b>Who maintains the dataset?</b> The dataset was up-to-date as of the 15th April 2024 and no further update is envisage. 
 
 ## Permitted Use
 
