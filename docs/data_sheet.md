@@ -28,10 +28,10 @@
     <ol>
     <li><b>Collecting the raw data:</b></li>
     <li><b>Creating a PHP script:</b></li>
-    <li><b>Handle missing data:</b>
+    <li><b>Correct missing data:</b>
 			<ul>
-				<li>number of pupils</li>
-				<li>school capacity</li>
+				<li>FIELD_NumberOfPupils: set total to [FIELD_NumberOfBoys] + [FIELD_NumberOfGirls]</li>
+				<li>FIELD_SchoolCapacity: set total to [FIELD_NumberOfPupils]</li>
 			</ul>
 		</li>
     <li><b>Saving to a database:</b></li>
