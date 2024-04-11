@@ -40,7 +40,7 @@
    <p>
 		<p>
 			<ol start="4">
-			<li><b>Map raw data columns to database table columns:</b></li>
+			<li><b>Map raw data columns to database table columns:</b> As the raw dataset contains over 300 columns, this was significantly reduced 20 columns. In addition, the columns in the raw dataset were abbreviated and somewhat cryptic, therefore the columns were given more meaningful names.</li>
 			<li><b>Saving to a database:</b></li>
 			<li><b>Exporting from the database:</b></li>
 		 <div>The final Ofsted Inspected School dataset is provided in a CSV format at the following link:</div> 
