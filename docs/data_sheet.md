@@ -105,9 +105,13 @@ CREATE TABLE education_establishment
     There some limitations in the dataset which will prevent other characteristics (features) of a school to be analyse. The following information would need to considered to predict of gradings for schools.
     <ul>
     <li><b>Teacher Quality Metrics</b> Teacher qualifications, experience, methods and pedagogical approaches, student-teacher ratio, class size</li>
-    <li><b>Funding and resources</b></li>
-    <li><b>Leadership and management</b></li>
-    <li><b>Parent views</b></li>
+    <li><b>Pupils Outcomes</b> Exam results, progress and attainment measures, attendance rates</li>
+    <li><b>Leadership and management</b> Leadership effectiveness, staff turnover rates, school governance structure</li>
+    <li><b>Safeguarding and Well-being</b> Safeguarding policies and procedures, student well-being and pastoral care support, incidents of bullying or behavior issues</li>
+    <li><b>Demographic and Socioeconomic Factors</b> Ethnicity and language diversity, socioeconomic deprivation indices, special educational needs (SEN) prevalenc</li>
+    <li><b>School Characteristics</b> Funding levels and resources available, facilities and infrastructure</li>
+    <li><b>Community Engagement</b> Parental involvement and engagement, extra-curricular activities and enrichment programs</li>
+    <li><b>Past Performance</b> Trends in performance over time</li>
     </ul>
 	<div>
 - <b>What other tasks could the dataset be used for?</b> The dataset could be used to provide 
