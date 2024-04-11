@@ -36,6 +36,7 @@
 | --- | --- |
 | FIELD_NumberOfPupils | set to FIELD_NumberOfBoys + FIELD_NumberOfGirls |
 | FIELD_SchoolCapacity | set to FIELD_NumberOfPupils |
+
 			
 	<div>
     <ol>
