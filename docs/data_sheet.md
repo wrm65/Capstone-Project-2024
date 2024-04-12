@@ -142,7 +142,7 @@ AND ee.establishment_type_code NOT IN (14)
   </p>
 	
 - <b>Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)?</b> The raw unprocessed data is saved in its `CSV` format.
-- <b>Is the preprocessing software available?</b> While the `PHP` script which perform a number of cleaning tasks and saved the data to the database, it is not available. However, all the software used is open source and has been specified above.
+- <b>Is the preprocessing software available?</b> The `PHP` script which performed a number of preprocessing tasks and saved the data to the database, is not available. However, all the software used is open source and has been specified above.
 
 - <i>Sample school instance data</i>
  <div>
