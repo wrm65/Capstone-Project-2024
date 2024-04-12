@@ -83,7 +83,7 @@ CREATE TABLE education_establishment
 			</li>
 			<li><b>Exporting from the database:</b> The dataset to be used for the modelling was exported directly into a CSV format.</li>
 		 <div>The final OIS dataset is provided in a CSV format at the following link:</div> 
-	https://github.com/wrm65/Capstone-Project-2024/blob//main/dataset/ofsted_inspected_school.csv
+	https://github.com/wrm65/Capstone-Project-2024/blob//main/dataset/school_ofsted_rating.csv
 			</ol>
 		</p>
   </p>
