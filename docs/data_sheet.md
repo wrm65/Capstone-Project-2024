@@ -41,7 +41,7 @@
 		<p>
 			<ol start="4">
 			<li><b>Map raw data columns to database table columns:</b> As a school instance in the raw dataset contained over 300 columns, this was significantly reduced to 20 columns. In addition, some of the column names were abbreviated and somewhat cryptic e.g. EHC, FSM, NUMEAL, therefore the columns were given more meaningful names.</li>
-			<li><b>Saving to a PostgreSQL database:</b> The newly formatted school instances were stored into a database table, <b><i>education_establishment</i></b>. By using SQL, this approach allowed further validation and updating of the dataset to be completed in an easier and quicker manner.
+			<li><b>Saving to a PostgreSQL database:</b> The newly formatted school instances were stored into 2 database tables, <b><i>education_establishment</i></b>, <b><i>education_establishment_characteristic</i></b>. By using SQL, this approach allowed further validation and updating of the dataset to be completed in an easier and quicker manner.
 				<details>
 					<summary>Database table: <b><i>education_establishment</i></b> (click to view definition)</summary>
 					<pre>
@@ -79,8 +79,62 @@ CREATE TABLE education_establishment
 )
 					</pre>
 				</details>
+				
+				<details>
+					<summary>Database table: <b><i>education_establishment_characteristic</i></b> (click to view definition)</summary>
+					<pre>
+CREATE TABLE education_establishment_characteristic
+(
+    unique_reference_number bigint NOT NULL,
+    pupil_number integer NOT NULL,
+    pupil_boys integer NOT NULL,
+    pupil_girls integer NOT NULL,
+    pupil_ehc_plan integer NOT NULL,
+    pupil_sen_support integer NOT NULL,
+    pupil_english_language integer NOT NULL,
+    pupil_not_english_language integer NOT NULL,
+    pupil_unclassify_language integer NOT NULL,
+    pupil_free_school_meals integer NOT NULL,
+    percent_pupil_boys numeric(5,2) NOT NULL,
+    percent_pupil_girls numeric(5,2) NOT NULL,
+    percent_ehc_plan numeric(5,2) NOT NULL,
+    percent_sen_support numeric(5,2) NOT NULL,
+    percent_english_language numeric(5,2) NOT NULL,
+    percent_not_english_language numeric(5,2) NOT NULL,
+    percent_unclassify_language numeric(5,2) NOT NULL,
+    percent_free_school_meals numeric(5,2) NOT NULL,
+    active_detail boolean NOT NULL,
+    created_local_date timestamp with time zone NOT NULL,
+    created_date timestamp with time zone NOT NULL,
+    created_by integer NOT NULL,
+    CONSTRAINT education_establishment_characteristic_pkey PRIMARY KEY (unique_reference_number)
+)
+					</pre>
+				</details>
 			</li>
-			<li><b>Exporting from the database:</b> The dataset to be used for the modelling was exported directly into a CSV format.</li>
+			<li><b>Exporting from the database:</b> An SQL Query Statement was used to <i>join<i> the data from both tables to create the dataset. The resultant data was exported directly into a CSV format.
+				<details>
+					<summary>SQL Statement: <b><i>retrieve school details</i></b> (click to view statement)</summary>
+					<pre>
+SELECT ee.unique_reference_number, 
+	ee.authority_code, ee.administrative_code, ee.establishment_type_code, 
+	ee.pupil_number, ee.pupil_boys, ee.pupil_girls,
+	ee.free_school_meals_percentage, ee.gender_type,
+	ee.religious_character_code,
+	eec.percent_pupil_boys, eec.percent_pupil_girls,
+	eec.percent_ehc_plan, eec.percent_sen_support,
+	eec.percent_english_language, eec.percent_not_english_language,
+	eec.percent_unclassify_language,
+	eor.rating
+FROM public.education_establishment_characteristic eec,
+	public.education_establishment ee,
+	public.education_ofsted_report eor
+WHERE eec.unique_reference_number = ee.unique_reference_number
+AND eor.unique_reference_number = ee.unique_reference_number
+AND ee.establishment_type_code NOT IN (14)
+					</pre>
+				</details>
+			</li>
 		 <div>The final OIS dataset is provided in a CSV format at the following link:</div> 
 	https://github.com/wrm65/Capstone-Project-2024/blob//main/dataset/school_ofsted_rating.csv
 			</ol>
