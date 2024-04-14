@@ -126,11 +126,12 @@ SELECT
 	EE.PUPIL_GIRLS,
 	EE.FREE_SCHOOL_MEALS_PERCENTAGE,
 	CASE EE.GENDER_TYPE
-		WHEN 1 THEN 'boys'
-		WHEN 2 THEN 'girls'
-		ELSE 'mixed'
+		WHEN 1 THEN 'Boys'
+		WHEN 2 THEN 'Girls'
+		ELSE 'Mixed'
 	END GENDER_TYPE,
 	EE.RELIGIOUS_CHARACTER_CODE,
+	EE.RELIGIOUS_ETHOS,
 	EEC.PERCENT_PUPIL_BOYS,
 	EEC.PERCENT_PUPIL_GIRLS,
 	EEC.PERCENT_EHC_PLAN,
@@ -147,7 +148,7 @@ WHERE
 	EEC.UNIQUE_REFERENCE_NUMBER = EE.UNIQUE_REFERENCE_NUMBER
 	AND EOR.UNIQUE_REFERENCE_NUMBER = EE.UNIQUE_REFERENCE_NUMBER
 	AND EE.ESTABLISHMENT_TYPE_CODE NOT IN (14) -- PRU
-	AND EE.GENDER_TYPE NOT IN (9) -- unknown
+	AND EE.GENDER_TYPE NOT IN (9) -- unknown	
 					</pre>
 				</details>
 			</li>
@@ -188,6 +189,9 @@ WHERE
     <li><b>Descriptive Statistics:</b> Mean, median, and mode, standard deviation and variance, range, percentiles</li>
     <li><b>Socioeconomic Context:</b> Percentage of students eligible for free school meals, serving as a proxy for socioeconomic disadvantage</li>
     <li><b>Quality Assurance:</b> Summary statistics on inspection outcomes</li>
+ <div>
+	<img style="width:500px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/summary_stats.png">
+ </div>
 
 ## Distribution
 
