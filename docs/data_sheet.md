@@ -190,7 +190,7 @@ WHERE
     <li><b>Socioeconomic Context:</b> Percentage of students eligible for free school meals, serving as a proxy for socioeconomic disadvantage</li>
     <li><b>Quality Assurance:</b> Summary statistics on inspection outcomes</li>
  <div>
-	<img style="width:500px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/summary_stats.png">
+	<img style="width:200px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/summary_stats.png">
  </div>
 
 ## Distribution
