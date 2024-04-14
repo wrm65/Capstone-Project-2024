@@ -116,22 +116,34 @@ CREATE TABLE education_establishment_characteristic
 				<details>
 					<summary>SQL Statement: <b><i>retrieve school details</i></b> (click to view statement)</summary>
 					<pre>
-SELECT ee.unique_reference_number, 
-	ee.authority_code, ee.administrative_code, ee.establishment_type_code, 
-	ee.pupil_number, ee.pupil_boys, ee.pupil_girls,
-	ee.free_school_meals_percentage, ee.gender_type,
-	ee.religious_character_code,
-	eec.percent_pupil_boys, eec.percent_pupil_girls,
-	eec.percent_ehc_plan, eec.percent_sen_support,
-	eec.percent_english_language, eec.percent_not_english_language,
-	eec.percent_unclassify_language,
-	eor.rating
-FROM public.education_establishment_characteristic eec,
-	public.education_establishment ee,
-	public.education_ofsted_report eor
-WHERE eec.unique_reference_number = ee.unique_reference_number
-AND eor.unique_reference_number = ee.unique_reference_number
-AND ee.establishment_type_code NOT IN (14)
+SELECT
+	EE.UNIQUE_REFERENCE_NUMBER,
+	EE.AUTHORITY_CODE,
+	EE.ADMINISTRATIVE_CODE,
+	EE.ESTABLISHMENT_TYPE_CODE,
+	EE.PUPIL_NUMBER,
+	EE.PUPIL_BOYS,
+	EE.PUPIL_GIRLS,
+	EE.FREE_SCHOOL_MEALS_PERCENTAGE,
+	EE.GENDER_TYPE,
+	EE.RELIGIOUS_CHARACTER_CODE,
+	EEC.PERCENT_PUPIL_BOYS,
+	EEC.PERCENT_PUPIL_GIRLS,
+	EEC.PERCENT_EHC_PLAN,
+	EEC.PERCENT_SEN_SUPPORT,
+	EEC.PERCENT_ENGLISH_LANGUAGE,
+	EEC.PERCENT_NOT_ENGLISH_LANGUAGE,
+	EEC.PERCENT_UNCLASSIFY_LANGUAGE,
+	EOR.RATING
+FROM
+	PUBLIC.EDUCATION_ESTABLISHMENT_CHARACTERISTIC EEC,
+	PUBLIC.EDUCATION_ESTABLISHMENT EE,
+	PUBLIC.EDUCATION_OFSTED_REPORT EOR
+WHERE
+	EEC.UNIQUE_REFERENCE_NUMBER = EE.UNIQUE_REFERENCE_NUMBER
+	AND EOR.UNIQUE_REFERENCE_NUMBER = EE.UNIQUE_REFERENCE_NUMBER
+	AND EE.ESTABLISHMENT_TYPE_CODE NOT IN (14) -- PRU
+	AND EE.GENDER_TYPE NOT IN (9) -- unknown
 					</pre>
 				</details>
 			</li>
@@ -149,7 +161,7 @@ AND ee.establishment_type_code NOT IN (14)
 	<img style="width:500px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/gias_data_01.png">
  </div>
  
-- [View the entire school's GIAS details](https://www.get-information-schools.service.gov.uk/Establishments/Establishment/Details/148025)
+- [Click to view the entire school's GIAS details](https://www.get-information-schools.service.gov.uk/Establishments/Establishment/Details/148025)
 
 ## Uses
 
