@@ -1,5 +1,5 @@
 <div align="center">
-	<img style="width:150px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/pie_chart.png"><br><br>
+	<img style="width:300px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/pie_chart.png"><br><br>
 	<h1>Predicting Ofsted School Grades</b></h1>
 </div>
 
