@@ -2,7 +2,7 @@
 
 ## Motivation
 
-- <b>For what purpose was the dataset created?</b> The `OIS Dataset` was created to enable the analyse and prediction of the likely grade that a school would receive on its next inspection by [Ofsted](https://www.gov.uk/government/organisations/ofsted).
+- <b>For what purpose was the dataset created?</b> The `OIS Dataset` was created to enable the analysis and prediction of the likely grade that a school would receive on its next inspection by [Ofsted](https://www.gov.uk/government/organisations/ofsted).
 - <b>Who created the dataset (e.g., which team, research group) and on behalf of which entity (e.g., company, institution, organization)?</b> The dataset was created by the author of this datasheet.
 - <b>Who funded the creation of the dataset?</b> Creation of the dataset is freely available. 
 
