@@ -39,12 +39,27 @@ The image below show the result of 10 iterations of the model. On each iteration
 The best result is also shown with the `Best accuracy score: 0.8599` and the `Best maximum leaf nodes: 35`
 
  <div>
-	<img style="width:200px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/decision_tree_01.png">
+	<img style="width:800px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/decision_tree_01.png">
  </div>
-
+---
 **Metrics:** `accuracy score` `recall score` `f1 score` `mean squared error`
 
-**Additional Info:** _Importance of Features_ and _Decision Tree_
+	
+| Metric |  Value |
+| --- | --- |
+| Accuracy score | 0.8599 |
+| Mean squared error | 0.2094 |
+| Recall score | Outstanding: 0.1130 |
+| &nbsp; | Good: 0.9522 |
+| &nbsp; | Requires Improvement: 0 |
+| &nbsp; | Inadequate: 0.9963 |
+| F1 score | Outstanding: 0.1924 |
+| &nbsp; | Good: 0.8603 |
+| &nbsp; | Requires Improvement: 0 |
+| &nbsp; | Inadequate: 0.9743 |
+
+
+**Importance of Features:** 
 
 ## Limitations
 
