@@ -41,7 +41,10 @@ The best result is also shown with the `Best accuracy score: 0.8599` and the `Be
  <div>
 	<img style="width:800px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/decision_tree_01.png">
  </div>
+
 ---
+
+
 **Metrics:** `accuracy score` `recall score` `f1 score` `mean squared error`
 
 	
