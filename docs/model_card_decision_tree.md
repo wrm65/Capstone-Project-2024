@@ -26,11 +26,14 @@
 
 **Output:** The model outputs one of the four Ofsted school grading.
 
-**Model Architecture:** Decision Tree Classifier
+**Model Architecture:** Decision Tree Classifier with a maximum tree depth set to 8.
 
 ## Performance
 
-Give a summary graph or metrics of how the model performs. Remember to include how you are measuring the performance and what data you analysed it on. 
+**Hyperparameter tuning:** `max_depth` - maximum depth of the tree `max_leaf_nodes` - grow tree with maximum number of leaf nodes
+**Method:** iteratively tune the `max_leaf_nodes` parameter by increasing in steps of `5`and find the best performing `max_leaf_nodes` setting
+**Metrics:** `accuracy score` `recall score` `f1 score` `mean squared error`
+**Additional Info:** _Importance of Features_ and _Decision Tree_
 
 ## Limitations
 
