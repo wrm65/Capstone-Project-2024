@@ -6,17 +6,27 @@
 
 **Version:** 0.1
 
-**Usage:** This model is use to predict the Ofsted school grading for a school. There are four Ofsted gradings that can be classified:
+**Usage:** This model is use to predict the likely grade that a school would receive on its next inspection by [Ofsted](https://www.gov.uk/government/organisations/ofsted). There are four Ofsted school gradings that can be classified:
 1. Outstanding
 2. Good
 3. Requires Improvement
 4. Inadequate
 
-**Input:** Describe the inputs of your model 
+**Input:** For each school, nine features are provided for the model to be trained and predict its grading. These features are listed below.
+1. Gender Type - girls, boys, mixed
+2. Religious Ethos - Church of England, Roman Catholic, Other religion and non-faith
+3. Percentage of Pupils who are Boys
+4. Percentage of Pupils who are Girls
+5. Percentage of Pupils who have Enhance Health Care plan
+6. Percentage of Pupils who have Special Education Needs
+7. Percentage of Pupils who receive Free School Meals
+8. Percentage of Pupils who first language is English
+9. Percentage of Pupils who first language is not English
 
-**Output:** Describe the output(s) of your model
 
-**Model Architecture:** Describe the model architecture you’ve used
+**Output:** The model outputs one of the four Ofsted school grading.
+
+**Model Architecture:** Decision Tree Classifier
 
 ## Performance
 
