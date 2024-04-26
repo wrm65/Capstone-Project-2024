@@ -39,15 +39,16 @@ The image below show the result of 10 iterations of the model. On each iteration
 The best result is also shown with the `Best accuracy score: 0.8599` and the `Best maximum leaf nodes: 35`
 
  <div>
-	<img style="width:800px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/decision_tree_01.png">
+	<img style="width:700px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/decision_tree_01.png">
  </div>
 
 ---
 
 **Metrics:** `accuracy score` `recall score` `f1 score` `mean squared error`
 
+The table below show the metric scores obtained for each classification (rating).
 	
-| Metric | Rating | Value |
+| Metric | Rating | Score |
 | --- | -- | --- |
 | Accuracy score | &nbsp; | 0.8599 |
 | Mean squared error | &nbsp; | 0.2094 |
@@ -64,16 +65,20 @@ The best result is also shown with the `Best accuracy score: 0.8599` and the `Be
 
 **Importance of Features:** 
 
+The image below show the importance of each feature to the model, when it is making its predictions.
+	
  <div>
-	<img style="width:800px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/decision_tree_02.png">
+	<img style="width:325px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/decision_tree_02.png">
  </div>
 
 ---
 
 **Decision Tree Leaf Summary:**
 
+With the maximum tree depth set to 8, the model produced 35 leaf nodes. The image below show the classification breakdown for the 35 leaf nodes.
+
  <div>
-	<img style="width:800px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/decision_tree_03.png">
+	<img style="width:250px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/decision_tree_03.png">
  </div>
 
 
