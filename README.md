@@ -1,7 +1,7 @@
 # Capstone-Project-2024
 Imperial College Business School Capstone Project 2024
 <div align="center">
-	<img style="width:300px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/confusion_matrix.png"><br><br>
+	<img style="width:350px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/confusion_matrix.png">
 	<h1>Predicting Ofsted School Grades</b></h1>
 </div>
 
