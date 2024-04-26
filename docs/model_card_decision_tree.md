@@ -42,24 +42,24 @@ The best result is also shown with the `Best accuracy score: 0.8599` and the `Be
 	<img style="width:800px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/decision_tree_01.png">
  </div>
 
----
+--
 
 
 **Metrics:** `accuracy score` `recall score` `f1 score` `mean squared error`
 
 	
-| Metric |  Value |
-| --- | --- |
-| Accuracy score | 0.8599 |
-| Mean squared error | 0.2094 |
-| Recall score | Outstanding: 0.1130 |
-| &nbsp; | Good: 0.9522 |
-| &nbsp; | Requires Improvement: 0 |
-| &nbsp; | Inadequate: 0.9963 |
-| F1 score | Outstanding: 0.1924 |
-| &nbsp; | Good: 0.8603 |
-| &nbsp; | Requires Improvement: 0 |
-| &nbsp; | Inadequate: 0.9743 |
+| Metric | Rating | Value |
+| --- | -- | --- |
+| Accuracy score | &nbsp; | 0.8599 |
+| Mean squared error | &nbsp; | 0.2094 |
+| Recall score | Outstanding | 0.1130 |
+| &nbsp; | Good | 0.9522 |
+| &nbsp; | Requires Improvement | 0 |
+| &nbsp; | Inadequate | 0.9963 |
+| F1 score | Outstanding | 0.1924 |
+| &nbsp; | Good | 0.8603 |
+| &nbsp; | Requires Improvement | 0 |
+| &nbsp; | Inadequate | 0.9743 |
 
 
 **Importance of Features:** 
