@@ -2,17 +2,17 @@
 
 ## Model Description
 
-**Name:** Ofsted School Grading Model
+- **Name:** Ofsted School Grading Model
 
-**Version:** 0.1
+- **Version:** 1.0
 
-**Usage:** This model is use to predict the likely grade that a school would receive on its next inspection by [Ofsted](https://www.gov.uk/government/organisations/ofsted). There are four Ofsted school gradings that can be classified:
+- **Usage:** This model is use to predict the likely grade that a school would receive on its next inspection by [Ofsted](https://www.gov.uk/government/organisations/ofsted). There are four Ofsted school gradings that can be classified:
 1. Outstanding
 2. Good
 3. Requires Improvement
 4. Inadequate
 
-**Input:** For each school, nine features are provided for the model to be trained and predict its grading. These features are listed below.
+- **Input:** For each school, nine features are provided for the model to be trained and predict its grading. These features are listed below.
 1. Gender Type - girls, boys, mixed
 2. Religious Ethos - Church of England, Roman Catholic, Other religion and non-faith
 3. Percentage of Pupils who are Boys
@@ -24,15 +24,21 @@
 9. Percentage of Pupils who first language is not English
 
 
-**Output:** The model outputs one of the four Ofsted school grading.
+- **Output:** The model outputs one of the four Ofsted school grading.
 
-**Model Architecture:** Decision Tree Classifier with a maximum tree depth set to 8.
+- **Model Architecture:** Decision Tree Classifier with a maximum tree depth set to 8.
+
+## Training Data
+
+- **Dataset:** Ofsted Inspected School [OIS] Dataset
+- **Data Size:** 20,571 school records
+- **Preprocessing:** remove irrevlevant (8) columns, encode categorical variables (rating)
 
 ## Performance
 
-**Hyperparameter tuning:** `max_depth` - maximum depth of the tree `max_leaf_nodes` - grow tree with maximum number of leaf nodes
+- **Hyperparameter tuning:** `max_depth` - maximum depth of the tree `max_leaf_nodes` - grow tree with maximum number of leaf nodes
 
-**Method:** iteratively tune the `max_leaf_nodes` parameter by increasing in steps of `5`and find the best performing `max_leaf_nodes` setting
+- **Method:** iteratively tune the `max_leaf_nodes` parameter by increasing in steps of `5`and find the best performing `max_leaf_nodes` setting
 
 The image below show the result of 10 iterations of the model. On each iteration the `max_leaf_nodes` hyperparameter is increased by 5.
 
@@ -44,7 +50,7 @@ The best result is also shown with the `Best accuracy score: 0.8599` and the `Be
 
 ---
 
-**Metrics:** `accuracy score` `recall score` `f1 score` `mean squared error`
+- **Metrics:** `accuracy score` `recall score` `f1 score` `mean squared error`
 
 The table below show the metric scores obtained for each classification (rating).
 	
@@ -63,7 +69,7 @@ The table below show the metric scores obtained for each classification (rating)
 
 ---
 
-**Importance of Features:** 
+- **Importance of Features:** 
 
 The image below show the importance of each feature to the model, when it is making its predictions.
 	
@@ -73,14 +79,13 @@ The image below show the importance of each feature to the model, when it is mak
 
 ---
 
-**Decision Tree Leaf Summary:**
+- **Decision Tree Leaf Summary:**
 
 With the maximum tree depth set to 8, the model produced 35 leaf nodes. The image below show the classification breakdown for the 35 leaf nodes.
 
  <div>
 	<img style="width:250px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/decision_tree_03.png">
  </div>
-
 
 
 ## Limitations
@@ -90,3 +95,11 @@ Outline the limitations of your model.
 ## Trade-offs
 
 Outline any trade-offs of your model, such as any circumstances where the model exhibits performance issues. 
+
+## Version History
+
+- **v1.0:**  Initial release (April 2024)
+
+## References
+
+
