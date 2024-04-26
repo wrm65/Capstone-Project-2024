@@ -31,8 +31,11 @@
 ## Performance
 
 **Hyperparameter tuning:** `max_depth` - maximum depth of the tree `max_leaf_nodes` - grow tree with maximum number of leaf nodes
+
 **Method:** iteratively tune the `max_leaf_nodes` parameter by increasing in steps of `5`and find the best performing `max_leaf_nodes` setting
+
 **Metrics:** `accuracy score` `recall score` `f1 score` `mean squared error`
+
 **Additional Info:** _Importance of Features_ and _Decision Tree_
 
 ## Limitations
