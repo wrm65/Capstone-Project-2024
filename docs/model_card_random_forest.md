@@ -121,11 +121,16 @@
   <p>
 
    - The image below show the classification report which provides a comprehensive overview of various evaluation metrics for each class in the dataset, including precision, recall, F1-score, and support.
-
-     <div>
+   <table>
+    <tr>
+      <td valign="top"> 
       <img style="width:500px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/random_forest_03.png">
-     </div>
-
+      </td>
+      <td valign="top"> 
+        <img style="width:500px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/random_forest_04.png">
+      </td>
+     </tr>
+   </table>
   </p>
 
    </details>
@@ -141,5 +146,4 @@
 ## References
 
 - **Ofsted:** https://www.gov.uk/government/organisations/ofsted
-
 

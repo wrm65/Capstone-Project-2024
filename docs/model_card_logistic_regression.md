@@ -113,3 +113,14 @@
 
    </details>
 
+## Use Case
+
+- This model is provided for research, educational, and non-commercial purposes <b><u>only</u></b>.
+
+## Version History
+
+- **v1.0:**  Initial release (April 2024)
+
+## References
+
+- **Ofsted:** https://www.gov.uk/government/organisations/ofsted
