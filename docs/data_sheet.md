@@ -28,7 +28,7 @@
     <ol start="1">
       <li><b>Collecting the raw data:</b> Data was obtained from the GIAS website and stored locally. A screenshot of a sample school instance data is shown below.</li>
       <li><b>Creating a PHP script:</b> A script was developed to process and clean the dataset.</li>
-      <li><b>Correct missing data:</b> Each school instance was validated for missing information. The list of missing data and action taken is shown below.
+      <li><b>Correct missing data:</b> Each school instance was validated for missing information. The list of missing data and action taken is shown below.</li>
   
     <div>
    
@@ -43,7 +43,6 @@
 
     </div>
 
-      </li>
     </ol>
 
    <p>
