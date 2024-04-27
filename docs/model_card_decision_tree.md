@@ -105,11 +105,16 @@
   <p>
 
    - The image below show the importance of each feature to the model, when making the predictions.
-
-     <div>
+   <table>
+    <tr>
+      <td valign="top"> 
       <img style="width:325px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/decision_tree_02.png">
-     </div>
-
+      </td>
+      <td valign="top"> 
+      <img style="width:325px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/decision_tree_04.png">
+      </td>
+     </tr>
+   </table>
   </p>
 
    </details>
