@@ -51,55 +51,10 @@
         <li><b>Map raw data columns to database table columns:</b> As a school instance in the raw dataset contained over 300 columns, this was significantly reduced to 20 columns. In addition, some of the column names were abbreviated and somewhat cryptic e.g. EHC, FSM, NUMEAL, therefore the columns were given more meaningful names.</li>
         <li><b>Saving to a PostgreSQL database:</b> The newly formatted school instances were stored into 2 database tables, <b><i>education_establishment</i></b>, <b><i>education_establishment_characteristic</i></b>. By using SQL, this approach allowed further validation and updating of the dataset to be completed in an easier and quicker manner.
         </li>
-        <li><b>Exporting from the database:</b> An SQL Query Statement was used to <i>join</i> the data from both tables to create the dataset. The resultant data was exported directly into a CSV format.
+        <li><b>Exporting from the database:</b> An SQL Query Statement was used to <i>join</i> the data from both tables to create the dataset. The resultant data was exported directly into a CSV format.</li>
 <details>
   <summary>SQL Statement: <b><i>retrieve school details</i></b> (click to view statement)</summary>
   <pre>
-    SELECT
-      EE.UNIQUE_REFERENCE_NUMBER,
-      EE.AUTHORITY_CODE,
-      EE.ESTABLISHMENT_TYPE_CODE,
-      EE.PUPIL_NUMBER,
-      EE.PUPIL_BOYS,
-      EE.PUPIL_GIRLS,
-      EE.GENDER_TYPE,
-      CASE EE.GENDER_TYPE
-        WHEN 1 THEN 'Boys'
-        WHEN 2 THEN 'Girls'
-        ELSE 'Mixed'
-      END GENDER_CATEGORY,
-      CASE ERC.CLASSIFICATION
-        WHEN 'Church of England' THEN 1
-        WHEN 'Roman Catholic' THEN 4
-        WHEN 'Other religion' THEN 3
-        ELSE 2
-      END RELIGIOUS_TYPE,
-      ERC.CLASSIFICATION AS RELIGIOUS_CLASSIFICATION,
-      EEC.PERCENT_PUPIL_BOYS,
-      EEC.PERCENT_PUPIL_GIRLS,
-      EEC.PERCENT_EHC_PLAN,
-      EEC.PERCENT_SEN_SUPPORT,
-      EEC.PERCENT_ENGLISH_LANGUAGE,
-      EEC.PERCENT_NOT_ENGLISH_LANGUAGE + EEC.PERCENT_UNCLASSIFY_LANGUAGE AS PERCENT_NOT_ENGLISH_LANGUAGE,
-      EEC.PERCENT_FREE_SCHOOL_MEALS,
-      EOR.RATING
-    FROM
-      PUBLIC.EDUCATION_ESTABLISHMENT_CHARACTERISTIC EEC,
-      PUBLIC.EDUCATION_RELIGIOUS_CHARACTER ERC,
-      PUBLIC.EDUCATION_ESTABLISHMENT EE,
-      PUBLIC.EDUCATION_OFSTED_REPORT EOR
-    WHERE
-      EEC.UNIQUE_REFERENCE_NUMBER = EE.UNIQUE_REFERENCE_NUMBER
-      AND EOR.UNIQUE_REFERENCE_NUMBER = EE.UNIQUE_REFERENCE_NUMBER
-      AND ERC.RELIGIOUS_CHARACTER_CODE = EE.RELIGIOUS_CHARACTER_CODE
-      AND EE.ESTABLISHMENT_TYPE_CODE NOT IN (14) -- PRU
-      AND EE.GENDER_TYPE NOT IN (9) -- unknown
-      AND EOR.RATING IN (
-        'Outstanding',
-        'Good',
-        'Requires improvement',
-        'Inadequate'
-      ) 
   </pre>
 </details>
          <div>
@@ -108,7 +63,6 @@
 https://github.com/wrm65/Capstone-Project-2024/blob//main/dataset/school_ofsted_rating.csv
            </p>
          </div>
-        </li>
       </ol>
     </div>
    <p>
