@@ -84,6 +84,18 @@
   
    <div>
 
+| Metric | Rating | Score |
+| --- | -- | --- |
+| **Accuracy score** | &nbsp; | 0.8599 |
+| **Mean squared error** | &nbsp; | 0.2094 |
+| **Recall score** | Outstanding | 0.1130 |
+| &nbsp; | Good | 0.9522 |
+| &nbsp; | Requires Improvement | 0 |
+| &nbsp; | Inadequate | 0.9963 |
+| **F1 score** | Outstanding | 0.1924 |
+| &nbsp; | Good | 0.8603 |
+| &nbsp; | Requires Improvement | 0 |
+| &nbsp; | Inadequate | 0.9743 |
 
    </div>
 
@@ -95,13 +107,16 @@
    <details>
   <summary><b>Importance of Features:</b></summary>
   
-
-   The image below show the importance of each feature to the model, when making the predictions.
+  <p>
+  
+   - The image below show the importance of each feature to the model, when making the predictions.
   
    <div>
     <img style="width:325px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/decision_tree_02.png">
    </div>
 
+  </p>
+  
    </details>
 
 
