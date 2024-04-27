@@ -48,6 +48,10 @@
 
 ## Performance
 
+   <details>
+  <summary>Database table: <b>Hyperparameter tuning:</b></summary>
+   </details>
+
 - **Hyperparameter tuning:** `max_leaf_nodes` - grow tree with maximum number of leaf nodes
 - **Method:** iteratively tune the `max_leaf_nodes` parameter by increasing in steps of `5`and find the best performing `max_leaf_nodes` setting
 
