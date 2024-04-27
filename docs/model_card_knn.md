@@ -1,10 +1,10 @@
-# Model Card - GradientBoostingClassifier for Ofsted School Grading Prediction
+# Model Card - KNeighborsClassifier for Ofsted School Grading Prediction
 
 
 ## Model Description
 
 - **Model Name:** Ofsted School Grading Predictor
-- **Model Type:** GradientBoostingClassifier
+- **Model Type:** KNeighborsClassifier
 - **Purpose:** This model is use to predict the likely grade that a school would receive on its next inspection by Ofsted based on various features and criteria. 
    <p>
     There are four Ofsted school gradings that can be classified:
@@ -18,10 +18,10 @@
 
 ## Model Architecture
 
-- **Algorithm:** GradientBoostingClassifier
-- **Learning Rate:** 0.5
-- **Maximum Depth:** 3 (default)
-- **Hyperparameter tuning:** `n_estimators` - number of boosting stages to perform
+- **Algorithm:** KNeighborsClassifier
+- **Weights:** Uniform (default)
+- **Distance Metric:** Euclidean distance (default)
+- **Hyperparameter tuning:** `n_neighbors` - number of neighbors to use by default for kneighbors
 - **Other Hyperparameter:** Default settings used for other hyperparameters.
 
 ## Training Data
@@ -55,16 +55,16 @@
    <details open>
   <summary><b>Hyperparameter tuning:</b></summary>
 
-- `n_estimators` - number of boosting stages to perform
+- `n_neighbors` - number of neighbors to use by default for kneighbors
 
-- **Method:** iteratively tune the `n_estimators` parameter by increasing in steps of `10`and find the best performing `n_estimators` setting
+- **Method:** iteratively tune the `n_neighbors` parameter by increasing in steps of `10`and find the best performing `n_neighbors` setting
 
-- The image below show the result of 10 iterations of the model. On each iteration the `n_estimators` hyperparameter is increased by `10`.
+- The image below show the result of 10 iterations of the model. On each iteration the `n_neighbors` hyperparameter is increased by `10`.
 
-- The best result is also shown with the `Best accuracy score: 0.8604` and the `Best Number of boosting stages: 20`
+- The best result is also shown with the `Best accuracy score: 0.8577` and the `Best Number of neighbors: 20`
 
    <div>
-    <img style="width:700px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/gradient_boosting_01.png">
+    <img style="width:700px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/knn_01.png">
    </div>
 
    </details>
@@ -83,40 +83,20 @@
 
        | Metric | Rating | Score |
        | --- | -- | --- |
-       | **Accuracy score** | &nbsp; | 0.8604 |
-       | **Mean squared error** | &nbsp; | 0.2062 |
-       | **Recall score** | Outstanding | 0.1483 |
-       | &nbsp; | Good | 0.9444 |
-       | &nbsp; | Requires Improvement | 0.0100 |
-       | &nbsp; | Inadequate | 0.9977 |
-       | **F1 score** | Outstanding | 0.2381 |
-       | &nbsp; | Good | 0.8600 |
-       | &nbsp; | Requires Improvement | 0.0190 |
-       | &nbsp; | Inadequate | 0.9762 |
+       | **Accuracy score** | &nbsp; | 0.8577 |
+       | **Mean squared error** | &nbsp; | 0.2117 |
+       | **Recall score** | Outstanding | 0.0904 |
+       | &nbsp; | Good | 0.9480 |
+       | &nbsp; | Requires Improvement | 0.9995 |
+       | &nbsp; | Inadequate | 0 |
+       | **F1 score** | Outstanding | 0.1548 |
+       | &nbsp; | Good | 0.8581 |
+       | &nbsp; | Requires Improvement | 0.9748 |
+       | &nbsp; | Inadequate | 0 |
 
      </div>
 
    </p>
-
-   </details>
-
-   <details>
-  <summary><b>Importance of Features:</b></summary>
-
-  <p>
-
-   - The image below show the importance of each feature to the model, when making the predictions.
-   <table>
-    <tr>
-      <td valign="top"> 
-      <img style="width:325px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/gradient_boosting_02.png">
-      </td>
-      <td valign="top"> 
-      <img style="width:500px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/gradient_boosting_03.png">
-      </td>
-     </tr>
-   </table>
-  </p>
 
    </details>
 

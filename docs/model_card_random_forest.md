@@ -32,7 +32,7 @@
 - **Preprocessing:** remove irrevlevant (8) columns, encode categorical variables (rating)
 - **Input:** For each school, nine features are provided for the model to be trained and predict its grading.
    <details>
-  <summary>Click to view these features</summary>
+  <summary>Click to view features</summary>
     <p>
     <ol type="1">
     <li>Gender Type - girls, boys, mixed</li>
