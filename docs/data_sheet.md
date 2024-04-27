@@ -50,8 +50,6 @@
       <ol start="4">
         <li><b>Map raw data columns to database table columns:</b> As a school instance in the raw dataset contained over 300 columns, this was significantly reduced to 20 columns. In addition, some of the column names were abbreviated and somewhat cryptic e.g. EHC, FSM, NUMEAL, therefore the columns were given more meaningful names.</li>
         <li><b>Saving to a PostgreSQL database:</b> The newly formatted school instances were stored into 2 database tables, <b><i>education_establishment</i></b>, <b><i>education_establishment_characteristic</i></b>. By using SQL, this approach allowed further validation and updating of the dataset to be completed in an easier and quicker manner.</li>
-    </div>
-    </ol>
         
    <details>
   <summary>Database table: <b><i>education_establishment</i></b> (click to view definition)</summary>
@@ -59,6 +57,9 @@
         
    </pre>
    </details>
+
+    </div>
+    </ol>
 
     <div>
       <ol start="6">
