@@ -32,10 +32,14 @@
     </ol>
 	<div>
 	
-| Missing Value |  Action taken |
-| --- | --- |
-| FIELD_NumberOfPupils | set to FIELD_NumberOfBoys + FIELD_NumberOfGirls |
-| FIELD_SchoolCapacity | set to FIELD_NumberOfPupils |
+   <div>
+   
+    | Missing Value |  Action taken |
+    | --- | --- |
+    | FIELD_NumberOfPupils | set to FIELD_NumberOfBoys + FIELD_NumberOfGirls |
+    | FIELD_SchoolCapacity | set to FIELD_NumberOfPupils |
+    
+   </div>
 
    <p>
 		<p>
@@ -174,9 +178,9 @@ WHERE
 - <b>Is the preprocessing software available?</b> The `PHP` script which performed a number of preprocessing tasks and saved the data to the database, is not available. However, all the software used is open source and has been specified above.
 
 - <i>Sample school instance data</i>
- <div>
-	<img style="width:500px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/gias_data_01.png">
- </div>
+   <div>
+	  <img style="width:500px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/gias_data_01.png">
+   </div>
  
 - [Click to view the entire school's GIAS details](https://www.get-information-schools.service.gov.uk/Establishments/Establishment/Details/148025)
 
