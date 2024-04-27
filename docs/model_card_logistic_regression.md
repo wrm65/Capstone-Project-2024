@@ -1,10 +1,10 @@
-# Model Card - RandomForestClassifier for Ofsted School Grading Prediction
+# Model Card - LogisticRegressionClassifier for Ofsted School Grading Prediction
 
 
 ## Model Description
 
 - **Model Name:** Ofsted School Grading Predictor
-- **Model Type:** RandomForestClassifier
+- **Model Type:** LogisticRegressionClassifier
 - **Purpose:** This model is use to predict the likely grade that a school would receive on its next inspection by Ofsted based on various features and criteria. 
    <p>
 		There are four Ofsted school gradings that can be classified:
@@ -18,10 +18,11 @@
 
 ## Model Architecture
 
-- **Algorithm:** RandomForestClassifier
-- **Number of Trees:** maximum of 500
-- **Criterion:** Gini impurity
-- **Maximum Depth:** None (default)
+- **Algorithm:** LogisticRegression
+- **Maximum Iterations:** Maximum number of iterations taken for the solvers to converge set to 500
+- **multi_class:** Maximum number of iterations taken for the solvers to converge set to 500
+- **Regularization:** L2 regularization (default)
+- **Solver:** lbfgs (default)
 - **Other Hyperparameter:** Default settings used for other hyperparameters.
 
 ## Training Data
@@ -55,18 +56,10 @@
    <details open>
   <summary><b>Hyperparameter tuning:</b></summary>
 
-- `n_estimators` - number of trees in the forest
+- `max_iter` - Maximum number of iterations taken for the solvers to converge set to `500`
 
-- **Method:** iteratively tune the `n_estimators` parameter by increasing in steps of `50`and find the best performing `n_estimators` setting
+- `multi_class` - the loss minimised is the multinomial loss fit across the entire probability distribution set to `multinomial`
 
-- The image below show the result of 10 iterations of the model. On each iteration the `n_estimators` hyperparameter is increased by `50`.
-
-- The best result is also shown with the `Best accuracy score: 0.8560` and the `Best estimators: 350`
-
-   <div>
-    <img style="width:700px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/random_forest_01.png">
-   </div>
-	 
    </details>
    </div>
 
@@ -83,16 +76,16 @@
 
        | Metric | Rating | Score |
        | --- | -- | --- |
-       | **Accuracy score** | &nbsp; | 0.8560 |
-       | **Mean squared error** | &nbsp; | 0.2026 |
-       | **Recall score** | Outstanding | 0.1169 |
-       | &nbsp; | Good | 0.9428 |
-       | &nbsp; | Requires Improvement | 0.0067 |
-       | &nbsp; | Inadequate | 0.9952 |
-       | **F1 score** | Outstanding | 0.1862 |
-       | &nbsp; | Good | 0.8553 |
-       | &nbsp; | Requires Improvement | 0.0125 |
-       | &nbsp; | Inadequate | 0.9791 |
+       | **Accuracy score** | &nbsp; | 0.8557 |
+       | **Mean squared error** | &nbsp; | 0.2178 |
+       | **Recall score** | Outstanding | 0.0353 |
+       | &nbsp; | Good | 0.9532 |
+       | &nbsp; | Requires Improvement | 0.9998 |
+       | &nbsp; | Inadequate | 0 |
+       | **F1 score** | Outstanding | 0.0665 |
+       | &nbsp; | Good | 0.8574 |
+       | &nbsp; | Requires Improvement | 0.9728 |
+       | &nbsp; | Inadequate | 0 |
 
      </div>
 
@@ -108,38 +101,10 @@
    - The image below show the importance of each feature to the model, when making the predictions.
 
      <div>
-      <img style="width:325px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/random_forest_02.png">
+      <img style="width:325px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/logistic_regression_02.png">
      </div>
 
   </p>
 
    </details>
-
-   <details>
-  <summary><b>Classification Report:</b></summary>
-
-  <p>
-
-   - The image below show the classification report which provides a comprehensive overview of various evaluation metrics for each class in the dataset, including precision, recall, F1-score, and support.
-
-     <div>
-      <img style="width:500px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/random_forest_03.png">
-     </div>
-
-  </p>
-
-   </details>
-
-## Use Case
-
-- This model is provided for research, educational, and non-commercial purposes <b><u>only</u></b>.
-
-## Version History
-
-- **v1.0:**  Initial release (April 2024)
-
-## References
-
-- **Ofsted:** https://www.gov.uk/government/organisations/ofsted
-
 

@@ -58,7 +58,7 @@
 
 - **Method:** iteratively tune the `max_leaf_nodes` parameter by increasing in steps of `5`and find the best performing `max_leaf_nodes` setting
 
-- The image below show the result of 10 iterations of the model. On each iteration the `max_leaf_nodes` hyperparameter is increased by 5.
+- The image below show the result of 10 iterations of the model. On each iteration the `max_leaf_nodes` hyperparameter is increased by `5`.
 
 - The best result is also shown with the `Best accuracy score: 0.8599` and the `Best maximum leaf nodes: 35`
 
