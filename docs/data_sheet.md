@@ -55,6 +55,12 @@
    
    <div>
   
+<details>
+  <summary>SQL Statement: <b><i>retrieve school details</i></b> (click to view statement)</summary>
+  <pre>
+  </pre>
+</details>
+
     <div>
       The final OIS dataset is provided in a CSV format at the following link:
     </div>
