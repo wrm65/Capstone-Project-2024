@@ -104,8 +104,6 @@
    </details>
    </div>
 
-
-   <div>
    <details>
   <summary><b>Importance of Features:</b></summary>
   
@@ -116,9 +114,7 @@
    </div>
 
    </details>
-   </div>
 
-   <div>
    <details>
   <summary><b>Decision Tree Leaf Summary:</b></summary>
 
