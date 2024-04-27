@@ -55,9 +55,9 @@
 
    The best result is also shown with the `Best accuracy score: 0.8599` and the `Best maximum leaf nodes: 35`
 
- <div>
-	<img style="width:700px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/decision_tree_01.png">
- </div>
+   <div>
+    <img style="width:700px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/decision_tree_01.png">
+   </div>
 
 ---
 

@@ -56,4 +56,10 @@
 
    The best result is also shown with the `Best accuracy score: 0.8560` and the `Best estimators: 350`
 
+   <div>
+    <img style="width:700px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/random_forest_01.png">
+   </div>
+
+---
+
 
