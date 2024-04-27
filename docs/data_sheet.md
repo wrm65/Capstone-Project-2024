@@ -59,12 +59,12 @@
    
     <p>
    
-         <div>
-            The final OIS dataset is provided in a CSV format at the following link:
-           <p>
+    <div>
+      The final OIS dataset is provided in a CSV format at the following link:
+      <p>
 https://github.com/wrm65/Capstone-Project-2024/blob//main/dataset/school_ofsted_rating.csv
-           </p>
-         </div>
+      </p>
+    </div>
     </p>
     </ol>
     </div>
