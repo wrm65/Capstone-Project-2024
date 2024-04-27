@@ -34,14 +34,18 @@
 	
    <div>
    
-    <p>
+    <div>
    
-    | Missing Value |  Action taken |
-    | --- | --- |
-    | FIELD_NumberOfPupils | set to FIELD_NumberOfBoys + FIELD_NumberOfGirls |
-    | FIELD_SchoolCapacity | set to FIELD_NumberOfPupils |
-    
-    </p>
+     <p>
+     
+      | Missing Value |  Action taken |
+      | --- | --- |
+      | FIELD_NumberOfPupils | set to FIELD_NumberOfBoys + FIELD_NumberOfGirls |
+      | FIELD_SchoolCapacity | set to FIELD_NumberOfPupils |
+      
+     </p>
+
+    </div>
 
    </div>
 
