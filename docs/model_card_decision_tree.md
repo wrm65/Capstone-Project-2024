@@ -2,11 +2,11 @@
 
 ## Model Description
 
-- **Name:** Ofsted School Grading Model
+- **Model Name:** Ofsted School Grading Predictor
 
-- **Version:** 1.0
+- **Model Type:** DecisionTreeClassifier
 
-- **Usage:** This model is use to predict the likely grade that a school would receive on its next inspection by [Ofsted](https://www.gov.uk/government/organisations/ofsted). 
+- **Purpose:** This model is use to predict the likely grade that a school would receive on its next inspection by [Ofsted](https://www.gov.uk/government/organisations/ofsted). 
    <p>
 		There are four Ofsted school gradings that can be classified:
     <ol type="1">
@@ -17,6 +17,18 @@
     </ol>
    </p>
 
+## Model Architecture
+
+- **Algorithm:** DecisionTreeClassifier
+- **Maximum Depth:** Tree depth set to 8
+- **Hyperparameter:** Maximum number of leaf nodes
+
+
+## Training Data
+
+- **Dataset:** Ofsted Inspected School [OIS] Dataset
+- **Data Size:** 20,571 school records
+- **Preprocessing:** remove irrevlevant (8) columns, encode categorical variables (rating)
 - **Input:** For each school, nine features are provided for the model to be trained and predict its grading.
    <p>
     These features are listed below.
@@ -33,16 +45,7 @@
     </ol>
    </p>
 
-
 - **Output:** The model outputs one of the four Ofsted school grading.
-
-- **Model Architecture:** Decision Tree Classifier with a maximum tree depth set to 8.
-
-## Training Data
-
-- **Dataset:** Ofsted Inspected School [OIS] Dataset
-- **Data Size:** 20,571 school records
-- **Preprocessing:** remove irrevlevant (8) columns, encode categorical variables (rating)
 
 ## Performance
 
@@ -62,7 +65,7 @@
 
 - **Metrics:** `accuracy score` `recall score` `f1 score` `mean squared error`
 
-   The table below show the metric scores obtained for each classification (rating).
+   The table below show the metric scores obtained for each classification (grading).
 	
 | Metric | Rating | Score |
 | --- | -- | --- |
