@@ -99,16 +99,16 @@
   <p>
 
    - The image below show the importance of each feature to the model, when making the predictions.
-     <div style="display:flex">
-       <div style="float:left">
+   <table>
+    <tr>
+      <td valign="top"> 
         <img style="width:325px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/logistic_regression_02.png">
-       </div>
-
-       <div style="float:right">
+      </td>
+      <td valign="top"> 
         <img style="width:500px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/logistic_regression_03.png">
-       </div>
-     </div>
-
+      </td>
+     </tr>
+   </table>
   </p>
 
    </details>
