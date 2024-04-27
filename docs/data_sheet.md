@@ -53,7 +53,7 @@
         </li>
         <li><b>Exporting from the database:</b> An SQL Query Statement was used to <i>join</i> the data from both tables to create the dataset. The resultant data was exported directly into a CSV format.</li>
    
-  <div>
+   <div>
   
     <div>
    
@@ -71,8 +71,9 @@ https://github.com/wrm65/Capstone-Project-2024/blob//main/dataset/school_ofsted_
            </p>
          </div>
     </p>
+    </ol>
     </div>
-  </div>
+   </div>
     
   - <b>Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)?</b> The raw unprocessed data is saved in its `CSV` format.
 - <b>Is the preprocessing software available?</b> The `PHP` script which performed a number of preprocessing tasks and saved the data to the database, is not available. However, all the software used is open source and has been specified above.
