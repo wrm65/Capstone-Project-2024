@@ -53,6 +53,8 @@
    <details>
   <summary><b>Hyperparameter tuning:</b></summary>
 
+   <div>
+   
 `max_leaf_nodes` - grow tree with maximum number of leaf nodes
 - **Method:** iteratively tune the `max_leaf_nodes` parameter by increasing in steps of `5`and find the best performing `max_leaf_nodes` setting
 
@@ -64,6 +66,8 @@
     <img style="width:700px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/decision_tree_01.png">
    </div>
 
+   </div>
+   
    </details>
 
    <details>
