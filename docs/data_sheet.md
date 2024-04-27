@@ -17,7 +17,7 @@
 ## Collection process
 
 - <b>How was the data acquired?</b> The dataset is created from the UK Government website [Get Information about Schools](https://www.get-information-schools.service.gov.uk/). The `OIS` dataset is created from the online register provided by the Department of Education.
-- <b>If the data is a sample of a larger subset, what was the sampling strategy?</b> The school register contains a list of all the state-funded schools. The `OIS` dataset is a subset of schools which are classed as `Primary` school. These are schools with pupils between the ages of 4 - 11.
+- <b>If the data is a sample of a larger subset, what was the sampling strategy?</b> The school register contains a list of all the state-funded schools. The `OIS` dataset is a subset of schools which are classed as `Primary` school. These are schools with pupils between the ages of 4 to 11.
 - <b>Over what time frame was the data collected?</b> As the school data is updated daily and can be filtered from the `Department of Education's School Register`, an "on-demand" service is provided and the dataset is created as and when required. i.e. the data is the most-up-to-date and is collected on the day it is requested.
 
 ## Preprocessing/cleaning/labelling
