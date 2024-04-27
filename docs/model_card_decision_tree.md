@@ -75,14 +75,14 @@
    <details>
   <summary><b>Metrics:</b></summary>
 
-  <p>
+   <p>
   
    - `accuracy score` `recall score` `f1 score` `mean squared error`
 
    - The table below show the metric scores obtained for each classification (grading).
    </p>
   
-   <div>
+   <p>
 
    | Metric | Rating | Score |
    | --- | -- | --- |
@@ -97,7 +97,6 @@
    | &nbsp; | Requires Improvement | 0 |
    | &nbsp; | Inadequate | 0.9743 |
 
-   </div>
    </p>
 
    </details>
