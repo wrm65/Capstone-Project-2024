@@ -21,7 +21,8 @@
 - **Algorithm:** DecisionTreeClassifier
 - **Criterion:** Gini impurity
 - **Maximum Depth:** Tree depth set to 8
-- **Hyperparameter:** Maximum number of leaf nodes
+- **Hyperparameter tuning:** `max_leaf_nodes` - maximum number of leaf nodes
+- **Other Hyperparameter:** Default settings used for other hyperparameters.
 
 ## Training Data
 
