@@ -58,6 +58,13 @@
    </pre>
    </details>
 
+   <details>
+  <summary>Database table: <b><i>education_establishment_characteristic</i></b> (click to view definition)</summary>
+   <pre>
+        
+   </pre>
+   </details>
+
     </div>
     </ol>
 
