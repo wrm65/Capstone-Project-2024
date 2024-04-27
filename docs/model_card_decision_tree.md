@@ -76,9 +76,9 @@
   <summary><b>Metrics:</b></summary>
 
   <p>
-- `accuracy score` `recall score` `f1 score` `mean squared error`
+   - `accuracy score` `recall score` `f1 score` `mean squared error`
 
-The table below show the metric scores obtained for each classification (grading).
+   - The table below show the metric scores obtained for each classification (grading).
   </p>
   
    <div>
