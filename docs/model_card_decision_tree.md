@@ -24,7 +24,7 @@
 
 ## Training Data
 
-- **Source:** Ofsted Inspected School [OIS] Dataset
+- **Source:** Ofsted Inspected School Dataset
 - **Data Size:** 20,571 school records
 - **Preprocessing:** remove irrevlevant (8) columns, encode categorical variables (rating)
 - **Input:** For each school, nine features are provided for the model to be trained and predict its grading.
@@ -47,7 +47,7 @@
 
 ## Performance
 
-- **Hyperparameter tuning:** `max_depth` - maximum depth of the tree `max_leaf_nodes` - grow tree with maximum number of leaf nodes
+- **Hyperparameter tuning:** `max_leaf_nodes` - grow tree with maximum number of leaf nodes
 - **Method:** iteratively tune the `max_leaf_nodes` parameter by increasing in steps of `5`and find the best performing `max_leaf_nodes` setting
 
    The image below show the result of 10 iterations of the model. On each iteration the `max_leaf_nodes` hyperparameter is increased by 5.
@@ -81,7 +81,7 @@
 
 - **Importance of Features:** 
 
-   The image below show the importance of each feature to the model, when it is making its predictions.
+   The image below show the importance of each feature to the model, when making the predictions.
 	
  <div>
 	<img style="width:325px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/decision_tree_02.png">
@@ -91,7 +91,7 @@
 
 - **Decision Tree Leaf Summary:**
 
-   With the maximum tree depth set to 8, the model produced 35 leaf nodes. The image below show the classification breakdown for the 35 leaf nodes.
+   With the maximum tree depth set to 8, the model produced 35 leaf nodes. The image below show the classification prediction for the 35 leaf nodes.
 
  <div>
 	<img style="width:250px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/decision_tree_03.png">
