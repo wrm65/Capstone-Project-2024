@@ -90,6 +90,7 @@
 
 ## Limitations
 
+<p>
 	<div>
     There are two direct limitations in the model:
     <ul>
@@ -97,6 +98,8 @@
     <li><b>Leaf Nodes:</b> the maximum leaf nodes is 50</li>
     </ul>
 	<div>
+</p>
+
 
 ## Version History
 
