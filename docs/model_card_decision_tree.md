@@ -78,7 +78,8 @@
 
    - The table below show the metric scores obtained for each classification (grading).
 
-     <div>
+   <div>
+
    | Metric | Rating | Score |
    | --- | -- | --- |
    | **Accuracy score** | &nbsp; | 0.8599 |
@@ -91,7 +92,8 @@
    | &nbsp; | Good | 0.8603 |
    | &nbsp; | Requires Improvement | 0 |
    | &nbsp; | Inadequate | 0.9743 |
-     </div>
+
+   </div>
 
    </p>
 
