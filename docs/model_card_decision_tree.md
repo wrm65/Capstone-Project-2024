@@ -50,6 +50,7 @@
 
 ## Performance
 
+   <div>
    <details>
   <summary><b>Hyperparameter tuning:</b></summary>
   
@@ -68,7 +69,9 @@
    </div>
    
    </details>
+   </div>
 
+   <div>
    <details>
   <summary><b>Metrics:</b></summary>
 
@@ -82,6 +85,7 @@ The table below show the metric scores obtained for each classification (grading
    </div>
 
    </details>
+   </div>
 
 - **Importance of Features:** 
 
