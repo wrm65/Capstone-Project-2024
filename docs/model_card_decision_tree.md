@@ -107,9 +107,9 @@
     <li><b>Tree depth:</b> the tree depth is set to a maximum of 8</li>
     <li><b>Leaf Nodes:</b> the maximum leaf nodes is 50</li>
     </ul>
-		
+  <div>
 		This limitation was implemented to control the complexity of the model and improve both its interpretability and the examination of the tree structure to understand the decision rules used for classification.
-
+  </div>
 	<div>
 </p>
 
