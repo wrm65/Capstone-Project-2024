@@ -66,8 +66,6 @@
     <img style="width:700px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/decision_tree_01.png">
    </div>
 
-   </div>
-   
    </details>
    </div>
 
