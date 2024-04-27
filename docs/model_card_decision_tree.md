@@ -90,11 +90,13 @@
 
 ## Limitations
 
-Outline the limitations of your model.
-
-## Trade-offs
-
-Outline any trade-offs of your model, such as any circumstances where the model exhibits performance issues. 
+	<div>
+    There are two direct limitations in the model:
+    <ul>
+    <li><b>Tree depth:</b> the tree depth is set to a maximum of 8</li>
+    <li><b>Leaf Nodes:</b> the maximum leaf nodes is 50</li>
+    </ul>
+	<div>
 
 ## Version History
 
