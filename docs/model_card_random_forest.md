@@ -22,6 +22,7 @@
 - **Number of Trees:** maximum of 500
 - **Criterion:** Gini impurity
 - **Maximum Depth:** None (default)
+- **Hyperparameter tuning:** `n_estimators` - number of trees in the forest
 - **Other Hyperparameter:** Default settings used for other hyperparameters.
 
 ## Training Data
