@@ -49,10 +49,9 @@
 ## Performance
 
    <details>
-  <summary>Database table: <b>Hyperparameter tuning:</b></summary>
-   </details>
+  <summary><b>Hyperparameter tuning:</b></summary>
 
-- **Hyperparameter tuning:** `max_leaf_nodes` - grow tree with maximum number of leaf nodes
+- `max_leaf_nodes` - grow tree with maximum number of leaf nodes
 - **Method:** iteratively tune the `max_leaf_nodes` parameter by increasing in steps of `5`and find the best performing `max_leaf_nodes` setting
 
    The image below show the result of 10 iterations of the model. On each iteration the `max_leaf_nodes` hyperparameter is increased by 5.
@@ -63,7 +62,7 @@
     <img style="width:700px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/decision_tree_01.png">
    </div>
 
----
+   </details>
 
 - **Metrics:** `accuracy score` `recall score` `f1 score` `mean squared error`
 
