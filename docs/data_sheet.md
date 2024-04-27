@@ -30,6 +30,9 @@
       <li><b>Creating a PHP script:</b> A script was developed to process and clean the dataset.</li>
       <li><b>Correct missing data:</b> Each school instance was validated for missing information. The list of missing data and action taken is shown below.</li>
     </ol>
+    
+   <div>
+   
       <div>
    
         | Missing Value |  Action taken |
@@ -38,6 +41,8 @@
         | FIELD_SchoolCapacity | set to FIELD_NumberOfPupils |
     
       </div>
+
+   </div>
 
    <p>
     <p>
