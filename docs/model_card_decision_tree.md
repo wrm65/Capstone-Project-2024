@@ -53,9 +53,7 @@
    <details>
   <summary><b>Hyperparameter tuning:</b></summary>
   
-<p>
-   `max_leaf_nodes` - grow tree with maximum number of leaf nodes
-</p>
+- `max_leaf_nodes` - grow tree with maximum number of leaf nodes
    
 - **Method:** iteratively tune the `max_leaf_nodes` parameter by increasing in steps of `5`and find the best performing `max_leaf_nodes` setting
 
