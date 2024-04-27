@@ -51,7 +51,7 @@
 ## Performance
 
    <div>
-   <details>
+   <details open>
   <summary><b>Hyperparameter tuning:</b></summary>
 
 - `max_leaf_nodes` - grow tree with maximum number of leaf nodes
@@ -69,7 +69,7 @@
    </details>
    </div>
 
-   <details>
+   <details open>
   <summary><b>Metrics:</b></summary>
 
    <p>
