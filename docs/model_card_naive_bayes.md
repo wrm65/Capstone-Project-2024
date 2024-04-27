@@ -61,7 +61,7 @@
        | **Mean squared error** | &nbsp; | 0.2343 |
        | **Recall score** | Outstanding | 0.1749 |
        | &nbsp; | Good | 0.9050 |
-       | &nbsp; | Requires Improvement | 0.01331 |
+       | &nbsp; | Requires Improvement | 0.0133 |
        | &nbsp; | Inadequate | 1.0 |
        | **F1 score** | Outstanding | 0.2396 |
        | &nbsp; | Good | 0.8447 |
