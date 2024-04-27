@@ -1,10 +1,9 @@
 # Model Card - RandomForestClassifier for Ofsted School Grading Prediction
 
-See the [example Google model cards](https://modelcards.withgoogle.com/model-reports) for inspiration. 
 
 ## Model Description
 
-*- **Model Name:** Ofsted School Grading Predictor
+- **Model Name:** Ofsted School Grading Predictor
 - **Model Type:** RandomForestClassifier
 - **Purpose:** This model is use to predict the likely grade that a school would receive on its next inspection by Ofsted based on various features and criteria. 
    <p>
