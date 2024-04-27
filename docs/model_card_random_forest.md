@@ -115,6 +115,21 @@
 
    </details>
 
+   <details>
+  <summary><b>Classification Report:</b></summary>
+
+  <p>
+
+   - The image below show the classification report which provides a comprehensive overview of various evaluation metrics for each class in the dataset, including precision, recall, F1-score, and support.
+
+     <div>
+      <img style="width:250px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/random_forest_03.png">
+     </div>
+
+  </p>
+
+   </details>
+
 
 
 
