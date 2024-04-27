@@ -40,9 +40,9 @@
 
 - **Method:** iteratively tune the `max_leaf_nodes` parameter by increasing in steps of `5`and find the best performing `max_leaf_nodes` setting
 
-The image below show the result of 10 iterations of the model. On each iteration the `max_leaf_nodes` hyperparameter is increased by 5.
+> The image below show the result of 10 iterations of the model. On each iteration the `max_leaf_nodes` hyperparameter is increased by 5.
 
-The best result is also shown with the `Best accuracy score: 0.8599` and the `Best maximum leaf nodes: 35`
+> The best result is also shown with the `Best accuracy score: 0.8599` and the `Best maximum leaf nodes: 35`
 
  <div>
 	<img style="width:700px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/decision_tree_01.png">
@@ -52,7 +52,7 @@ The best result is also shown with the `Best accuracy score: 0.8599` and the `Be
 
 - **Metrics:** `accuracy score` `recall score` `f1 score` `mean squared error`
 
-The table below show the metric scores obtained for each classification (rating).
+> The table below show the metric scores obtained for each classification (rating).
 	
 | Metric | Rating | Score |
 | --- | -- | --- |
@@ -71,7 +71,7 @@ The table below show the metric scores obtained for each classification (rating)
 
 - **Importance of Features:** 
 
-The image below show the importance of each feature to the model, when it is making its predictions.
+> The image below show the importance of each feature to the model, when it is making its predictions.
 	
  <div>
 	<img style="width:325px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/decision_tree_02.png">
@@ -81,7 +81,7 @@ The image below show the importance of each feature to the model, when it is mak
 
 - **Decision Tree Leaf Summary:**
 
-With the maximum tree depth set to 8, the model produced 35 leaf nodes. The image below show the classification breakdown for the 35 leaf nodes.
+> With the maximum tree depth set to 8, the model produced 35 leaf nodes. The image below show the classification breakdown for the 35 leaf nodes.
 
  <div>
 	<img style="width:250px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/decision_tree_03.png">
