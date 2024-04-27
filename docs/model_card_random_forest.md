@@ -30,36 +30,91 @@
 - **Data Size:** 20,571 school records
 - **Preprocessing:** remove irrevlevant (8) columns, encode categorical variables (rating)
 - **Input:** For each school, nine features are provided for the model to be trained and predict its grading.
-   <p>
-    These features are listed below.
+   <details>
+  <summary>Click to view these features</summary>
+    <p>
     <ol type="1">
-		<li>Gender Type - girls, boys, mixed</li>
-		<li>Religious Ethos - Church of England, Roman Catholic, Other religion and non-faith</li>
-		<li>Percentage of Pupils who are Boys</li>
-		<li>Percentage of Pupils who are Girls</li>
-		<li>Percentage of Pupils who have Enhance Health Care plan</li>
-		<li>Percentage of Pupils who have Special Education Needs</li>
-		<li>Percentage of Pupils who receive Free School Meals</li>
-		<li>Percentage of Pupils who first language is English</li>
-		<li>Percentage of Pupils who first language is not English</li>
+    <li>Gender Type - girls, boys, mixed</li>
+    <li>Religious Ethos - Church of England, Roman Catholic, Other religion and non-faith</li>
+    <li>Percentage of Pupils who are Boys</li>
+    <li>Percentage of Pupils who are Girls</li>
+    <li>Percentage of Pupils who have Enhance Health Care plan</li>
+    <li>Percentage of Pupils who have Special Education Needs</li>
+    <li>Percentage of Pupils who receive Free School Meals</li>
+    <li>Percentage of Pupils who first language is English</li>
+    <li>Percentage of Pupils who first language is not English</li>
     </ol>
-   </p>
+    </p>
+   </details>
 
 - **Output:** The model outputs one of the four Ofsted school grading.
 
 ## Performance
 
-- **Hyperparameter tuning:** `n_estimators` - grow tree with maximum number of leaf nodes
+   <div>
+   <details open>
+  <summary><b>Hyperparameter tuning:</b></summary>
+
+- `n_estimators` - number of trees in the forest
+
 - **Method:** iteratively tune the `n_estimators` parameter by increasing in steps of `50`and find the best performing `n_estimators` setting
 
-   The image below show the result of 10 iterations of the model. On each iteration the `n_estimators` hyperparameter is increased by 50.
+- The image below show the result of 10 iterations of the model. On each iteration the `n_estimators` hyperparameter is increased by 50.
 
-   The best result is also shown with the `Best accuracy score: 0.8560` and the `Best estimators: 350`
+- The best result is also shown with the `Best accuracy score: 0.8560` and the `Best estimators: 350`
 
    <div>
     <img style="width:700px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/random_forest_01.png">
    </div>
 	 
----
+   </details>
+   </div>
+
+   <details open>
+  <summary><b>Metrics:</b></summary>
+
+   <p>
+
+   - `accuracy score` `recall score` `f1 score` `mean squared error`
+
+   - The table below show the metric scores obtained for each classification (grading).
+
+     <div>
+
+       | Metric | Rating | Score |
+       | --- | -- | --- |
+       | **Accuracy score** | &nbsp; | 0.8560 |
+       | **Mean squared error** | &nbsp; | 0.2026 |
+       | **Recall score** | Outstanding | 0.1169 |
+       | &nbsp; | Good | 0.9428 |
+       | &nbsp; | Requires Improvement | 0.0067 |
+       | &nbsp; | Inadequate | 0.9952 |
+       | **F1 score** | Outstanding | 0.1862 |
+       | &nbsp; | Good | 0.8553 |
+       | &nbsp; | Requires Improvement | 0.0125 |
+       | &nbsp; | Inadequate | 0.9791 |
+
+     </div>
+
+   </p>
+
+   </details>
+
+   <details>
+  <summary><b>Importance of Features:</b></summary>
+
+  <p>
+
+   - The image below show the importance of each feature to the model, when making the predictions.
+
+     <div>
+      <img style="width:325px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/random_forest_02.png">
+     </div>
+
+  </p>
+
+   </details>
+
+
 
 
