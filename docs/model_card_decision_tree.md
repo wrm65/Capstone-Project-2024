@@ -82,7 +82,9 @@
    - The table below show the metric scores obtained for each classification (grading).
    </p>
   
-   <p>
+  <div>
+  
+    <p>
 
    | Metric | Rating | Score |
    | --- | -- | --- |
@@ -98,6 +100,8 @@
    | &nbsp; | Inadequate | 0.9743 |
 
    </p>
+
+  </div>
 
    </details>
    </div>
