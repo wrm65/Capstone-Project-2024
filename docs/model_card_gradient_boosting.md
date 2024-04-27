@@ -51,3 +51,19 @@
 
 ## Performance
 
+   <div>
+   <details open>
+  <summary><b>Hyperparameter tuning:</b></summary>
+
+- `n_estimators` - grow tree with maximum number of leaf nodes
+
+- **Method:** iteratively tune the `n_estimators` parameter by increasing in steps of `10`and find the best performing `n_estimators` setting
+
+- The image below show the result of 10 iterations of the model. On each iteration the `n_estimators` hyperparameter is increased by `10`.
+
+- The best result is also shown with the `Best accuracy score: 0.8604` and the `Best Number of boosting stages: 20`
+
+   <div>
+    <img style="width:700px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/gradient_boosting_01.png">
+   </div>
+
