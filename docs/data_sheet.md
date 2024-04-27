@@ -54,6 +54,38 @@
    <details>
   <summary>Database table: <b><i>education_establishment</i></b> (click to view definition)</summary>
    <pre>
+    CREATE TABLE education_establishment
+    (
+        unique_reference_number bigint NOT NULL,
+        establishment_number integer NOT NULL,
+        authority_code integer NOT NULL,
+        administrative_code character varying(50) NOT NULL,
+        uk_prn character varying(20) NOT NULL,
+        establishment_name text NOT NULL,
+        establishment_type_code integer NOT NULL,
+        statutory_highest_age integer NOT NULL,
+        statutory_lowest_age integer NOT NULL,
+        sixth_form_exist boolean NOT NULL,
+        school_capacity integer NOT NULL,
+        pupil_number integer NOT NULL,
+        pupil_boys integer NOT NULL,
+        pupil_girls integer NOT NULL,
+        free_school_meals integer NOT NULL,
+        free_school_meals_percentage numeric(5,2) NOT NULL,
+        education_phase character varying(80) NOT NULL,
+        gender_type integer NOT NULL,
+        religious_character_code integer NOT NULL,
+        admissions_policy character varying(50) NOT NULL,
+        establishment_status character varying(50) NOT NULL,
+        opened_reason character varying(50) NOT NULL,
+        opening_date date NOT NULL,
+        app_image_group integer NOT NULL,
+        active_detail boolean NOT NULL,
+        created_local_date timestamp with time zone NOT NULL,
+        created_date timestamp with time zone NOT NULL,
+        created_by integer NOT NULL,
+        CONSTRAINT education_establishment_pkey PRIMARY KEY (unique_reference_number)
+    )
         
    </pre>
    </details>
@@ -61,6 +93,32 @@
    <details>
   <summary>Database table: <b><i>education_establishment_characteristic</i></b> (click to view definition)</summary>
    <pre>
+    CREATE TABLE education_establishment_characteristic
+    (
+        unique_reference_number bigint NOT NULL,
+        pupil_number integer NOT NULL,
+        pupil_boys integer NOT NULL,
+        pupil_girls integer NOT NULL,
+        pupil_ehc_plan integer NOT NULL,
+        pupil_sen_support integer NOT NULL,
+        pupil_english_language integer NOT NULL,
+        pupil_not_english_language integer NOT NULL,
+        pupil_unclassify_language integer NOT NULL,
+        pupil_free_school_meals integer NOT NULL,
+        percent_pupil_boys numeric(5,2) NOT NULL,
+        percent_pupil_girls numeric(5,2) NOT NULL,
+        percent_ehc_plan numeric(5,2) NOT NULL,
+        percent_sen_support numeric(5,2) NOT NULL,
+        percent_english_language numeric(5,2) NOT NULL,
+        percent_not_english_language numeric(5,2) NOT NULL,
+        percent_unclassify_language numeric(5,2) NOT NULL,
+        percent_free_school_meals numeric(5,2) NOT NULL,
+        active_detail boolean NOT NULL,
+        created_local_date timestamp with time zone NOT NULL,
+        created_date timestamp with time zone NOT NULL,
+        created_by integer NOT NULL,
+        CONSTRAINT education_establishment_characteristic_pkey PRIMARY KEY (unique_reference_number)
+    )
         
    </pre>
    </details>
