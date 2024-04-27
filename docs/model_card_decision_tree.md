@@ -9,10 +9,12 @@
 - **Usage:** This model is use to predict the likely grade that a school would receive on its next inspection by [Ofsted](https://www.gov.uk/government/organisations/ofsted). 
    <p>
 		There are four Ofsted school gradings that can be classified:
-		1. Outstanding
-		2. Good
-		3. Requires Improvement
-		4. Inadequate
+    <ol>
+		<li>Outstanding</li>
+		<li>Good</li>
+		<li>Requires Improvement</li>
+		<li>Inadequate</li>
+    </ol>
    </p>
 
 - **Input:** For each school, nine features are provided for the model to be trained and predict its grading. These features are listed below.
