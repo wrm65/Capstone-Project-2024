@@ -48,7 +48,6 @@
 ## Performance
 
 - **Hyperparameter tuning:** `max_depth` - maximum depth of the tree `max_leaf_nodes` - grow tree with maximum number of leaf nodes
-
 - **Method:** iteratively tune the `max_leaf_nodes` parameter by increasing in steps of `5`and find the best performing `max_leaf_nodes` setting
 
    The image below show the result of 10 iterations of the model. On each iteration the `max_leaf_nodes` hyperparameter is increased by 5.
@@ -67,13 +66,13 @@
 	
 | Metric | Rating | Score |
 | --- | -- | --- |
-| Accuracy score | &nbsp; | 0.8599 |
-| Mean squared error | &nbsp; | 0.2094 |
-| Recall score | Outstanding | 0.1130 |
+| **Accuracy score** | &nbsp; | 0.8599 |
+| **Mean squared error** | &nbsp; | 0.2094 |
+| **Recall score** | Outstanding | 0.1130 |
 | &nbsp; | Good | 0.9522 |
 | &nbsp; | Requires Improvement | 0 |
 | &nbsp; | Inadequate | 0.9963 |
-| F1 score | Outstanding | 0.1924 |
+| **F1 score** | Outstanding | 0.1924 |
 | &nbsp; | Good | 0.8603 |
 | &nbsp; | Requires Improvement | 0 |
 | &nbsp; | Inadequate | 0.9743 |
@@ -117,7 +116,7 @@
 
 - When using machine learning models to predict Ofsted school grading or any other educational outcome, it's crucial to consider several ethical considerations to ensure fairness, transparency, and accountability.
 
-- Decision trees are highly interpretable models, making it easy to understand and explain how predictions are made. The decision rules learned by the model can be visualized as a tree structure, allowing stakeholders to see the sequence of criteria used to classify schools into different grades.
+- Decision trees are highly interpretable models, making it easy to understand and explain how predictions are made. The decision rules learned by the model can be visualised as a tree structure, allowing stakeholders to see the sequence of criteria used to classify schools into different grades.
 
 ## Use Case
 
