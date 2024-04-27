@@ -126,11 +126,14 @@
    - With the maximum tree depth set to 8, the model produced 35 leaf nodes. The image below show the classification prediction for the 35 leaf nodes.
    </p>
   
+  <div>
+
    <p>
   
     <img style="width:250px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/decision_tree_03.png">
       
    </p>
+  </div>
 
    </details>
 
