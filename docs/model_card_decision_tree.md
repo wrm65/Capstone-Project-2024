@@ -110,6 +110,9 @@
 	<div>
 </p>
 
+## Ethical Considerations
+
+When using machine learning models to predict Ofsted school grading or any other educational outcome, it's crucial to consider several ethical considerations to ensure fairness, transparency, and accountability.
 
 ## Use Case
 
