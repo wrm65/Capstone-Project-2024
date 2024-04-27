@@ -46,7 +46,7 @@
     </ol>
 
    <p>
-    <p>
+    <div>
       <ol start="4">
         <li><b>Map raw data columns to database table columns:</b> As a school instance in the raw dataset contained over 300 columns, this was significantly reduced to 20 columns. In addition, some of the column names were abbreviated and somewhat cryptic e.g. EHC, FSM, NUMEAL, therefore the columns were given more meaningful names.</li>
         <li><b>Saving to a PostgreSQL database:</b> The newly formatted school instances were stored into 2 database tables, <b><i>education_establishment</i></b>, <b><i>education_establishment_characteristic</i></b>. By using SQL, this approach allowed further validation and updating of the dataset to be completed in an easier and quicker manner.
@@ -102,15 +102,15 @@
       ) 
   </pre>
 </details>
-         <p>
+         <div>
             The final OIS dataset is provided in a CSV format at the following link:
            <p>
 https://github.com/wrm65/Capstone-Project-2024/blob//main/dataset/school_ofsted_rating.csv
            </p>
-         </p>
+         </div>
         </li>
       </ol>
-    </p>
+    </div>
    <p>
     
   - <b>Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)?</b> The raw unprocessed data is saved in its `CSV` format.
