@@ -106,11 +106,16 @@
   <p>
 
    - The image below show the importance of each feature to the model, when making the predictions.
-
-     <div>
+   <table>
+    <tr>
+      <td valign="top"> 
       <img style="width:325px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/random_forest_02.png">
-     </div>
-
+      </td>
+      <td valign="top"> 
+        <img style="width:500px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/random_forest_04.png">
+      </td>
+     </tr>
+   </table>
   </p>
 
    </details>
@@ -121,16 +126,11 @@
   <p>
 
    - The image below show the classification report which provides a comprehensive overview of various evaluation metrics for each class in the dataset, including precision, recall, F1-score, and support.
-   <table>
-    <tr>
-      <td valign="top"> 
+
+     <div>
       <img style="width:500px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/random_forest_03.png">
-      </td>
-      <td valign="top"> 
-        <img style="width:500px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/random_forest_04.png">
-      </td>
-     </tr>
-   </table>
+     </div>
+
   </p>
 
    </details>
