@@ -91,7 +91,7 @@
        | &nbsp; | Inadequate | 0.9977 |
        | **F1 score** | Outstanding | 0.2381 |
        | &nbsp; | Good | 0.8600 |
-       | &nbsp; | Requires Improvement | 0.01899 |
+       | &nbsp; | Requires Improvement | 0.0190 |
        | &nbsp; | Inadequate | 0.9762 |
 
      </div>
