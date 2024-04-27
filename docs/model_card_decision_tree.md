@@ -111,7 +111,7 @@
       <img style="width:325px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/decision_tree_02.png">
       </td>
       <td valign="top"> 
-      <img style="width:325px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/decision_tree_04.png">
+      <img style="width:500px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/decision_tree_04.png">
       </td>
      </tr>
    </table>
