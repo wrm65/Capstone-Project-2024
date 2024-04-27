@@ -8,7 +8,7 @@ Imperial College Business School Capstone Project 2024
 
 ## 3. Data Sources
 
-A comprehensive detail of the dataset, including its origin, collection process, characteristcs and permitted uses is provided in the [Datasheet for Dataset](https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/data_sheet.md) documentation.
+A comprehensive detail of the dataset, including its origin, collection process, characteristcs and permitted uses is provided in the [Datasheet for Dataset](https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/datasheet.md) documentation.
 
 ## 4. Methodology
 
