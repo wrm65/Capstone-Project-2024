@@ -112,7 +112,9 @@
 
 ## Ethical Considerations
 
-When using machine learning models to predict Ofsted school grading or any other educational outcome, it's crucial to consider several ethical considerations to ensure fairness, transparency, and accountability.
+- When using machine learning models to predict Ofsted school grading or any other educational outcome, it's crucial to consider several ethical considerations to ensure fairness, transparency, and accountability.
+
+- The main advantage of implementing this model is its use of a flowchart structure which create an easy to digest representation of decision-making, allowing different groups across an organisation to better understand why a decision was made.
 
 ## Use Case
 
