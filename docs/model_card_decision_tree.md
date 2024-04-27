@@ -109,18 +109,14 @@
    <details>
   <summary><b>Importance of Features:</b></summary>
   
-   <div>
-  
-   - The image below show the importance of each feature to the model, when making the predictions.
+- The image below show the importance of each feature to the model, when making the predictions.
   
    <div>
     <img style="width:325px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/decision_tree_02.png">
    </div>
 
-   </div>
-  
    </details>
-
+   </div>
 
    <div>
    <details>
