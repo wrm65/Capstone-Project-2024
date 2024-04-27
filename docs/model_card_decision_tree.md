@@ -29,7 +29,9 @@
 - **Data Size:** 20,571 school records
 - **Preprocessing:** remove irrevlevant (8) columns, encode categorical variables (rating)
 - **Input:** For each school, nine features are provided for the model to be trained and predict its grading.
-   <p>
+   <details>
+  <summary>Click to view these features</summary>
+
     These features are listed below.
     <ol type="1">
     <li>Gender Type - girls, boys, mixed</li>
@@ -42,7 +44,7 @@
     <li>Percentage of Pupils who first language is English</li>
     <li>Percentage of Pupils who first language is not English</li>
     </ol>
-   </p>
+   </details>
 
 - **Output:** The model outputs one of the four Ofsted school grading.
 
