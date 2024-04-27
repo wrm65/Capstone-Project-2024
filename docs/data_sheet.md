@@ -59,6 +59,7 @@
    </details>
         
         </li>
+
         <li><b>Exporting from the database:</b> An SQL Query Statement was used to <i>join</i> the data from both tables to create the dataset. The resultant data was exported directly into a CSV format.</li>
    
    <details>
