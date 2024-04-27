@@ -63,8 +63,6 @@
       The final OIS dataset is provided in a CSV format at the following link:
 https://github.com/wrm65/Capstone-Project-2024/blob//main/dataset/school_ofsted_rating.csv
 
-    </div>
-    </p>
    </div>
     
   - <b>Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)?</b> The raw unprocessed data is saved in its `CSV` format.
