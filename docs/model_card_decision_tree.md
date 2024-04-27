@@ -31,6 +31,7 @@
 - **Input:** For each school, nine features are provided for the model to be trained and predict its grading.
    <details>
   <summary>Click to view these features</summary>
+    <p>
     <ol type="1">
     <li>Gender Type - girls, boys, mixed</li>
     <li>Religious Ethos - Church of England, Roman Catholic, Other religion and non-faith</li>
@@ -42,6 +43,7 @@
     <li>Percentage of Pupils who first language is English</li>
     <li>Percentage of Pupils who first language is not English</li>
     </ol>
+    </p>
    </details>
 
 - **Output:** The model outputs one of the four Ofsted school grading.
@@ -64,7 +66,10 @@
 
    </details>
 
-- **Metrics:** `accuracy score` `recall score` `f1 score` `mean squared error`
+   <details>
+  <summary><b>Metrics:</b></summary>
+
+- `accuracy score` `recall score` `f1 score` `mean squared error`
 
    The table below show the metric scores obtained for each classification (grading).
   
@@ -85,7 +90,7 @@
     
    </div>
 
----
+   </details>
 
 - **Importance of Features:** 
 
