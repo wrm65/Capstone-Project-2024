@@ -107,14 +107,15 @@
    <details>
   <summary><b>Importance of Features:</b></summary>
   
-   <p>
+  <p>
   
    - The image below show the importance of each feature to the model, when making the predictions.
-   </p>
   
    <div>
-   <img style="width:325px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/decision_tree_02.png">
+    <img style="width:325px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/decision_tree_02.png">
    </div>
+
+  </p>
 
    </details>
 
@@ -123,7 +124,7 @@
 
   <p>
   
-   - `With the max_leaf_nodes` set to 8, the model produced 35 leaf nodes.
+   - With the `max_leaf_nodes` set to <b>8</b> the model produced <b>35 leaf nodes</b>.
 
    - The image below show the classification prediction for the 35 leaf nodes.
 
