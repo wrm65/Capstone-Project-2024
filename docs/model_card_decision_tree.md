@@ -72,25 +72,25 @@
    <details>
   <summary><b>Metrics:</b></summary>
 
-`accuracy score` `recall score` `f1 score` `mean squared error`
+- `accuracy score` `recall score` `f1 score` `mean squared error`
 
-   The table below show the metric scores obtained for each classification (grading).
+- The table below show the metric scores obtained for each classification (grading).
   
    <div>
-   
-    | Metric | Rating | Score |
-    | --- | -- | --- |
-    | **Accuracy score** | &nbsp; | 0.8599 |
-    | **Mean squared error** | &nbsp; | 0.2094 |
-    | **Recall score** | Outstanding | 0.1130 |
-    | &nbsp; | Good | 0.9522 |
-    | &nbsp; | Requires Improvement | 0 |
-    | &nbsp; | Inadequate | 0.9963 |
-    | **F1 score** | Outstanding | 0.1924 |
-    | &nbsp; | Good | 0.8603 |
-    | &nbsp; | Requires Improvement | 0 |
-    | &nbsp; | Inadequate | 0.9743 |
-    
+
+| Metric | Rating | Score |
+| --- | -- | --- |
+| **Accuracy score** | &nbsp; | 0.8599 |
+| **Mean squared error** | &nbsp; | 0.2094 |
+| **Recall score** | Outstanding | 0.1130 |
+| &nbsp; | Good | 0.9522 |
+| &nbsp; | Requires Improvement | 0 |
+| &nbsp; | Inadequate | 0.9963 |
+| **F1 score** | Outstanding | 0.1924 |
+| &nbsp; | Good | 0.8603 |
+| &nbsp; | Requires Improvement | 0 |
+| &nbsp; | Inadequate | 0.9743 |
+
    </div>
 
    </details>
