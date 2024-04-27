@@ -9,7 +9,7 @@
 - **Usage:** This model is use to predict the likely grade that a school would receive on its next inspection by [Ofsted](https://www.gov.uk/government/organisations/ofsted). 
    <p>
 		There are four Ofsted school gradings that can be classified:
-    <ol>
+    <ol type="1">
 		<li>Outstanding</li>
 		<li>Good</li>
 		<li>Requires Improvement</li>
@@ -20,7 +20,7 @@
 - **Input:** For each school, nine features are provided for the model to be trained and predict its grading.
    <p>
     These features are listed below.
-    <ol>
+    <ol type="1">
 		<li>Gender Type - girls, boys, mixed</li>
 		<li>Religious Ethos - Church of England, Roman Catholic, Other religion and non-faith</li>
 		<li>Percentage of Pupils who are Boys</li>
