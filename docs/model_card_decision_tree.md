@@ -53,9 +53,9 @@
    <div>
    <details>
   <summary><b>Hyperparameter tuning:</b></summary>
-  
+
 - `max_leaf_nodes` - grow tree with maximum number of leaf nodes
-   
+
 - **Method:** iteratively tune the `max_leaf_nodes` parameter by increasing in steps of `5`and find the best performing `max_leaf_nodes` setting
 
 - The image below show the result of 10 iterations of the model. On each iteration the `max_leaf_nodes` hyperparameter is increased by 5.
@@ -73,16 +73,12 @@
   <summary><b>Metrics:</b></summary>
 
    <p>
-  
+
    - `accuracy score` `recall score` `f1 score` `mean squared error`
 
    - The table below show the metric scores obtained for each classification (grading).
-   </p>
-  
-  <div>
-  
-    <p>
 
+     <div>
    | Metric | Rating | Score |
    | --- | -- | --- |
    | **Accuracy score** | &nbsp; | 0.8599 |
@@ -95,10 +91,9 @@
    | &nbsp; | Good | 0.8603 |
    | &nbsp; | Requires Improvement | 0 |
    | &nbsp; | Inadequate | 0.9743 |
+     </div>
 
    </p>
-
-  </div>
 
    </details>
 
