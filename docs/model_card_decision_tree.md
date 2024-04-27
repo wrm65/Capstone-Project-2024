@@ -3,10 +3,8 @@
 ## Model Description
 
 - **Model Name:** Ofsted School Grading Predictor
-
 - **Model Type:** DecisionTreeClassifier
-
-- **Purpose:** This model is use to predict the likely grade that a school would receive on its next inspection by [Ofsted](https://www.gov.uk/government/organisations/ofsted). 
+- **Purpose:** This model is use to predict the likely grade that a school would receive on its next inspection by Ofsted based on various features and criteria. 
    <p>
 		There are four Ofsted school gradings that can be classified:
     <ol type="1">
@@ -20,13 +18,13 @@
 ## Model Architecture
 
 - **Algorithm:** DecisionTreeClassifier
+- **Criterion:** Gini impurity
 - **Maximum Depth:** Tree depth set to 8
 - **Hyperparameter:** Maximum number of leaf nodes
 
-
 ## Training Data
 
-- **Dataset:** Ofsted Inspected School [OIS] Dataset
+- **Source:** Ofsted Inspected School [OIS] Dataset
 - **Data Size:** 20,571 school records
 - **Preprocessing:** remove irrevlevant (8) columns, encode categorical variables (rating)
 - **Input:** For each school, nine features are provided for the model to be trained and predict its grading.
@@ -99,7 +97,6 @@
  <div>
 	<img style="width:250px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/decision_tree_03.png">
  </div>
-
 
 ## Limitations
 
