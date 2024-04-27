@@ -23,15 +23,15 @@
 ## Preprocessing/cleaning/labelling
 
 - <b>Was any preprocessing/cleaning/labeling of the data done (e.g., discretization or bucketing, tokenization, part-of-speech tagging, SIFT feature extraction, removal of instances, processing of missing values)? If so, please provide a description. If not, you may skip the remaining questions in this section.</b> 
-	<div>
+  <div>
     The following steps were taken to process the data:
     <ol start="1">
-			<li><b>Collecting the raw data:</b> Data was obtained from the GIAS website and stored locally. A screenshot of a sample school instance data is shown below.</li>
-			<li><b>Creating a PHP script:</b> A script was developed to process and clean the dataset.</li>
-			<li><b>Correct missing data:</b> Each school instance was validated for missing information. The list of missing data and action taken is shown below.</li>
+      <li><b>Collecting the raw data:</b> Data was obtained from the GIAS website and stored locally. A screenshot of a sample school instance data is shown below.</li>
+      <li><b>Creating a PHP script:</b> A script was developed to process and clean the dataset.</li>
+      <li><b>Correct missing data:</b> Each school instance was validated for missing information. The list of missing data and action taken is shown below.</li>
     </ol>
-	<div>
-	
+  <div>
+  
    <div>
    
     | Missing Value |  Action taken |
@@ -42,10 +42,10 @@
    </div>
 
    <p>
-		<p>
-			<ol start="4">
-			<li><b>Map raw data columns to database table columns:</b> As a school instance in the raw dataset contained over 300 columns, this was significantly reduced to 20 columns. In addition, some of the column names were abbreviated and somewhat cryptic e.g. EHC, FSM, NUMEAL, therefore the columns were given more meaningful names.</li>
-			<li><b>Saving to a PostgreSQL database:</b> The newly formatted school instances were stored into 2 database tables, <b><i>education_establishment</i></b>, <b><i>education_establishment_characteristic</i></b>. By using SQL, this approach allowed further validation and updating of the dataset to be completed in an easier and quicker manner.
+    <p>
+      <ol start="4">
+      <li><b>Map raw data columns to database table columns:</b> As a school instance in the raw dataset contained over 300 columns, this was significantly reduced to 20 columns. In addition, some of the column names were abbreviated and somewhat cryptic e.g. EHC, FSM, NUMEAL, therefore the columns were given more meaningful names.</li>
+      <li><b>Saving to a PostgreSQL database:</b> The newly formatted school instances were stored into 2 database tables, <b><i>education_establishment</i></b>, <b><i>education_establishment_characteristic</i></b>. By using SQL, this approach allowed further validation and updating of the dataset to be completed in an easier and quicker manner.
 <details>
   <summary>Database table: <b><i>education_establishment</i></b> (click to view definition)</summary>
    <pre>
@@ -115,14 +115,15 @@ CREATE TABLE education_establishment_characteristic
 )
    </pre>
 </details>
-			</li>
+      </li>
     </ol>
-		</p>
+    </p>
    </p>
+   
    <p>
-		<p>
-			<ol start="6">
-			<li><b>Exporting from the database:</b> An SQL Query Statement was used to <i>join</i> the data from both tables to create the dataset. The resultant data was exported directly into a CSV format.
+    <p>
+      <ol start="6">
+      <li><b>Exporting from the database:</b> An SQL Query Statement was used to <i>join</i> the data from both tables to create the dataset. The resultant data was exported directly into a CSV format.
 <details>
   <summary>SQL Statement: <b><i>retrieve school details</i></b> (click to view statement)</summary>
   <pre>
@@ -170,22 +171,22 @@ CREATE TABLE education_establishment_characteristic
         'Good',
         'Requires improvement',
         'Inadequate'
-      )	
+      ) 
   </pre>
 </details>
-			</li>
-		 <div>The final OIS dataset is provided in a CSV format at the following link:</div> 
-	https://github.com/wrm65/Capstone-Project-2024/blob//main/dataset/school_ofsted_rating.csv
-			</ol>
-		</p>
+      </li>
+     <div>The final OIS dataset is provided in a CSV format at the following link:</div> 
+  https://github.com/wrm65/Capstone-Project-2024/blob//main/dataset/school_ofsted_rating.csv
+      </ol>
+    </p>
    </p>
-	
+  
 - <b>Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)?</b> The raw unprocessed data is saved in its `CSV` format.
 - <b>Is the preprocessing software available?</b> The `PHP` script which performed a number of preprocessing tasks and saved the data to the database, is not available. However, all the software used is open source and has been specified above.
 
 - <i>Sample school instance data</i>
    <div>
-	  <img style="width:500px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/gias_data_01.png">
+    <img style="width:500px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/gias_data_01.png">
    </div>
  
 - [Click to view the entire school's GIAS details](https://www.get-information-schools.service.gov.uk/Establishments/Establishment/Details/148025)
@@ -193,7 +194,7 @@ CREATE TABLE education_establishment_characteristic
 ## Uses
 
 - <b>Does this dataset achieve the motivation for creating the dataset stated in the first section of this datasheet?</b>
-	<div>
+  <div>
     There some limitations in the dataset which will prevent other characteristics (features) of a school to be analyse. The following information would need to be considered to provide a more comprehensive prediction of gradings for schools.
     <ul>
     <li><b>Teacher Quality Metrics:</b> Teacher qualifications, experience, methods and pedagogical approaches, student-teacher ratio, class size</li>
@@ -205,15 +206,15 @@ CREATE TABLE education_establishment_characteristic
     <li><b>Community Engagement:</b> Parental involvement and engagement, extra-curricular activities and enrichment programs</li>
     <li><b>Past Performance:</b> Trends in performance over time</li>
     </ul>
-	<div>
+  <div>
 - <b>What other tasks could the dataset be used for?</b> The dataset could be used to provide a variety of summary statistics such as:
     <ul>
     <li><b>Descriptive Statistics:</b> Mean, median, and mode, standard deviation and variance, range, percentiles</li>
     <li><b>Socioeconomic Context:</b> Percentage of students eligible for free school meals, serving as a proxy for socioeconomic disadvantage</li>
     <li><b>Quality Assurance:</b> Summary statistics on inspection outcomes (example shown below)</li>
    <div>
-		<img style="width:200px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/summary_stats.png">
-	 </div>
+    <img style="width:200px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/summary_stats.png">
+   </div>
 
 ## Distribution
 
