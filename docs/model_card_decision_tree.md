@@ -6,11 +6,14 @@
 
 - **Version:** 1.0
 
-- **Usage:** This model is use to predict the likely grade that a school would receive on its next inspection by [Ofsted](https://www.gov.uk/government/organisations/ofsted). There are four Ofsted school gradings that can be classified:
-1. Outstanding
-2. Good
-3. Requires Improvement
-4. Inadequate
+- **Usage:** This model is use to predict the likely grade that a school would receive on its next inspection by [Ofsted](https://www.gov.uk/government/organisations/ofsted). 
+   <p>
+		There are four Ofsted school gradings that can be classified:
+		1. Outstanding
+		2. Good
+		3. Requires Improvement
+		4. Inadequate
+   </p>
 
 - **Input:** For each school, nine features are provided for the model to be trained and predict its grading. These features are listed below.
 1. Gender Type - girls, boys, mixed
@@ -92,7 +95,7 @@
 
 <p>
 	<div>
-    There are two direct limitations in the model:
+    There are two distinct limitations in the implementation of the model:
     <ul>
     <li><b>Tree depth:</b> the tree depth is set to a maximum of 8</li>
     <li><b>Leaf Nodes:</b> the maximum leaf nodes is 50</li>
