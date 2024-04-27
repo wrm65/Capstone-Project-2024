@@ -52,9 +52,6 @@
         <li><b>Saving to a PostgreSQL database:</b> The newly formatted school instances were stored into 2 database tables, <b><i>education_establishment</i></b>, <b><i>education_establishment_characteristic</i></b>. By using SQL, this approach allowed further validation and updating of the dataset to be completed in an easier and quicker manner.
         </li>
         <li><b>Exporting from the database:</b> An SQL Query Statement was used to <i>join</i> the data from both tables to create the dataset. The resultant data was exported directly into a CSV format.</li>
-      </ol>
-    </p>
-   <p>
    
 <details>
   <summary>SQL Statement: <b><i>retrieve school details</i></b> (click to view statement)</summary>
@@ -113,6 +110,9 @@
 https://github.com/wrm65/Capstone-Project-2024/blob//main/dataset/school_ofsted_rating.csv
      </p>
    </p>
+      </ol>
+    </p>
+   <p>
     
   - <b>Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)?</b> The raw unprocessed data is saved in its `CSV` format.
 - <b>Is the preprocessing software available?</b> The `PHP` script which performed a number of preprocessing tasks and saved the data to the database, is not available. However, all the software used is open source and has been specified above.
