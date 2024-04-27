@@ -123,13 +123,23 @@
    - The image below show the classification report which provides a comprehensive overview of various evaluation metrics for each class in the dataset, including precision, recall, F1-score, and support.
 
      <div>
-      <img style="width:250px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/random_forest_03.png">
+      <img style="width:500px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/random_forest_03.png">
      </div>
 
   </p>
 
    </details>
 
+## Use Case
 
+- This model is provided for research, educational, and non-commercial purposes <b><u>only</u></b>.
+
+## Version History
+
+- **v1.0:**  Initial release (April 2024)
+
+## References
+
+- **Ofsted:** https://www.gov.uk/government/organisations/ofsted
 
 
