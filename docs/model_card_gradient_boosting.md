@@ -55,7 +55,7 @@
    <details open>
   <summary><b>Hyperparameter tuning:</b></summary>
 
-- `n_estimators` - grow tree with maximum number of leaf nodes
+- `n_estimators` - number of boosting stages to perform
 
 - **Method:** iteratively tune the `n_estimators` parameter by increasing in steps of `10`and find the best performing `n_estimators` setting
 
@@ -67,3 +67,67 @@
     <img style="width:700px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/gradient_boosting_01.png">
    </div>
 
+   </details>
+   </div>
+
+   <details open>
+  <summary><b>Metrics:</b></summary>
+
+   <p>
+
+   - `accuracy score` `recall score` `f1 score` `mean squared error`
+
+   - The table below show the metric scores obtained for each classification (grading).
+
+     <div>
+
+       | Metric | Rating | Score |
+       | --- | -- | --- |
+       | **Accuracy score** | &nbsp; | 0.8604 |
+       | **Mean squared error** | &nbsp; | 0.2062 |
+       | **Recall score** | Outstanding | 0.1483 |
+       | &nbsp; | Good | 0.9444 |
+       | &nbsp; | Requires Improvement | 0.0100 |
+       | &nbsp; | Inadequate | 0.9977 |
+       | **F1 score** | Outstanding | 0.2381 |
+       | &nbsp; | Good | 0.8600 |
+       | &nbsp; | Requires Improvement | 0.01899 |
+       | &nbsp; | Inadequate | 0.9762 |
+
+     </div>
+
+   </p>
+
+   </details>
+
+   <details>
+  <summary><b>Importance of Features:</b></summary>
+
+  <p>
+
+   - The image below show the importance of each feature to the model, when making the predictions.
+   <table>
+    <tr>
+      <td valign="top"> 
+      <img style="width:325px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/gradient_boosting_02.png">
+      </td>
+      <td valign="top"> 
+      <img style="width:500px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/gradient_boosting_03.png">
+      </td>
+     </tr>
+   </table>
+  </p>
+
+   </details>
+
+## Use Case
+
+- This model is provided for research, educational, and non-commercial purposes <b><u>only</u></b>.
+
+## Version History
+
+- **v1.0:**  Initial release (April 2024)
+
+## References
+
+- **Ofsted:** https://www.gov.uk/government/organisations/ofsted
