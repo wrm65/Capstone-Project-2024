@@ -52,10 +52,6 @@
         <li><b>Saving to a PostgreSQL database:</b> The newly formatted school instances were stored into 2 database tables, <b><i>education_establishment</i></b>, <b><i>education_establishment_characteristic</i></b>. By using SQL, this approach allowed further validation and updating of the dataset to be completed in an easier and quicker manner.
         </li>
         <li><b>Exporting from the database:</b> An SQL Query Statement was used to <i>join</i> the data from both tables to create the dataset. The resultant data was exported directly into a CSV format.</li>
-      </ol>
-    </div>
-   <p>
-  </div>
    
   <div>
   
