@@ -80,7 +80,7 @@
    - `accuracy score` `recall score` `f1 score` `mean squared error`
 
    - The table below show the metric scores obtained for each classification (grading).
-  </p>
+   </p>
   
    <div>
 
@@ -98,6 +98,7 @@
    | &nbsp; | Inadequate | 0.9743 |
 
    </div>
+   </p>
 
    </details>
    </div>
@@ -107,15 +108,17 @@
    <details>
   <summary><b>Importance of Features:</b></summary>
   
-  <p>
+   <p>
   
    - The image below show the importance of each feature to the model, when making the predictions.
   
    <div>
+   
     <img style="width:325px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/decision_tree_02.png">
+    
    </div>
 
-  </p>
+   </p>
   
    </details>
 
