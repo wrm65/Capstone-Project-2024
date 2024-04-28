@@ -11,7 +11,7 @@ Imperial College Business School Capstone Project 2024
 - Below, you'll find an overview of each model and links to detailed documentation for each one.
 
 <div align="right">
-  <img style="width:75px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/ofsted-logo.png">
+  <img style="width:90px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/ofsted-logo.png">
 </div>
 
 ### Overview
@@ -55,7 +55,7 @@ Imperial College Business School Capstone Project 2024
    </p>
 
 ### Model Evaluation
-- The following four reports have been produced to select the best model for predicting Ofsted school grading:
+- The following four reports have been produced to compare and select the best model for predicting Ofsted school grading:
    <p>
     <ol type="1">
     <li><b>Performance Metrics:</b>Evaluate the performance of each model using metrics such as accuracy, F1 score, precision, and recall.</li>
@@ -78,7 +78,7 @@ Imperial College Business School Capstone Project 2024
 ### Conclusion
 - Based on the performance metrics, the Multilayer Perceptron Classifier model achieved the highest accuracy of 86.05%, closely followed by the Gradient Boosting Classifier with 86.04% for predicting Ofsted school grading. 
 - However, it's essential to consider other factors such as interpretability, computational complexity, and ethical considerations when selecting the best model.
-- 
+- By considering insights from the four evaluation reports collectively, the model which is best suited for predicting Ofsted school grading is the <b>Decision Tree Classifier</b>.
 
 
 ### Contact
