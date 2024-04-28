@@ -13,6 +13,7 @@ Imperial College Business School Capstone Project 2024
 <div align="right">
   <img style="width:100px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/ofsted-logo.png">
 </div>
+
 ### Overview
 - In the UK, Ofsted (Office for Standards in Education, Children's Services and Skills) evaluates schools based on various criteria to ensure high-quality education. 
 - Our project leverages advanced machine learning models to predict Ofsted school grading.
