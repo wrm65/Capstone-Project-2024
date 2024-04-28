@@ -43,7 +43,7 @@ Imperial College Business School Capstone Project 2024
    
    </p>
 
-- **Models Included** Our repository includes the following machine learning models:
+- **Models Included:** Our repository includes the following machine learning models:
 
    <p>
     <ol type="1">
@@ -93,6 +93,20 @@ Imperial College Business School Capstone Project 2024
    </p>
 
 
+### Future development and recommendations
+- The dataset that was used to train the models had a very limited set of features about the schools. It is highly recommendation a more comprehensive set of features be obtained that capture various aspects of school performance, demographics, resources, and other relevant factors. Some potential features that could be used are:
+   <p>
+    <ol type="1">
+    <li>Pupil Outcomes</li>
+    <li>Student-teacher ratio</li>
+    <li>Demographic and Socioeconomic Factors</li>
+    <li>Funding levels and resources available</li>
+    <li>Trends in performance over time</li>
+    <li>Parental involvement and engagement</li>
+    </ol>
+   </p>
+
+    
 ### Contact
 
 - Winston Menzies
