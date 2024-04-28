@@ -51,7 +51,12 @@ Imperial College Business School Capstone Project 2024
    </p>
 
 ### Ethical Considerations
-- It's crucial to consider ethical implications when using machine learning models for educational assessment. These models may inadvertently perpetuate biases present in the training data, leading to unfair outcomes for certain groups of students. Additionally, decisions made based on model predictions may impact students' educational opportunities and trajectories.
+- Using machine learning models for predicting Ofsted school grading raises several ethical considerations that must be carefully addressed to ensure fairness, transparency, and accountability. Here are some key ethical considerations:
+   <p>
+    <ol type="1">
+    <li>**Fairness and Bias**:Machine learning models can inadvertently perpetuate or amplify biases present in the data used for training. It's essential to assess and mitigate biases related to race, gender, socioeconomic status, and other protected characteristics to ensure fair and equitable predictions. This may involve carefully selecting features, collecting diverse training data, and applying fairness-aware algorithms to prevent discrimination.</li>
+    <li>**Transparency and Explainability**:Machine learning models should be transparent and interpretable, allowing stakeholders to understand how predictions are made and why certain decisions are reached. Providing explanations for model predictions can help build trust and accountability, enabling stakeholders to assess the model's reliability and identify potential sources of bias or error.</li>
+    <li>**Human Oversight and Intervention:**:While machine learning models can automate certain aspects of decision-making, human oversight and intervention are essential to ensure ethical and responsible use. Human experts should have the ability to review and override model predictions, especially in cases where the stakes are high or the potential for harm is significant.</li>
 
 ### Conclusion
 - Based on our evaluation, the Support Vector Classifier (SVC) emerged as the best model for predicting Ofsted school grading. It achieved the highest accuracy and performed well across various performance metrics. However, it's essential to consider other factors such as interpretability, computational complexity, and ethical considerations when selecting the best model for deployment in real-world scenarios.
