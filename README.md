@@ -10,10 +10,10 @@ Imperial College Business School Capstone Project 2024
 - We have developed and evaluated eight different machine learning models to predict Ofsted school grading. 
 - Below, you'll find an overview of each model and links to detailed documentation for each one.
 
-### Overview
 <div align="right">
   <img style="width:100px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/ofsted-logo.png">
 </div>
+### Overview
 - In the UK, Ofsted (Office for Standards in Education, Children's Services and Skills) evaluates schools based on various criteria to ensure high-quality education. 
 - Our project leverages advanced machine learning models to predict Ofsted school grading.
 - The models are trained on a dataset consisting of Ofsted school inspection reports.
