@@ -18,6 +18,12 @@
     <img src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/evaluation_01.png">
    </div>
 
+### Model Leaderboard
+
+   <div>
+    <img src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/evaluation_04.png">
+   </div>
+
 ### Confusion Matrices
 
    <div>
