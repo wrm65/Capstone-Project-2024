@@ -9,20 +9,32 @@ A diverse set of machine learning models was used to enhances the robustness, ge
 
    - Simple and interpretable model, providing insights into decision-making process.
 
-   https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card_decision_tree.md
+   <p>
+   
+     - [View model card](https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card_decision_tree.md)
+   
+   </p>
 
 2. **Gaussian Naive Bayes**
 
    - Simple and computationally efficient.
 
-   https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card_naive_bayes.md)
+   <p>
+   
+     - [View model card]   (https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card_naive_bayes.md)
+   
+   </p>
 
 3. **Gradient Boosting** 
 
    - Ensemble method that combines the strength of multiple weak learners (decision trees) to produce a strong learner.
    - Provides feature importance scores and supports custom loss functions, allowing for flexible optimisation.
 
-   https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card_gradient_boosting.md
+   <p>
+   
+     - [View model card]   (https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card_gradient_boosting.md)
+   
+   </p>
 
 4. **K-Nearest Neighbors**
 
@@ -38,26 +50,42 @@ A diverse set of machine learning models was used to enhances the robustness, ge
 
    - Simple and interpretable model, providing clear insights into the relationship between features and target variable.
 
-   https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card_logistic_regression.md
+   <p>
+   
+     - [View model card]   (https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card_logistic_regression.md)
+   
+   </p>
 
 6. **Multilayer Perceptron**
 
    - Deep learning model capable of learning complex patterns in high-dimensional data.
 
-   https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card_multilayer_perceptron.md
+   <p>
+   
+     - [View model card]   (https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card_multilayer_perceptron.md)
+   
+   </p>
 
 7. **Random Forest**
 
    - Ensemble of decision trees, offering high predictive accuracy and robustness to overfitting.
    - Provides feature importance scores, aiding in feature selection and interpretation.
 
-   https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card_random_forest.md
+   <p>
+   
+     - [View model card]   (https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card_random_forest.md)
+   
+   </p>
 
 8. **Support Vector**
 
    - Robust to high-dimensional data and can handle complex decision boundaries.
 
-   https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card_support_vector.md
+   <p>
+   
+     - [View model card](https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card_support_vector.md)
+   
+   </p>
 
 ## Comparison Reports
 
