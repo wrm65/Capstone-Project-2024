@@ -73,7 +73,7 @@ A diverse set of machine learning models was used to enhances the robustness, ge
 
    <p>
    
-     - [View model card] (https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card_random_forest.md)
+     - [View model card](https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card_random_forest.md)
    
    </p>
 
