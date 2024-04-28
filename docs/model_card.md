@@ -29,7 +29,9 @@ A diverse set of machine learning models was used to enhances the robustness, ge
    - Simple and intuitive algorithm, easy to understand and implement.
 
    <p>
+   
      [View model card](https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card_knn.md)
+   
    </p>
 
 5. **Logistic Regression**
