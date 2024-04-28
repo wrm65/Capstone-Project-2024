@@ -1,6 +1,6 @@
 # Model Card
 
-A diverse set of machine learning models was used to enhances the robustness, generalization, interpretability, and performance of predictive models for predicting Ofsted school grading, ultimately leading to more accurate and reliable predictions.
+A diverse set of machine learning models was used to enhances the robustness, generalisation, interpretability, and performance of predictive models for predicting Ofsted school grading, ultimately leading to more accurate and reliable predictions.
 
 
 ## List of Models
@@ -91,13 +91,16 @@ A diverse set of machine learning models was used to enhances the robustness, ge
 
 ### Performance Metrics
 
+   - A comparison summary report based on the performance metrics of the 8 machine learning models used to predict Ofsted school grading is provided below.
+   - Based on the performance metrics, the Multilayer Perceptron Classifier model achieved the highest accuracy of 86.05%, closely followed by the Gradient Boosting Classifier with 86.04%
+
    <div>
     <img src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/evaluation_01.png">
    </div>
 
 ### Model Leaderboard
 
-   - A leaderboard is provided to showcase the ranking of machine learning models based on their performance metrics enhancing transparency and facilitates benchmarking which helps identify the best performing models. It also aids in understanding model variability and guides model selection.
+   - A leaderboard is provided to showcase the ranking of machine learning models based on their performance metrics, enhancing transparency and facilitates benchmarking which helps identify the best performing models. It also aids in understanding model variability and guides model selection.
 
    <div>
     <img src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/evaluation_04.png">
