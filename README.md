@@ -99,10 +99,11 @@ Imperial College Business School Capstone Project 2024
     <ol type="1">
     <li>Pupil Outcomes</li>
     <li>Student-teacher ratio</li>
-    <li>Demographic and Socioeconomic Factors</li>
-    <li>Funding levels and resources available</li>
     <li>Trends in performance over time</li>
     <li>Parental involvement and engagement</li>
+    <li>Demographic and Socioeconomic Factors</li>
+    <li>Funding levels and resources available</li>
+    <li>Quality of teacher training and ongoing support</li>
     </ol>
    </p>
 
