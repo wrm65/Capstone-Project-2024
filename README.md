@@ -13,7 +13,7 @@ Imperial College Business School Capstone Project 2024
 ### Overview
 - In the UK, Ofsted (Office for Standards in Education, Children's Services and Skills) evaluates schools based on various criteria to ensure high-quality education. 
 - Our project leverages advanced machine learning models to predict Ofsted school grading.
-- These models have been developed using state-of-the-art techniques and evaluated rigorously to ensure their reliability and accuracy.
+- The models are trained on a dataset consisting of Ofsted school inspection reports.
 
 
 ### Model Cards and Datasheet
@@ -50,6 +50,17 @@ Imperial College Business School Capstone Project 2024
     </ol>
    </p>
 
+### Model Evaluation
+- The following four reports have been produced to select the best model for predicting Ofsted school grading:
+   <p>
+    <ol type="1">
+    <li><b>Performance Metrics:</b>Evaluate the performance of each model using metrics such as accuracy, F1 score, precision, and recall.</li>
+    <li><b>Model Leaderboard:</b>Consider the relative ranking of models across different metrics to gain a comprehensive understanding of their overall performance.</li>
+    <li><b>Confusion Matrices:</b>Identify models that exhibit balanced performance across all classes, with minimal misclassification errors.</li>
+    <li><b>Importance of Features:</b>Identify models that provide clear insights into the relationship between input features and target variable, aiding in model interpretation and understanding.</li>
+    </ol>
+   </p>
+
 ### Ethical Considerations
 - Using machine learning models for predicting Ofsted school grading raises several ethical considerations that must be carefully addressed to ensure fairness, transparency, and accountability. Here are some key ethical considerations:
    <p>
@@ -57,7 +68,11 @@ Imperial College Business School Capstone Project 2024
     <li><b>Fairness and Bias</b>:Machine learning models can inadvertently perpetuate or amplify biases present in the data used for training. It's essential to assess and mitigate biases related to race, gender, socioeconomic status, and other protected characteristics to ensure fair and equitable predictions. This may involve carefully selecting features, collecting diverse training data, and applying fairness-aware algorithms to prevent discrimination.</li>
     <li><b>Transparency and Explainability</b>:Machine learning models should be transparent and interpretable, allowing stakeholders to understand how predictions are made and why certain decisions are reached. Providing explanations for model predictions can help build trust and accountability, enabling stakeholders to assess the model's reliability and identify potential sources of bias or error.</li>
     <li><b>Human Oversight and Intervention:</b>:While machine learning models can automate certain aspects of decision-making, human oversight and intervention are essential to ensure ethical and responsible use. Human experts should have the ability to review and override model predictions, especially in cases where the stakes are high or the potential for harm is significant.</li>
+    </ol>
+   </p>
 
 ### Conclusion
-- Based on our evaluation, the Support Vector Classifier (SVC) emerged as the best model for predicting Ofsted school grading. It achieved the highest accuracy and performed well across various performance metrics. However, it's essential to consider other factors such as interpretability, computational complexity, and ethical considerations when selecting the best model for deployment in real-world scenarios.
+- Based on the performance metrics, the Multilayer Perceptron Classifier model achieved the highest accuracy of 86.05%, closely followed by the Gradient Boosting Classifier with 86.04% for predicting Ofsted school grading. 
+- However, it's essential to consider other factors such as interpretability, computational complexity, and ethical considerations when selecting the best model.
+- 
 
