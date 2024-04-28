@@ -58,9 +58,9 @@ Imperial College Business School Capstone Project 2024
 - The following four reports have been produced to compare and select the best model for predicting Ofsted school grading:
    <p>
     <ol type="1">
-    <li><b>Performance Metrics:</b>Evaluate the performance of each model using metrics such as accuracy, F1 score, precision, and recall.</li>
-    <li><b>Model Leaderboard:</b>Consider the relative ranking of models across different metrics to gain a comprehensive understanding of their overall performance.</li>
-    <li><b>Confusion Matrices:</b>Identify models that exhibit balanced performance across all classes, with minimal misclassification errors.</li>
+    <li><b>Performance Metrics:</b> Evaluate the performance of each model using metrics such as accuracy, F1 score, precision, and recall.</li>
+    <li><b>Model Leaderboard:</b> Consider the relative ranking of models across different metrics to gain a comprehensive understanding of their overall performance.</li>
+    <li><b>Confusion Matrices:</b> Identify models that exhibit balanced performance across all classes, with minimal misclassification errors.</li>
     <li><b>Importance of Features:</b>Identify models that provide clear insights into the relationship between input features and target variable, aiding in model interpretation and understanding.</li>
     </ol>
    </p>
@@ -69,9 +69,9 @@ Imperial College Business School Capstone Project 2024
 - Using machine learning models for predicting Ofsted school grading raises several ethical considerations that must be carefully addressed to ensure fairness, transparency, and accountability. Here are some key ethical considerations:
    <p>
     <ol type="1">
-    <li><b>Fairness and Bias:</b>Machine learning models can inadvertently perpetuate or amplify biases present in the data used for training. It's essential to assess and mitigate biases related to race, gender, socioeconomic status, and other protected characteristics to ensure fair and equitable predictions. This may involve carefully selecting features, collecting diverse training data, and applying fairness-aware algorithms to prevent discrimination.</li>
-    <li><b>Transparency and Explainability:</b>Machine learning models should be transparent and interpretable, allowing stakeholders to understand how predictions are made and why certain decisions are reached. Providing explanations for model predictions can help build trust and accountability, enabling stakeholders to assess the model's reliability and identify potential sources of bias or error.</li>
-    <li><b>Human Oversight and Intervention:</b>While machine learning models can automate certain aspects of decision-making, human oversight and intervention are essential to ensure ethical and responsible use. Human experts should have the ability to review and override model predictions, especially in cases where the stakes are high or the potential for harm is significant.</li>
+    <li><b>Fairness and Bias:</b> Machine learning models can inadvertently perpetuate or amplify biases present in the data used for training. It's essential to assess and mitigate biases related to race, gender, socioeconomic status, and other protected characteristics to ensure fair and equitable predictions. This may involve carefully selecting features, collecting diverse training data, and applying fairness-aware algorithms to prevent discrimination.</li>
+    <li><b>Transparency and Explainability:</b> Machine learning models should be transparent and interpretable, allowing stakeholders to understand how predictions are made and why certain decisions are reached. Providing explanations for model predictions can help build trust and accountability, enabling stakeholders to assess the model's reliability and identify potential sources of bias or error.</li>
+    <li><b>Human Oversight and Intervention:</b> While machine learning models can automate certain aspects of decision-making, human oversight and intervention are essential to ensure ethical and responsible use. Human experts should have the ability to review and override model predictions, especially in cases where the stakes are high or the potential for harm is significant.</li>
     </ol>
    </p>
 
@@ -82,9 +82,9 @@ Imperial College Business School Capstone Project 2024
 - Using the DecisionTreeClassifier model to predict Ofsted school grading offers several advantages that make it preferable in certain scenarios:
    <p>
     <ol type="1">
-    <li><b>Interpretability:</b>Decision trees are inherently interpretable models, meaning that the decision-making process is transparent and easy to understand. This is especially important in educational settings where stakeholders such as teachers, administrators, and policymakers need to comprehend the factors driving school grading decisions.</li>
-    <li><b>Feature Importance:</b>Decision trees provide insight into the relative importance of different features in predicting school grading. By examining the decision rules and splits in the tree, stakeholders can identify which features have the greatest influence on the classification outcome. This information can inform targeted interventions and improvement strategies.</li>
-    <li><b>Natural Representation of Decision-Making:</b>Decision trees mimic human decision-making processes, making them intuitive and easy to relate to for stakeholders. This natural representation can facilitate discussions and collaboration between educators, policymakers, and other stakeholders involved in education quality and improvement efforts.</li>
+    <li><b>Interpretability:</b> Decision trees are inherently interpretable models, meaning that the decision-making process is transparent and easy to understand. This is especially important in educational settings where stakeholders such as teachers, administrators, and policymakers need to comprehend the factors driving school grading decisions.</li>
+    <li><b>Feature Importance:</b> Decision trees provide insight into the relative importance of different features in predicting school grading. By examining the decision rules and splits in the tree, stakeholders can identify which features have the greatest influence on the classification outcome. This information can inform targeted interventions and improvement strategies.</li>
+    <li><b>Natural Representation of Decision-Making:</b> Decision trees mimic human decision-making processes, making them intuitive and easy to relate to for stakeholders. This natural representation can facilitate discussions and collaboration between educators, policymakers, and other stakeholders involved in education quality and improvement efforts.</li>
     </ol>
    </p>
 
