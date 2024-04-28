@@ -97,6 +97,8 @@ A diverse set of machine learning models was used to enhances the robustness, ge
 
 ### Model Leaderboard
 
+   - A leaderboard is provided to showcase the ranking of machine learning models based on their performance metrics enhancing transparency and facilitates benchmarking which helps identify the best performing models. It also aids in understanding model variability and guides model selection.
+
    <div>
     <img src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/evaluation_04.png">
    </div>
@@ -109,8 +111,10 @@ A diverse set of machine learning models was used to enhances the robustness, ge
 
 ### Importance of Features
 
+   - This additional report provides insights into the importance of features for the different machine learning models used for predicting Ofsted school grading, enhancing the understanding of how each model makes predictions and which features are most influential in the process.
+
+
    <div>
     <img style="width:700px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/evaluation_02.png">
    </div>
-
 
