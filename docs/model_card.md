@@ -108,6 +108,8 @@ A diverse set of machine learning models was used to enhances the robustness, ge
 
 ### Confusion Matrices
 
+   - Confusion Matrix is a performance measurement for the model classification showing the different combinations of predicted and actual values. It is extremely useful for measuring `Recall` `Precision` `Specificity` and `Accuracy` scores.
+   
    <div>
     <img src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/evaluation_03.png">
    </div>
