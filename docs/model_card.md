@@ -10,10 +10,24 @@
 7. [Multilayer Perceptron] (https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card_multilayer_perceptron.md)
 8. [Decision Tree] (https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card_decision_tree.md)
 
-## Comparison Summary Report
+## Comparison Reports
+
+### Performance Metrics
 
    <div>
-    <img style="width:700px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/evaluation_01.png">
+    <img src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/evaluation_01.png">
+   </div>
+
+### Confusion Matrices
+
+   <div>
+    <img src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/evaluation_03.png">
+   </div>
+
+### Importance of Features
+
+   <div>
+    <img style="width:700px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/evaluation_02.png">
    </div>
 
 
