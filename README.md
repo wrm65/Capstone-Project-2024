@@ -10,20 +10,32 @@ Imperial College Business School Capstone Project 2024
 - We have developed and evaluated eight different machine learning models to predict Ofsted school grading. 
 - Below, you'll find an overview of each model and links to detailed documentation for each one.
 
-Overview
+### Overview
 - In the UK, Ofsted (Office for Standards in Education, Children's Services and Skills) evaluates schools based on various criteria to ensure high-quality education. 
 - Our project leverages advanced machine learning models to predict Ofsted school grading.
 - These models have been developed using state-of-the-art techniques and evaluated rigorously to ensure their reliability and accuracy.
 
 
-Model Cards and Datasheet
+### Model Cards and Datasheet
 - Before exploring the models, we encourage you to review the Model Cards and Datasheet for more detailed information on each model and the dataset used.
 
-- Model Cards: Provides detailed information about each model, including its architecture, training data, evaluation metrics, and ethical considerations.
+- **Model Cards:** Provides detailed information about each model, including its architecture, training data, evaluation metrics, and ethical considerations.
 
-- Datasheet: Offers insights into the dataset used for training the models, including its source, size, features, preprocessing steps, and performance metrics.
+   <p>
+   
+     - [View Model Card](https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card.md)
+   
+   </p>
 
-- Models Included
+- **Datasheet:** Offers insights into the dataset used for training the models, including its source, size, features, preprocessing steps, and permitted uses.
+
+   <p>
+   
+     - [View Datasheet for Dataset](https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/datasheet.md)
+   
+   </p>
+
+- **Models Included**
 Our repository includes the following machine learning models:
 
 GaussianNB
@@ -35,11 +47,9 @@ GradientBoostingClassifier
 MLPClassifier
 DecisionTreeClassifier
 
-## 3. Data Sources
+### Ethical Considerations
+- It's crucial to consider ethical implications when using machine learning models for educational assessment. These models may inadvertently perpetuate biases present in the training data, leading to unfair outcomes for certain groups of students. Additionally, decisions made based on model predictions may impact students' educational opportunities and trajectories. We are committed to mitigating these risks and ensuring that our models are fair, transparent, and accountable.
 
-A comprehensive detail of the dataset, including its origin, collection process, characteristcs and permitted uses is provided in the [Datasheet for Dataset](https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/datasheet.md) documentation.
-
-## 4. Methodology
-
-The description and performance of the models are provided in the [Model Card](https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card.md) documentation.
+### Conclusion
+- Based on our evaluation, the Support Vector Classifier (SVC) emerged as the best model for predicting Ofsted school grading. It achieved the highest accuracy and performed well across various performance metrics. However, it's essential to consider other factors such as interpretability, computational complexity, and ethical considerations when selecting the best model for deployment in real-world scenarios.
 

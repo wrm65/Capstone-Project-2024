@@ -1,6 +1,6 @@
 # Model Card
 
-A diverse set of machine learning models was used to enhances the robustness, generalisation, interpretability, and performance of predictive models for predicting Ofsted school grading, ultimately leading to more accurate and reliable predictions.
+   - A diverse set of machine learning models was used to enhances the robustness, generalisation, interpretability, and performance of predictive models for predicting Ofsted school grading, ultimately leading to more accurate and reliable predictions.
 
 
 ## List of Models
