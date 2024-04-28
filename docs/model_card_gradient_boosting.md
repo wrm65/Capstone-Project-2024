@@ -1,4 +1,4 @@
-# Model Card - GradientBoostingClassifier for Ofsted School Grading Prediction
+# Model Card - Gradient Boosting Classifier for Ofsted School Grading Prediction
 
 
 ## Model Description

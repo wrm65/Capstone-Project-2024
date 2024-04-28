@@ -1,4 +1,4 @@
-# Model Card - RandomForestClassifier for Ofsted School Grading Prediction
+# Model Card - Random Forest Classifier for Ofsted School Grading Prediction
 
 
 ## Model Description

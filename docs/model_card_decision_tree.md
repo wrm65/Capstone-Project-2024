@@ -1,4 +1,4 @@
-# Model Card - DecisionTreeClassifier for Ofsted School Grading Prediction
+# Model Card - Decision Tree Classifier for Ofsted School Grading Prediction
 
 
 ## Model Description

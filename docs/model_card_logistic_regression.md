@@ -1,4 +1,4 @@
-# Model Card - LogisticRegressionClassifier for Ofsted School Grading Prediction
+# Model Card - Logistic Regression Classifier for Ofsted School Grading Prediction
 
 
 ## Model Description

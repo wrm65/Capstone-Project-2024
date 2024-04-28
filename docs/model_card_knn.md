@@ -1,4 +1,4 @@
-# Model Card - KNeighborsClassifier for Ofsted School Grading Prediction
+# Model Card - K-Nearest Neighbors Classifier for Ofsted School Grading Prediction
 
 
 ## Model Description

@@ -1,4 +1,4 @@
-# Model Card - NaiveBayesClassifier for Ofsted School Grading Prediction
+# Model Card - Naive Bayes Classifier for Ofsted School Grading Prediction
 
 ## Model Description
 
