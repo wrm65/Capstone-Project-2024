@@ -35,20 +35,23 @@ Imperial College Business School Capstone Project 2024
    
    </p>
 
-- **Models Included**
-Our repository includes the following machine learning models:
+- **Models Included** Our repository includes the following machine learning models:
 
-GaussianNB
-RandomForestClassifier
-SVC
-KNeighborsClassifier
-LogisticRegression
-GradientBoostingClassifier
-MLPClassifier
-DecisionTreeClassifier
+   <p>
+    <ol type="1">
+    <li>Decision Tree Classifier</li>
+    <li>Gradient Boosting Classifier</li>
+    <li>K-Nearest Neighbors Classifier</li>
+    <li>Logistic Regression</li>
+    <li>Multilayer Perceptron Classifier</li>
+    <li>Naive Bayes</li>
+    <li>Random Forest Classifier</li>
+    <li>Support Vector Classifier</li>
+    </ol>
+   </p>
 
 ### Ethical Considerations
-- It's crucial to consider ethical implications when using machine learning models for educational assessment. These models may inadvertently perpetuate biases present in the training data, leading to unfair outcomes for certain groups of students. Additionally, decisions made based on model predictions may impact students' educational opportunities and trajectories. We are committed to mitigating these risks and ensuring that our models are fair, transparent, and accountable.
+- It's crucial to consider ethical implications when using machine learning models for educational assessment. These models may inadvertently perpetuate biases present in the training data, leading to unfair outcomes for certain groups of students. Additionally, decisions made based on model predictions may impact students' educational opportunities and trajectories.
 
 ### Conclusion
 - Based on our evaluation, the Support Vector Classifier (SVC) emerged as the best model for predicting Ofsted school grading. It achieved the highest accuracy and performed well across various performance metrics. However, it's essential to consider other factors such as interpretability, computational complexity, and ethical considerations when selecting the best model for deployment in real-world scenarios.
