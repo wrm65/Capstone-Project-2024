@@ -11,7 +11,7 @@ Imperial College Business School Capstone Project 2024
 - Below, you'll find an overview of each model and links to detailed documentation for each one.
 
 <div align="right">
-  <img style="width:100px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/ofsted-logo.png">
+  <img style="width:75px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/ofsted-logo.png">
 </div>
 
 ### Overview
@@ -80,3 +80,11 @@ Imperial College Business School Capstone Project 2024
 - However, it's essential to consider other factors such as interpretability, computational complexity, and ethical considerations when selecting the best model.
 - 
 
+
+### Contact
+
+- Winston Menzies
+- winston.menzies@grammology.education
+<div align="left">
+  <img src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/email_logo-01_190x65.png">
+</div>
