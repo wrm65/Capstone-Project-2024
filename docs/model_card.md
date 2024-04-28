@@ -21,7 +21,7 @@ A diverse set of machine learning models was used to enhances the robustness, ge
 
    <p>
    
-     - [View model card]   (https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card_naive_bayes.md)
+     - [View model card](https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card_naive_bayes.md)
    
    </p>
 
@@ -32,7 +32,7 @@ A diverse set of machine learning models was used to enhances the robustness, ge
 
    <p>
    
-     - [View model card]   (https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card_gradient_boosting.md)
+     - [View model card](https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card_gradient_boosting.md)
    
    </p>
 
@@ -52,7 +52,7 @@ A diverse set of machine learning models was used to enhances the robustness, ge
 
    <p>
    
-     - [View model card]   (https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card_logistic_regression.md)
+     - [View model card](https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card_logistic_regression.md)
    
    </p>
 
@@ -62,7 +62,7 @@ A diverse set of machine learning models was used to enhances the robustness, ge
 
    <p>
    
-     - [View model card]   (https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card_multilayer_perceptron.md)
+     - [View model card] (https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card_multilayer_perceptron.md)
    
    </p>
 
