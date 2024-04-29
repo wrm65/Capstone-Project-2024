@@ -67,9 +67,9 @@ Imperial College Business School Capstone Project 2024
     <li><b>Confusion Matrices:</b> Identify models that exhibit balanced performance across all classes, with minimal misclassification errors.</li>
     <li><b>Importance of Features:</b>Identify models that provide clear insights into the relationship between input features and target variable, aiding in model interpretation and understanding.</li>
 
-   <div>
+  <p>
     <img src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/evaluation_04a.png">
-   </div>
+  </p>
 
     </ol>
    </p>
