@@ -47,8 +47,8 @@ Imperial College Business School Capstone Project 2024
 
    <p>
     <ol type="1">
-    <li>[Decision Tree Classifier](https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card_decision_tree.md)</li>
-    <li>[Gradient Boosting Classifier](https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card_naive_bayes.md)</li>
+    <li>Decision Tree Classifier</li>
+    <li>Gradient Boosting Classifier</li>
     <li>K-Nearest Neighbors Classifier</li>
     <li>Logistic Regression</li>
     <li>Multilayer Perceptron Classifier</li>
