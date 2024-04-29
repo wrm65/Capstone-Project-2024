@@ -73,11 +73,8 @@ Imperial College Business School Capstone Project 2024
     <img src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/evaluation_04a.png">
   </p>
 
-   <p>
-   
    - [View Comparison Reports](https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card.md#comparison-reports)
    
-   </p>
 
 ### Ethical Considerations
 - Using machine learning models for predicting Ofsted school grading raises several ethical considerations that must be carefully addressed to ensure fairness, transparency, and accountability. Here are some key ethical considerations:
