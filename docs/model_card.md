@@ -2,6 +2,10 @@
 
    - A diverse set of machine learning models was used to enhances the robustness, generalisation, interpretability, and performance of predictive models for predicting Ofsted school grading, ultimately leading to more accurate and reliable predictions.
 
+   - The list of models, together with links to detailed documentation, are provided below.
+   
+   - Comparison reports showing the models' performance metrics, leaderboard and confusion matrices are also provided below.
+
 
 ## List of Models
 
