@@ -59,7 +59,7 @@ Imperial College Business School Capstone Project 2024
    </p>
 
 ### Model Evaluation
-- The following four reports have been produced to compare and select the best model for predicting Ofsted school grading:
+- The following four comparison reports have been produced to compare and select the best model for predicting Ofsted school grading:
    <p>
     <ol type="1">
     <li><b>Performance Metrics:</b> Evaluate the performance of each model using metrics such as accuracy, F1 score, precision, and recall.</li>
@@ -67,6 +67,12 @@ Imperial College Business School Capstone Project 2024
     <li><b>Confusion Matrices:</b> Identify models that exhibit balanced performance across all classes, with minimal misclassification errors.</li>
     <li><b>Importance of Features:</b>Identify models that provide clear insights into the relationship between input features and target variable, aiding in model interpretation and understanding.</li>
     </ol>
+   </p>
+
+   <p>
+   
+     - [View Comparison Reports](https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card.md#comparison-reports)
+   
    </p>
 
 ### Ethical Considerations
