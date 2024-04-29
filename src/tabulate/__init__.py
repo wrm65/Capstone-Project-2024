@@ -33,7 +33,7 @@ except ImportError:
 MIN_PADDING = 2
 
 # Whether or not to preserve leading/trailing whitespace in data.
-PRESERVE_WHITESPACE = False
+PRESERVE_WHITESPACE = True
 
 _DEFAULT_FLOATFMT = "g"
 _DEFAULT_INTFMT = ""
@@ -311,12 +311,12 @@ def _rst_escape_first_column(rows, headers):
 
 _table_formats = {
     "nospace": TableFormat(
-        lineabove=Line("", "-", " ", ""),
+        lineabove=Line("", "-", "", ""),
         linebelowheader=None,
         linebetweenrows=None,
-        linebelow=Line("", "-", " ", ""),
-        headerrow=DataRow("", " ", ""),
-        datarow=DataRow("", " ", ""),
+        linebelow=Line("", "-", "", ""),
+        headerrow=DataRow("", "", ""),
+        datarow=DataRow("", "", ""),
         padding=0,
         with_header_hide=["lineabove", "linebelow"],
     ),
@@ -997,6 +997,7 @@ def _padboth(width, s):
     True
 
     """
+    # print(f'::_padboth:: width = {width} text = {s} len = {len(s)}')
     fmt = "{0:^%ds}" % width
     return fmt.format(s)
 
@@ -1071,6 +1072,7 @@ def _choose_width_fn(has_invisible, enable_widechars, is_multiline):
 
 
 def _align_column_choose_padfn(strings, alignment, has_invisible):
+    # print(f'::_align_column_choose_padfn:: strings = {strings} len = {len(strings[0])} alignment = {alignment} PRESERVE_WHITESPACE = {PRESERVE_WHITESPACE}')
     if alignment == "right":
         if not PRESERVE_WHITESPACE:
             strings = [s.strip() for s in strings]
@@ -1598,6 +1600,7 @@ def tabulate(
     headersalign=None,
     rowalign=None,
     maxheadercolwidths=None,
+    preserve_whitespace=False, # WRM - 2024-04-29
 ):
     """Format a fixed width table for pretty printing.
 
@@ -2092,6 +2095,8 @@ def tabulate(
     Header column width can be specified in a similar way using `maxheadercolwidth`
 
     """
+    # WRM - 2024-04-29
+    PRESERVE_WHITESPACE = preserve_whitespace
 
     if tabular_data is None:
         tabular_data = []

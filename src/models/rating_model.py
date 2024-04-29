@@ -20,7 +20,6 @@ from naive_bayes import NaiveBayesModel
 from gradient_boost import GradientBoostingModel
 from multilayer_perceptron import MultiLayerPerceptronModel
 from tabulater import *
-# tabulate.PRESERVE_WHITESPACE = True
 
 class RatingModel(object):
     def __init__(self, dataset):
@@ -268,13 +267,15 @@ class RatingModel(object):
         for model, columns in leaderboard.iterrows():
             index = np.where(overall_ranking == columns[LEADERBOARD_HEADER_OVERALL_POSITION])
             rank = index[0][0] + 1
-            leaderboard.loc[leaderboard.loc[model].name, LEADERBOARD_HEADER_OVERALL_RANKING] = f'{rank} ' if len(index[0]) == 1 else f'{rank}*'
-        print(tabulater(leaderboard, headers=leaderboard_header, 
+            leaderboard.loc[leaderboard.loc[model].name, LEADERBOARD_HEADER_OVERALL_RANKING] = f' {rank} ' if len(index[0]) == 1 else f' {rank}*'
+        set_preserve_whitespace(True)
+        print(tabulater(leaderboard, headers=leaderboard_header, floatfmt="4.1f",
                         colalign=("left", "center", "center", "center",
                                   "center", "center", "center", "center",
                                   "center", "center", "center", "center",
                                   "center"),
-                        tablefmt="nospace"))
+                        tablefmt="nospace",
+                        preserve_whitespace=True))
         print(f'\n{COLOR_INVERSE}{COLOR_GREEN} {"Grading abbreviation":^26} {COLOR_RESET}')
         print(f'{COLOR_INVERSE}{COLOR_BLUE} O/s - {GRADING_OUTSTANDING:<20} {COLOR_RESET}')
         print(f'{COLOR_INVERSE}{COLOR_BLUE} RI  - {GRADING_REQUIRES_IMPROVEMENT:<20} {COLOR_RESET}')

@@ -1,3 +1,5 @@
+# customise tabulate package
+# https://github.com/astanin/python-tabulate/tree/master
 __package__ = 'tabulate'
 
 from __init__ import *
@@ -18,17 +20,23 @@ from __init__ import *
     # )},
 # )
 # multiline_formats["nospace"] = "nospace"
+def set_preserve_whitespace(value):
+    tabulate.PRESERVE_WHITESPACE = value
 
 # create wrapper
 def tabulater(
     tabular_data,
     headers=(),
     tablefmt="simple",
+    floatfmt="g",
     colalign=None,
+    preserve_whitespace=False,
 ):
     return tabulate(
         tabular_data,
         headers=headers,
         tablefmt=tablefmt,
+        floatfmt=floatfmt,
         colalign=colalign,
+        preserve_whitespace=preserve_whitespace,
     )
