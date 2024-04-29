@@ -107,16 +107,20 @@
   <p>
 
    - The image below show the importance of each feature to the model, when making the predictions.
-   <table>
-    <tr>
-      <td valign="top"> 
-      <img style="width:325px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/random_forest_02.png">
-      </td>
-      <td valign="top"> 
-        <img style="width:500px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/random_forest_04.png">
-      </td>
-     </tr>
-   </table>
+   
+     <div>
+      <table>
+      <tr>
+        <td valign="top"> 
+        <img style="width:325px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/random_forest_02.png">
+        </td>
+        <td valign="top"> 
+          <img style="width:500px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/random_forest_04.png">
+        </td>
+       </tr>
+      </table>
+     </div>
+
   </p>
 
    </details>
