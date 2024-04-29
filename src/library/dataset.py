@@ -270,7 +270,7 @@ class Dataset(object):
 
     def _print_unique_values(self, dataset, colname):
         values = dataset[colname].unique()
-        print(f'\n{TAB_SPACE}{COLOR_INVERSE}{COLOR_BLUE} List of unique values: {COLOR_BLACK} {len(values)} {COLOR_RESET}{COLOR_INVERSE}{COLOR_BLUE} {COLOR_RESET}')
+        print(f'\n{TAB_SPACE}{COLOR_INVERSE}{COLOR_BLUE} List of unique values: {COLOR_BLACK} {len(values)} {COLOR_RESET}{COLOR_INVERSE}{COLOR_BLUE} {COLOR_RESET}\n')
         print(f'{TAB_SPACE * 2}{COLOR_BLUE}{values}{COLOR_RESET}\n')
 
     def _print_dataset_columns(self):
@@ -292,7 +292,7 @@ class Dataset(object):
             print(f'{TAB_SPACE}{index:<5} {COLOR_BLUE}{column:<35}{COLOR_RESET} {COLOR_BOLD}{COLOR_GREEN}{value}{COLOR_RESET}')
 
     def _print_dataset_split(self):
-        print(f'\n{COLOR_INVERSE}  Confirm Data Split: {COLOR_RESET}\n')
+        print(f'\n{COLOR_INVERSE} Confirm Data Split: {COLOR_RESET}\n')
         label = f'Training set ( {COLOR_BLUE}{(self.get_X_train().shape[0] / self._dataset.shape[0] * 100.0):0.0f}%{COLOR_RESET} ):'
         print(f'{TAB_SPACE}{label:>35} {COLOR_BLUE}{self.get_training_set()}{COLOR_RESET}')
         label = f'Testing set ( {COLOR_BLUE}{(self.get_X_test().shape[0] / self._dataset.shape[0] * 100.0):0.0f}%{COLOR_RESET} ):'

@@ -201,7 +201,7 @@ class RatingModel(object):
         self._create_leaderboard()
 
     def show_models(self):
-        print(f'{COLOR_INVERSE} Total models: {COLOR_BLUE} {len(self._models)} {COLOR_RESET}{COLOR_INVERSE} {COLOR_RESET}')
+        print(f'{COLOR_INVERSE} Total models: {COLOR_BLUE} {len(self._models)} {COLOR_RESET}{COLOR_INVERSE} {COLOR_RESET}\n')
         for index, model in enumerate(self._models):
             print(f'{index+1}.{TAB_SPACE}{COLOR_BLUE}{model.get_model()}{COLOR_RESET}')
 
