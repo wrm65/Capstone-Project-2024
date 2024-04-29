@@ -66,13 +66,12 @@ Imperial College Business School Capstone Project 2024
     <li><b>Model Leaderboard:</b> Consider the relative ranking of models across different metrics to gain a comprehensive understanding of their overall performance.</li>
     <li><b>Confusion Matrices:</b> Identify models that exhibit balanced performance across all classes, with minimal misclassification errors.</li>
     <li><b>Importance of Features:</b>Identify models that provide clear insights into the relationship between input features and target variable, aiding in model interpretation and understanding.</li>
+    </ol>
+   </p>
 
   <p>
     <img src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/evaluation_04a.png">
   </p>
-
-    </ol>
-   </p>
 
    <p>
    
