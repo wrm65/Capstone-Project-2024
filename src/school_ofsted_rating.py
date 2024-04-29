@@ -1,6 +1,7 @@
 import sys
 sys.path.append("./src/library")
 sys.path.append("./src/models")
+sys.path.append("./src/tabulate")
 from timeit import default_timer as timer
 from datetime import timedelta
 from matplotlib import pyplot as plt

@@ -10,7 +10,6 @@ import category_encoders as ce
 
 from timeit import default_timer as timer
 from datetime import timedelta
-from tabulate import tabulate
 
 # import project libraries
 from constants import *
@@ -140,8 +139,7 @@ class Dataset(object):
             self.X_inputs = self._X_resampled
             self.y_output = self._y_resampled
             self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(self.X_inputs, self.y_output, test_size=self._data_split, random_state=42)
-            if DEBUG_LEVEL > 3:
-                print(f'{self._logger}run_data_balance:: {self.get_training_set()} {self.get_test_set()}')
+            self._print_dataset_split()
 
     def split_data(self, data_split):
         if self.valid_data_action(DATASET_ACTION_SPLIT_DATA):

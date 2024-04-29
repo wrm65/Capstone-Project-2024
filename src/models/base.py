@@ -20,7 +20,6 @@ from sklearn.model_selection import GridSearchCV, RandomizedSearchCV
 from sklearn.metrics import accuracy_score, mean_squared_error, recall_score, f1_score, confusion_matrix, classification_report, ConfusionMatrixDisplay
 from sklearn.calibration import CalibrationDisplay
 
-from tabulate import tabulate
 from timeit import default_timer as timer
 from datetime import timedelta
 
