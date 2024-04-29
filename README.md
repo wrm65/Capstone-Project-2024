@@ -69,6 +69,10 @@ Imperial College Business School Capstone Project 2024
     </ol>
    </p>
 
+   <div>
+    <img src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/evaluation_04a.png">
+   </div>
+
    <p>
    
      - [View Comparison Reports](https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card.md#comparison-reports)
