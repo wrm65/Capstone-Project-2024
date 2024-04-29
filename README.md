@@ -47,8 +47,8 @@ Imperial College Business School Capstone Project 2024
 
    <p>
     <ol type="1">
-    <li>Decision Tree Classifier</li>
-    <li>Gradient Boosting Classifier</li>
+    <li>[Decision Tree Classifier](https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card_decision_tree.md)</li>
+    <li>[Gradient Boosting Classifier](https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card_naive_bayes.md)</li>
     <li>K-Nearest Neighbors Classifier</li>
     <li>Logistic Regression</li>
     <li>Multilayer Perceptron Classifier</li>
@@ -89,7 +89,7 @@ Imperial College Business School Capstone Project 2024
 - Based on the performance metrics, the Multilayer Perceptron Classifier model achieved the highest accuracy of 86.05%, closely followed by the Gradient Boosting Classifier with 86.04% for predicting Ofsted school grading. 
 - However, it's essential to consider other factors such as interpretability, computational complexity, and ethical considerations when selecting the best model.
 - By considering insights from the four evaluation reports collectively, the model which is best suited for predicting Ofsted school grading is the <b>Decision Tree Classifier</b>.
-- Using the DecisionTreeClassifier model to predict Ofsted school grading offers several advantages that make it preferable in certain scenarios:
+- Using the [DecisionTreeClassifier model](https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card_decision_tree.md) to predict Ofsted school grading offers several advantages that make it preferable in certain scenarios:
    <p>
     <ol type="1">
     <li><b>Interpretability:</b> Decision trees are inherently interpretable models, meaning that the decision-making process is transparent and easy to understand. This is especially important in educational settings where stakeholders such as teachers, administrators, and policymakers need to comprehend the factors driving school grading decisions.</li>
