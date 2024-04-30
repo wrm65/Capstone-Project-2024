@@ -2,7 +2,10 @@
 
 ### This project is a culmination of the six months programme on Machine Learning and Artificial Intelligence.
 - In <code>Module 2: Introduction to Machine Learning</code>, we learned about the ten steps of a typical machine learning project.
-- In completing this final project, these are the steps that were applied:
+   <div>
+   <details>
+  <summary>In completing this final project, these are the steps that were applied:</summary>
+
    <p>
     <ol type="1">
      <li><b>Define the purpose of the ML project</b>
@@ -69,8 +72,15 @@
     </ol>
    </p>
 
+   </details>
+   </div>
+
 ### Furthermore, this project has also allowed me to enhance my proficiency in developing machine learning models using Python.
-- Key lessons are:
+
+   <div>
+   <details>
+  <summary>Key lessons are:</summary>
+
    <p>
     <ol type="1">
      <li><b>Data Preprocessing and Balancing Techniques</b>
@@ -110,6 +120,9 @@
      </li>
     </ol>
    </p>
+
+   </details>
+   </div>
 
 ### Contact
 
