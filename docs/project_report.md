@@ -5,14 +5,18 @@
    <p>
     <ol type="1">
      <li><b>Project Definition:</b>
+     
        - Understanding the objective: Predicting Ofsted school grading based on various features.
        - Identifying the target variable and potential predictors.
        - Defining success criteria for model evaluation.
+       
      </li>
      <li><b>Data Collection:</b>
+     
        - Gathering relevant data sources related to schools and Ofsted ratings.
        - Ensuring data quality and completeness.
        - Handling missing values and outliers appropriately.
+       
      </li>
     </ol>
    </p>
