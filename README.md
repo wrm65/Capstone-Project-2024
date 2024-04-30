@@ -2,22 +2,24 @@
   <table style="width:100%" >
   <tr>
     <td> 
-      <img style="width:250px"  src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/capstone_project_01.png">
-    </td>
-    <td valign="top"> 
-      <img style="width:250px"  src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/imperial_college_logo.png">
+      <div align="left">
+        <img style="width:250px"  src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/capstone_project_01.png">
+      </div>
+      <div align="right">
+        <img style="width:250px"  src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/imperial_college_logo.png">
+      </div>
     </td>
    </tr>
   </table>
 </div>
 
 
-Imperial College Business School Capstone Project 2024
+## Predicting Ofsted School Grading with Machine Learning Models
+
 <div align="center">
 	<img style="width:350px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/confusion_matrix.png">
 </div>
 
-## Predicting Ofsted School Grading with Machine Learning Models
 - Welcome to our repository for predicting Ofsted school grading using machine learning models! 
 - This project aims to provide insights into school performance based on various features and criteria. 
 - We have developed and evaluated eight different machine learning models to predict Ofsted school grading. 
