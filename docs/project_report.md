@@ -74,8 +74,6 @@
 
 </details>
 
-<br>
-
 ---
  
 ### Importance of Detecting and Addressing Class Imbalance.
@@ -88,8 +86,6 @@
    https://github.com/wrm65/Capstone-Project-2024/blob/main/school_ofsted_rating.ipynb
 
 ---
-
-<br>
 
 ### Furthermore, this project also allowed me to enhance my proficiency in developing machine learning models using Python.
 
