@@ -73,10 +73,14 @@
    </p>
 
 </details>
+
+<br>
  
 ### Importance of Detecting and Addressing Class Imbalance.
 - Addressing class imbalance through appropriate data preprocessing techniques and model adjustments is essential to mitigate these effects and improve the reliability and fairness of model predictions.
 
+<br>
+ 
 ### Furthermore, this project also allowed me to enhance my proficiency in developing machine learning models using Python.
 
 - <details>
