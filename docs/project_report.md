@@ -1,6 +1,6 @@
 ## Project Report
 
-### This project is a culmination of the completion of the six months programme on Machine Learning and Artificial Intelligence.
+### This project is a culmination of the six months programme on Machine Learning and Artificial Intelligence.
 - In <code>Module 2: Introduction to Machine Learning</code>, we learned about the ten steps of a typical machine learning project.
 - In completing this final project, these are the steps that were applied:
    <p>
