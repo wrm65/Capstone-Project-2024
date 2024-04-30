@@ -68,4 +68,45 @@
     </ol>
    </p>
 
-- Furthermore, Moreover, this project has also allowed me to enhance my proficiency in Python development.
+- Furthermore, this project has also allowed me to enhance my proficiency in developing machine learning models in Python.
+- Key lessons are:
+   <p>
+    <ol type="1">
+     <li><b>Data Preprocessing and Balancing Techniques</b>
+     <ul>
+       <li>Class imbalance is a common challenge in classification tasks, and implementing data preprocessing techniques such as oversampling, undersampling, or generating synthetic samples (e.g., SMOTE) helps balance class distributions.</li>
+       <li>Utilise libraries such as `imbalanced-learn` to implement resampling techniques and handle class imbalance effectively.</li>
+     </ul>
+     </li>
+     <li><b>Model Selection and Evaluation</b>
+     <ul>
+       <li>It's crucial to select appropriate evaluation metrics that account for class imbalance, such as F1 score, precision, and recall, in addition to accuracy.</li>
+       <li>Use libraries like `scikit-learn` to evaluate model performance using various metrics and cross-validation techniques to ensure robustness.</li>
+     </ul>
+     </li>
+     <li><b>Hyperparameter Tuning</b>
+     <ul>
+       <li>Hyperparameter tuning plays a significant role in optimising model performance, especially in addressing class imbalance.</li>
+       <li>Utilise techniques such as grid search or randomized search with cross-validation to find the best combination of hyperparameters for each model.</li>
+     </ul>
+     </li>
+     <li><b>Ensemble Methods</b>
+     <ul>
+       <li>Ensemble methods, such as Random Forest and Gradient Boosting, are effective in handling class imbalance and improving predictive performance.</li>
+       <li>Experiment with ensemble methods and analyse their impact on model performance compared to individual classifiers.</li>
+     </ul>
+     </li>
+     <li><b>Feature Engineering and Selection</b>
+     <ul>
+       <li>Feature engineering and selection can help improve model performance and reduce overfitting, especially in the presence of class imbalance.</li>
+     </ul>
+     </li>
+     <li><b>Interpreting Model Results</b>
+     <ul>
+       <li>Understanding and interpreting model results, including confusion matrices and feature importance, are crucial for identifying areas of improvement and gaining insights into model behavior.</li>
+       <li>Visualise and analyse model results using libraries like `matplotlib` and `seaborn` , and interpret feature importance using built-in functionalities of machine learning libraries.</li>
+     </ul>
+     </li>
+    </ol>
+   </p>
+
