@@ -78,9 +78,9 @@
  
 ### Importance of Detecting and Addressing Class Imbalance.
 - Class imbalance adversely affect the predictions of a model by biasing it towards the majority class, reducing generalisation performance, misleading evaluation metrics, increasing rates of false positives and false negatives, causing model instability, hindering model interpretation, and impacting decision-making processes.  
-- Addressing class imbalance through appropriate data preprocessing techniques and model adjustments is <i>essential</i> to mitigate these effects and improve the reliability and fairness of model predictions.
-- The adverse affect of the models' predictions in using the imbalnce data is shown in Jupyter Notebook.
-- Also shown in the Notebook is the rebalancing of the data and the improvement of the models' predictions.
+- Addressing class imbalance through appropriate data preprocessing techniques and model adjustments is <b><i>essential</i></b> to mitigate these effects and improve the reliability and fairness of model predictions.
+- The adverse affect of the models' predictions in using the imbalnce data is shown in the accompanying `Jupyter Notebook`.
+- Also shown in the Notebook is the <i>rebalancing</i> of the data and the <i>improvement</i> of the models' predictions.
 - Full documentation is provided in the Notebook and can be viewed by clicking on the link below.
 
    https://github.com/wrm65/Capstone-Project-2024/blob/main/school_ofsted_rating.ipynb
@@ -132,6 +132,8 @@
     </ol>
    </p>
 
+   [View codebase](https://github.com/wrm65/Capstone-Project-2024/tree/main/src)
+   
   </details>
 
 ### Contact
