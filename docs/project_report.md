@@ -105,7 +105,7 @@
      <li><b>Interpreting Model Results</b>
      <ul>
        <li>Understanding and interpreting model results, including confusion matrices and feature importance, are crucial for identifying areas of improvement and gaining insights into model behavior.</li>
-       <li>Visualise and analyse model results using libraries like <pre>matplotlib</pre> and <pre>seaborn</pre> , and interpret feature importance using built-in functionalities of machine learning libraries.</li>
+       <li>Visualise and analyse model results using libraries like <code>matplotlib</code> and <pre>seaborn</pre> , and interpret feature importance using built-in functionalities of machine learning libraries.</li>
      </ul>
      </li>
     </ol>
