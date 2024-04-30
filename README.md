@@ -2,7 +2,7 @@
   <table style="width:100%" >
   <tr>
     <td> 
-      # Capstone-Project-2024
+      <img style="width:250px"  src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/capstone_project_01.png">
     </td>
     <td valign="top"> 
       <img style="width:250px"  src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/imperial_college_logo.png">
