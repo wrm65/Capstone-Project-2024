@@ -26,7 +26,7 @@
 </div>
 
 ### Overview
-- In the UK, Ofsted (Office for Standards in Education, Children's Services and Skills) evaluates schools based on various criteria to ensure high-quality education. 
+- In the UK, Ofsted (Office for Standards in Education, Children's Services and Skills) evaluates state-funded schools based on various criteria to ensure high-quality education. 
 - Our project leverages advanced machine learning models to predict Ofsted school grading.
 - The models are trained on a dataset consisting of Ofsted school inspection reports.
 
