@@ -132,7 +132,7 @@
     </ol>
    </p>
 
-   [View codebase](https://github.com/wrm65/Capstone-Project-2024/tree/main/src)
+- [View codebase](https://github.com/wrm65/Capstone-Project-2024/tree/main/src)
    
   </details>
 
