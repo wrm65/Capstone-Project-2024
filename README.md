@@ -1,11 +1,11 @@
-<div>
-  <table>
+<div style="width:100%">
+  <table style="width:100%" >
   <tr>
     <td> 
       # Capstone-Project-2024
     </td>
     <td valign="top"> 
-      <img src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/imperial_college_logo.png">
+      <img style="width:250px"  src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/imperial_college_logo.png">
     </td>
    </tr>
   </table>
