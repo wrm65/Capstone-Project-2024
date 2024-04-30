@@ -14,11 +14,7 @@
 </div>
 
 
-## Predicting Ofsted School Grading with Machine Learning Models
-
-<div align="center">
-	<img style="width:350px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/confusion_matrix.png">
-</div>
+# Predicting Ofsted School Grading with Machine Learning Models
 
 - Welcome to our repository for predicting Ofsted school grading using machine learning models! 
 - This project aims to provide insights into school performance based on various features and criteria. 
