@@ -98,9 +98,9 @@
    </p>
 
 ### Conclusion
-- Based on the performance metrics, the Multilayer Perceptron Classifier model achieved the highest accuracy of 86.05%, closely followed by the Gradient Boosting Classifier with 86.04% for predicting Ofsted school grading. 
+- Based on the performance metrics, the <code>Multilayer Perceptron Classifier</code> model achieved the highest accuracy of 86.05%, closely followed by the <code>Gradient Boosting Classifier</code> with 86.04% for predicting Ofsted school grading. 
 - However, it's essential to consider other factors such as interpretability, computational complexity, and ethical considerations when selecting the best model.
-- By considering insights from the four evaluation reports collectively, the model which is best suited for predicting Ofsted school grading is the <b>Decision Tree Classifier</b>.
+- By considering insights from the four evaluation reports collectively, the model which is best suited for predicting Ofsted school grading is the <code>Decision Tree Classifier</code>.
 - Using the [DecisionTreeClassifier model](https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/model_card_decision_tree.md) to predict Ofsted school grading offers several advantages that make it preferable in certain scenarios:
    <p>
     <ol type="1">
