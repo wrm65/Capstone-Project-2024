@@ -76,7 +76,7 @@
     <li><b>Performance Metrics:</b> Evaluate the performance of each model using metrics such as accuracy, F1 score, precision, and recall.</li>
     <li><b>Model Leaderboard:</b> Consider the relative ranking of models across different metrics to gain a comprehensive understanding of their overall performance.</li>
     <li><b>Confusion Matrices:</b> Identify models that exhibit balanced performance across all classes, with minimal misclassification errors.</li>
-    <li><b>Importance of Features:</b>Identify models that provide clear insights into the relationship between input features and target variable, aiding in model interpretation and understanding.</li>
+    <li><b>Importance of Features:</b> Identify models that provide clear insights into the relationship between input features and target variable, aiding in model interpretation and understanding.</li>
     </ol>
    </p>
 
