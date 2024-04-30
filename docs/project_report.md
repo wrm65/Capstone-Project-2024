@@ -2,7 +2,7 @@
 
 ### This project is a culmination of the six months programme on Machine Learning and Artificial Intelligence.
 - In <code>Module 2: Introduction to Machine Learning</code>, we learned about the ten steps of a typical machine learning project.
-   <div>
+
    <details>
   <summary>In completing this final project, these are the steps that were applied:</summary>
 
@@ -73,12 +73,11 @@
    </p>
 
    </details>
-   </div>
-
+ 
 ### Furthermore, this project has also allowed me to enhance my proficiency in developing machine learning models using Python.
 
    <div>
-   <details>
+    <details>
   <summary>Key lessons are:</summary>
 
    <p>
@@ -121,7 +120,7 @@
     </ol>
    </p>
 
-   </details>
+    </details>
    </div>
 
 ### Contact
