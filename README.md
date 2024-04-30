@@ -28,7 +28,7 @@
 ### Overview
 - In the UK, Ofsted (Office for Standards in Education, Children's Services and Skills) evaluates state-funded schools based on various criteria to ensure high-quality education. 
 - Our project leverages advanced machine learning models to predict Ofsted school grading.
-- The models are trained on a [dataset](dataset/school_ofsted_rating.csv) consisting of 20,571 Ofsted graded schools.
+- The models are trained on a [dataset](dataset/school_ofsted_rating.csv) consisting of `20,571 Ofsted graded schools`.
 
 <div align="right">
   <img style="width:250px" src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/pie_chart.png">
