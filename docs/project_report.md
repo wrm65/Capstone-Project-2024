@@ -22,7 +22,6 @@
      <ul>
        <li>Exploring and visualising the data to gain insights into distributions.</li>
        <li>Preprocessing data, including encoding categorical variables, and handling imbalanced classes.</li>
-       <li>Splitting data into training, validation, and test sets.</li>
      </ul>
      </li>
      <li><b>Dimension reduction & feature engineering</b>
@@ -34,34 +33,35 @@
      <li><b>Determine the ML task at hand</b>
      <ul>
        <li>Evaluating different algorithms suitable for the prediction task, such as regression, decision trees, or ensemble methods.</li>
-       <li>Considering the trade-offs between model complexity, interpretability, and performance.</li>
      </ul>
      </li>
      <li><b>Partition the data (if supervised ML)</b>
      <ul>
-       <li>Training selected models using the training data.</li>
-       <li>Tuning hyperparameters to optimise model performance.</li>
+       <li>Splitting data into training, validation, and test sets.</li>
      </ul>
      </li>
      <li><b>Choose the ML technique(s)</b>
      <ul>
-       <li>Assessing model performance using evaluation metrics relevant to the problem, such as accuracy, precision, recall, or F1 score.</li>
-       <li>Comparing models based on their performance on the validation set.</li>
+       <li>Evaluating different algorithms suitable for the prediction task, such as regression, decision trees, or ensemble methods.</li>
      </ul>
      </li>
      <li><b>Use the ML technique(s)</b>
      <ul>
-       <li>Understanding the factors driving predictions through model interpretation techniques such as feature importance analysis or decision tree.</li>
+       <li>Training selected models using the training data.</li>
+       <li>Tuning hyperparameters to optimise model performance.</li>
+       <li>Considering the trade-offs between model complexity, interpretability, and performance.</li>
      </ul>
      </li>
      <li><b>Interpret the results</b>
      <ul>
+       <li>Assessing model performance using evaluation metrics relevant to the problem, such as accuracy, precision, recall, or F1 score.</li>
+       <li>Comparing models based on their performance on the testing set.</li>
        <li>Understanding the factors driving predictions through model interpretation techniques such as feature importance analysis or decision tree.</li>
      </ul>
      </li>
      <li><b>Deploy the ML technique (optional)</b>
      <ul>
-       <li>Understanding the factors driving predictions through model interpretation techniques such as feature importance analysis or decision tree.</li>
+       <li>not required</li>
      </ul>
      </li>
     </ol>
