@@ -76,13 +76,13 @@
      <li><b>Data Preprocessing and Balancing Techniques</b>
      <ul>
        <li>Class imbalance is a common challenge in classification tasks, and implementing data preprocessing techniques such as oversampling, undersampling, or generating synthetic samples (e.g., SMOTE) helps balance class distributions.</li>
-       <li>Utilise libraries such as imbalanced-learn to implement resampling techniques and handle class imbalance effectively.</li>
+       <li>Utilise libraries such as <code>imbalanced-learn</code> to implement resampling techniques and handle class imbalance effectively.</li>
      </ul>
      </li>
      <li><b>Model Selection and Evaluation</b>
      <ul>
        <li>It's crucial to select appropriate evaluation metrics that account for class imbalance, such as F1 score, precision, and recall, in addition to accuracy.</li>
-       <li>Use libraries like scikit-learn to evaluate model performance using various metrics and cross-validation techniques to ensure robustness.</li>
+       <li>Use libraries like <code>scikit-learn</code> to evaluate model performance using various metrics and cross-validation techniques to ensure robustness.</li>
      </ul>
      </li>
      <li><b>Hyperparameter Tuning</b>
@@ -105,7 +105,7 @@
      <li><b>Interpreting Model Results</b>
      <ul>
        <li>Understanding and interpreting model results, including confusion matrices and feature importance, are crucial for identifying areas of improvement and gaining insights into model behavior.</li>
-       <li>Visualise and analyse model results using libraries like <code>matplotlib</code> and <pre>seaborn</pre> , and interpret feature importance using built-in functionalities of machine learning libraries.</li>
+       <li>Visualise and analyse model results using libraries like <code>matplotlib</code> and <code>seaborn</code>, and interpret feature importance using built-in functionalities of machine learning libraries.</li>
      </ul>
      </li>
     </ol>
