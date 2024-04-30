@@ -1,7 +1,7 @@
 ## Project Report
 
 - This project is a culmination of the completion of the six months programme on Machine Learning and Artificial Intelligence. 
-- In Module 2: Introduction to Machine Learning, we learned about the ten steps of a typical machine learning project and, in completing this final project these sre the steps that were applied:
+- In Module 2: Introduction to Machine Learning, we learned about the ten steps of a typical machine learning project and, in completing this final project, these are the steps that were applied:
    <p>
     <ol type="1">
      <li><b>Define the purpose of the ML project</b>
@@ -22,6 +22,7 @@
      <ul>
        <li>Exploring and visualising the data to gain insights into distributions.</li>
        <li>Preprocessing data, including encoding categorical variables, and handling imbalanced classes.</li>
+       <li>The over-sampling technique SMOTE (Synthetic Minority Oversampling Technique) was used to address the imbalanced classes.</li>
      </ul>
      </li>
      <li><b>Dimension reduction & feature engineering</b>
@@ -33,6 +34,7 @@
      <li><b>Determine the ML task at hand</b>
      <ul>
        <li>Evaluating different algorithms suitable for the prediction task, such as regression, decision trees, or ensemble methods.</li>
+       <li>I included two additional models which we did not cover during the programme - Gradient Boosting Classifier and Multilayer Perceptron Classifier.</li>
      </ul>
      </li>
      <li><b>Partition the data (if supervised ML)</b>
@@ -66,4 +68,4 @@
     </ol>
    </p>
 
-Furthermore, this project has also build on my Python development skills.
+- Furthermore, Moreover, this project has also allowed me to enhance my proficiency in Python development.
