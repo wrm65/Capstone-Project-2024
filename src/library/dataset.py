@@ -302,7 +302,7 @@ class Dataset(object):
         label = f'Testing set ( {COLOR_BLUE}{(self.get_X_test().shape[0] / self._dataset.shape[0] * 100.0):0.0f}%{COLOR_RESET} ):'
         print(f'{TAB_SPACE}{label:>35} {COLOR_BLUE}{self.get_test_set()}{COLOR_RESET}')
         total = f'{self.get_X_train().shape[0]:,} + {self.get_X_test().shape[0]:,} = {self.get_X_train().shape[0]+self.get_X_test().shape[0]:,}'
-        print(f'{TAB_SPACE}{"Dataset total ( 100% ):":>24} {COLOR_BLUE}{total}{COLOR_RESET}')
+        print(f'{TAB_SPACE}{"Dataset total ( 100% ):":>24} {total}{COLOR_RESET}')
 
     def _print_dataset_size(self):
         print(f'\n{COLOR_INVERSE} {self.get_next_step()}. Dataset: {COLOR_RESET}')
