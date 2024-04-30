@@ -42,12 +42,11 @@
      </li>
      <li><b>Choose the ML technique(s)</b>
      <ul>
-       <li>Evaluating different algorithms suitable for the prediction task, such as regression, decision trees, or ensemble methods.</li>
+       <li>Training selected models using the training data.</li>
      </ul>
      </li>
      <li><b>Use the ML technique(s)</b>
      <ul>
-       <li>Training selected models using the training data.</li>
        <li>Tuning hyperparameters to optimise model performance.</li>
        <li>Considering the trade-offs between model complexity, interpretability, and performance.</li>
      </ul>
