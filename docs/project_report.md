@@ -111,3 +111,10 @@
     </ol>
    </p>
 
+### Contact
+
+- Winston Menzies
+- winston.menzies@grammology.education
+<div align="left">
+  <img src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/email_logo-01_190x65.png">
+</div>
