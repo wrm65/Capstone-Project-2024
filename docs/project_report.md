@@ -74,7 +74,7 @@
 
 </details>
  
-### Furthermore, this project has also allowed me to enhance my proficiency in developing machine learning models using Python.
+### Furthermore, this project also allowed me to enhance my proficiency in developing machine learning models using Python.
 
 - <details>
   <summary>Key lessons are:</summary>
