@@ -36,7 +36,7 @@
 
 
 ### Model Cards and Datasheet
-- Before exploring the models, we encourage you to review the Model Cards and Datasheet for more detailed information on each model and the dataset used.
+- Before exploring the models, we encourage you to review the <code>Model Cards</code> and <code>Datasheet</code> for more detailed information on each model and the dataset used.
 
 - **Model Cards:** Provides detailed information about each model, including its architecture, training data, evaluation metrics, and ethical considerations.
 

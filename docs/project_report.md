@@ -77,7 +77,7 @@
 ### Furthermore, this project also allowed me to enhance my proficiency in developing machine learning models using Python.
 
 - <details>
-  <summary>Key lessons are:</summary>
+  <summary>Key lessons gained:</summary>
 
    <p>
     <ol type="1">
