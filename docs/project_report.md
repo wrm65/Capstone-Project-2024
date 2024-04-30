@@ -1,7 +1,8 @@
 ## Project Report
 
-- This project is a culmination of the completion of the six months programme on Machine Learning and Artificial Intelligence. 
-- In Module 2: Introduction to Machine Learning, we learned about the ten steps of a typical machine learning project and, in completing this final project, these are the steps that were applied:
+- <b>This project is a culmination of the completion of the six months programme on Machine Learning and Artificial Intelligence.</b>
+- In Module 2: Introduction to Machine Learning, we learned about the ten steps of a typical machine learning project.
+- In completing this final project, these are the steps that were applied:
    <p>
     <ol type="1">
      <li><b>Define the purpose of the ML project</b>
@@ -68,7 +69,7 @@
     </ol>
    </p>
 
-- Furthermore, this project has also allowed me to enhance my proficiency in developing machine learning models in Python.
+- <b>Furthermore, this project has also allowed me to enhance my proficiency in developing machine learning models in Python.</b>
 - Key lessons are:
    <p>
     <ol type="1">
