@@ -75,6 +75,8 @@
 </details>
 
 <br>
+
+---
  
 ### Importance of Detecting and Addressing Class Imbalance.
 - Class imbalance adversely affect the predictions of a model by biasing it towards the majority class, reducing generalisation performance, misleading evaluation metrics, increasing rates of false positives and false negatives, causing model instability, hindering model interpretation, and impacting decision-making processes.  
@@ -85,8 +87,10 @@
 
    https://github.com/wrm65/Capstone-Project-2024/blob/main/school_ofsted_rating.ipynb
 
+---
+
 <br>
- 
+
 ### Furthermore, this project also allowed me to enhance my proficiency in developing machine learning models using Python.
 
 - <details>
@@ -132,9 +136,11 @@
     </ol>
    </p>
 
-- [View codebase](https://github.com/wrm65/Capstone-Project-2024/tree/main/src)
-   
   </details>
+
+- [View codebase](https://github.com/wrm65/Capstone-Project-2024/tree/main/src)
+
+---
 
 ### Contact
 
