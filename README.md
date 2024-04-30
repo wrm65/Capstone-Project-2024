@@ -114,6 +114,11 @@ Imperial College Business School Capstone Project 2024
     </ol>
    </p>
 
+
+### Project Report
+
+  - [Knowledge Gained](https://github.com/wrm65/Capstone-Project-2024/blob/main/docs/project_report.md)
+
     
 ### Contact
 
