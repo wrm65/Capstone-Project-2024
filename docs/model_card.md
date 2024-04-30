@@ -96,7 +96,7 @@
 ### Performance Metrics
 
    - A comparison summary report based on the performance metrics of the 8 machine learning models used to predict Ofsted school grading is provided below.
-   - Based on the performance metrics, the Multilayer Perceptron Classifier model achieved the highest accuracy of 86.05%, closely followed by the Gradient Boosting Classifier with 86.04%
+   - Based on the performance metrics, the <code>Multilayer Perceptron Classifier</code> model achieved the highest accuracy of 86.05%, closely followed by the <code>Gradient Boosting Classifier</code> with 86.04%
 
    <div>
     <img src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/evaluation_01.png">
