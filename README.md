@@ -1,12 +1,12 @@
-<div style="width:100%">
-  <table style="width:100%" >
+<div  align="center">
+  <table >
   <tr>
     <td> 
       <div align="left">
-        <img style="width:250px"  src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/capstone_project_01.png">
+        <img style="width:250px"  src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/imperial_college_logo.png">
       </div>
       <div align="right">
-        <img style="width:250px"  src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/imperial_college_logo.png">
+        <img style="width:250px"  src="https://github.com/wrm65/Capstone-Project-2024/blob/main/images/capstone_project_01.png">
       </div>
     </td>
    </tr>
