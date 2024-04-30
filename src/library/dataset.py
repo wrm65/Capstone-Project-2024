@@ -258,6 +258,10 @@ class Dataset(object):
             start_angle = 180
         wp = {'linewidth': 1, 'edgecolor': "black"}
         colors = ("orange", "cyan", "indigo", "beige")
+        #add totals to label
+        for label, columns in summary.iterrows():
+            total = f'{summary.loc[summary.loc[label].name, COLUMN_NAME_TOTAL_SCHOOLS]:,}'
+            summary.rename(index={label:f'{label}\n{total}'}, inplace=True)
         fig, ax = plt.subplots(figsize=(5, 3))
         ax.pie(summary[COLUMN_NAME_TOTAL_SCHOOLS],
                labels=summary.index,
